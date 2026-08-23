@@ -29,6 +29,7 @@
 
   <!-- ===== Styles ===== -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
 
   <!-- ===== Structured data ===== -->
   <script type="application/ld+json">
@@ -69,6 +70,7 @@
         <a href="#home" class="nav__link" data-i18n="nav-home">Home</a>
         <a href="#services" class="nav__link" data-i18n="nav-services">Services</a>
         <a href="#about" class="nav__link" data-i18n="nav-about">About Us</a>
+        <a href="#coverage" class="nav__link" data-i18n="nav-coverage">Coverage</a>
         <a href="#contacts" class="nav__link" data-i18n="nav-contacts">Contacts</a>
       </nav>
 
@@ -105,7 +107,7 @@
 
     <!-- ===== Stats bar ===== -->
     <section class="stats" id="stats" aria-label="Company in numbers">
-      <div class="container stats__grid">
+      <div class="container stats__grid reveal">
         <div class="stat">
           <div class="stat__value" data-i18n="stats-1-value">15+</div>
           <div class="stat__label" data-i18n="stats-1-label">Years of Experience</div>
@@ -128,12 +130,12 @@
     <!-- ===== 2. SERVICES ===== -->
     <section class="section" id="services">
       <div class="container">
-        <p class="kicker" data-i18n="services-kicker">What We Do</p>
-        <h2 class="section__title" data-i18n="services-title">Our Services</h2>
-        <p class="section__sub" data-i18n="services-sub">A full range of salvage operations — from survey to clean waters.</p>
+        <p class="kicker reveal" data-i18n="services-kicker">What We Do</p>
+        <h2 class="section__title reveal" data-i18n="services-title">Our Services</h2>
+        <p class="section__sub reveal" data-i18n="services-sub">A full range of salvage operations — from survey to clean waters.</p>
 
         <div class="cards">
-          <article class="card">
+          <article class="card reveal">
             <div class="card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="12" cy="5.5" r="2.4"/>
@@ -147,7 +149,7 @@
             <p class="card__text" data-i18n="svc1-desc">Heavy-lift salvage of sunken, grounded and stranded vessels using pontoons, cranes and airbag systems — planned operations and emergency response in harbours and open water.</p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <div class="card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="6" cy="6" r="3"/>
@@ -161,7 +163,7 @@
             <p class="card__text" data-i18n="svc2-desc">Precision underwater cutting, hull demolition and structural dismantling performed by certified diving teams with specialised equipment.</p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <div class="card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
@@ -171,7 +173,7 @@
             <p class="card__text" data-i18n="svc3-desc">High-capacity pumping of flooded compartments, engine rooms and cargo holds to stabilise and refloat vessels safely.</p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <div class="card__icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
                 <polyline points="23 4 23 10 17 10"/>
@@ -189,28 +191,50 @@
     <!-- ===== 3. ABOUT ===== -->
     <section class="section section--alt" id="about">
       <div class="container about">
-        <div class="about__media">
+        <div class="about__media reveal">
           <img src="img/about.jpg" alt="Shipbreaking operation: workers cutting a steel hull with torches at dusk" loading="lazy" width="1280" height="960">
         </div>
-        <div class="about__text">
+        <div class="about__text reveal">
           <p class="kicker" data-i18n="about-kicker">About Us</p>
           <h2 class="section__title" data-i18n="about-title">Experience in Primorye. Projects Worldwide.</h2>
           <p data-i18n="about-p1">Our team began in Primorsky Krai — the Russian Far East, one of the most demanding maritime regions in the world. In the ports of Vladivostok and Nakhodka we learned to work in harsh conditions: strong currents, cold waters, tight schedules.</p>
           <p data-i18n="about-p2">Today we operate internationally, delivering salvage, wreck removal and recycling services to shipping companies, ports, insurers and government agencies.</p>
           <ul class="about__points">
-            <li data-i18n="about-pt1">Own diving teams and heavy-lift equipment</li>
-            <li data-i18n="about-pt2">24/7 emergency response</li>
-            <li data-i18n="about-pt3">Environmental compliance on every project</li>
-            <li data-i18n="about-pt4">Certified marine engineers</li>
+            <li class="about__point">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <span data-i18n="about-pt1">Own diving teams and heavy-lift equipment</span>
+            </li>
+            <li class="about__point">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span data-i18n="about-pt2">24/7 emergency response</span>
+            </li>
+            <li class="about__point">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span data-i18n="about-pt3">Environmental compliance on every project</span>
+            </li>
+            <li class="about__point">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              <span data-i18n="about-pt4">Certified marine engineers</span>
+            </li>
           </ul>
           <a href="#contacts" class="btn btn--primary" data-i18n="about-cta">Discuss Your Project</a>
         </div>
       </div>
     </section>
 
+    <!-- ===== 3b. COVERAGE / MAP ===== -->
+    <section class="section" id="coverage">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="coverage-kicker">Where We Work</p>
+        <h2 class="section__title reveal" data-i18n="coverage-title">Global Reach, Far East Roots</h2>
+        <p class="section__sub reveal" data-i18n="coverage-sub">Home base in the Russian Far East — projects and partners around the world.</p>
+        <div id="map" class="map reveal" role="application" aria-label="Map of operation areas"></div>
+      </div>
+    </section>
+
     <!-- ===== CTA band ===== -->
     <section class="cta">
-      <div class="container cta__inner">
+      <div class="container cta__inner reveal">
         <h2 class="cta__title" data-i18n="cta-title">Have a Vessel to Raise or Remove?</h2>
         <p class="cta__sub" data-i18n="cta-sub">Tell us about your project — we respond within 24 hours.</p>
         <a href="#contacts" class="btn btn--primary btn--lg" data-i18n="cta-btn">Get a Quote</a>
@@ -220,12 +244,12 @@
     <!-- ===== 4. CONTACTS ===== -->
     <section class="section" id="contacts">
       <div class="container">
-        <p class="kicker" data-i18n="contacts-kicker">Contact Us</p>
-        <h2 class="section__title" data-i18n="contacts-title">Get in Touch</h2>
-        <p class="section__sub" data-i18n="contacts-sub">Phone, email or Telegram — choose the way that suits you.</p>
+        <p class="kicker reveal" data-i18n="contacts-kicker">Contact Us</p>
+        <h2 class="section__title reveal" data-i18n="contacts-title">Get in Touch</h2>
+        <p class="section__sub reveal" data-i18n="contacts-sub">Phone, email or Telegram — choose the way that suits you.</p>
 
         <div class="contacts">
-          <div class="contacts__info">
+          <div class="contacts__info reveal">
             <a class="contact-line" href="tel:+79770170427">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
               <span>
@@ -250,7 +274,7 @@
             <a href="https://t.me/Sudopodembot" target="_blank" rel="noopener" class="btn btn--outline" data-i18n="c-tg-btn">Open Telegram Bot</a>
           </div>
 
-          <div class="contacts__form">
+          <div class="contacts__form reveal">
             <h3 class="form__title" data-i18n="form-title">Send a Message</h3>
             <form id="contact-form" novalidate>
               <div class="form__field">
@@ -301,6 +325,7 @@
         <a href="#home" class="footer__link" data-i18n="nav-home">Home</a>
         <a href="#services" class="footer__link" data-i18n="nav-services">Services</a>
         <a href="#about" class="footer__link" data-i18n="nav-about">About Us</a>
+        <a href="#coverage" class="footer__link" data-i18n="nav-coverage">Coverage</a>
         <a href="#contacts" class="footer__link" data-i18n="nav-contacts">Contacts</a>
       </div>
       <div class="footer__col">
@@ -315,6 +340,11 @@
     </div>
   </footer>
 
+  <a href="tel:+79770170427" class="call-fab" data-i18n-aria="aria-call" aria-label="Call us">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
   <script src="js/main.js" defer></script>
 </body>
 </html>

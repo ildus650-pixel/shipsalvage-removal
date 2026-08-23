@@ -23,7 +23,24 @@ const I18N = {
     'nav-services': 'Services',
     'nav-about': 'About Us',
     'nav-contacts': 'Contacts',
+    'nav-coverage': 'Coverage',
     'aria-menu': 'Toggle menu',
+    'aria-call': 'Call us',
+    'coverage-kicker': 'Where We Work',
+    'coverage-title': 'Global Reach, Far East Roots',
+    'coverage-sub': 'Home base in the Russian Far East — projects and partners around the world.',
+    'cov-vvo-title': 'Vladivostok',
+    'cov-vvo-desc': 'Home base — Russian Far East',
+    'cov-nakh-title': 'Nakhodka',
+    'cov-nakh-desc': 'Key operating port',
+    'cov-apac-title': 'Asia-Pacific',
+    'cov-apac-desc': 'Presence region',
+    'cov-me-title': 'Middle East',
+    'cov-me-desc': 'Presence region',
+    'cov-eu-title': 'Europe',
+    'cov-eu-desc': 'Presence region',
+    'cov-am-title': 'Americas',
+    'cov-am-desc': 'Presence region',
     'hero-kicker': 'Marine Salvage Contractor',
     'hero-title': 'Ship Salvage & Wreck Removal',
     'hero-sub': 'A global marine contractor with proven experience in the Russian Far East — lifting vessels up to 3,000 tonnes, underwater cutting, dewatering and full-cycle metal recycling.',
@@ -90,7 +107,24 @@ const I18N = {
     'nav-services': 'Услуги',
     'nav-about': 'О нас',
     'nav-contacts': 'Контакты',
+    'nav-coverage': 'География',
     'aria-menu': 'Открыть меню',
+    'aria-call': 'Позвонить',
+    'coverage-kicker': 'География работ',
+    'coverage-title': 'Глобальный охват, корни на Дальнем Востоке',
+    'coverage-sub': 'База — Дальний Восток России. Проекты и партнёры по всему миру.',
+    'cov-vvo-title': 'Владивосток',
+    'cov-vvo-desc': 'База — Дальний Восток России',
+    'cov-nakh-title': 'Находка',
+    'cov-nakh-desc': 'Ключевой порт работы',
+    'cov-apac-title': 'Азиатско-Тихоокеанский регион',
+    'cov-apac-desc': 'Регион присутствия',
+    'cov-me-title': 'Ближний Восток',
+    'cov-me-desc': 'Регион присутствия',
+    'cov-eu-title': 'Европа',
+    'cov-eu-desc': 'Регион присутствия',
+    'cov-am-title': 'Америка',
+    'cov-am-desc': 'Регион присутствия',
     'hero-kicker': 'Морской подрядчик по подъёму судов',
     'hero-title': 'Подъём и утилизация затонувших судов',
     'hero-sub': 'Международный морской подрядчик с опытом на Дальнем Востоке России — подъём судов до 3 000 тонн, подводная резка, откачка воды и утилизация металла полного цикла.',
@@ -194,6 +228,13 @@ function applyLang(lang) {
     btn.classList.toggle('is-active', active);
     btn.setAttribute('aria-pressed', String(active));
   });
+
+  // Обновляем попапы карты при смене языка
+  if (markers.length) {
+    markers.forEach(function (m, i) {
+      m.setPopupContent(popupContent(mapPoints[i]));
+    });
+  }
 
   currentLang = lang;
 }
@@ -338,6 +379,81 @@ if (form) {
 }
 
 /* --------------------------------------------------------------------------
+   Interactive map (Leaflet) — регионы работы
+   -------------------------------------------------------------------------- */
+const mapEl = document.getElementById('map');
+let map = null;
+let markers = [];
+
+const mapPoints = [
+  { lat: 43.1155, lng: 131.8855, titleKey: 'cov-vvo-title', descKey: 'cov-vvo-desc' },
+  { lat: 42.8233, lng: 132.8731, titleKey: 'cov-nakh-title', descKey: 'cov-nakh-desc' },
+  { lat: 1.3521, lng: 103.8198, titleKey: 'cov-apac-title', descKey: 'cov-apac-desc' },
+  { lat: 25.2048, lng: 55.2708, titleKey: 'cov-me-title', descKey: 'cov-me-desc' },
+  { lat: 51.9244, lng: 4.4777, titleKey: 'cov-eu-title', descKey: 'cov-eu-desc' },
+  { lat: 8.9824, lng: -79.5199, titleKey: 'cov-am-title', descKey: 'cov-am-desc' }
+];
+
+function popupContent(point) {
+  const d = I18N[currentLang];
+  return '<b>' + (d[point.titleKey] || point.titleKey) + '</b><br>' + (d[point.descKey] || point.descKey);
+}
+
+function initMap() {
+  if (!mapEl || typeof L === 'undefined') return;
+  map = L.map(mapEl, { scrollWheelZoom: false }).setView([43, 100], 3);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19
+  }).addTo(map);
+  mapPoints.forEach(function (p) {
+    const m = L.marker([p.lat, p.lng]).addTo(map);
+    m.bindPopup(popupContent(p));
+    markers.push(m);
+  });
+  try {
+    map.fitBounds(L.latLngBounds(mapPoints.map(function (p) { return [p.lat, p.lng]; })).pad(0.3));
+  } catch (e) { /* noop */ }
+}
+
+/* --------------------------------------------------------------------------
+   Scroll reveal + scroll-spy
+   -------------------------------------------------------------------------- */
+const revealEls = document.querySelectorAll('.reveal');
+if ('IntersectionObserver' in window && revealEls.length) {
+  const io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-in-view');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  revealEls.forEach(function (el) { io.observe(el); });
+} else {
+  revealEls.forEach(function (el) { el.classList.add('is-in-view'); });
+}
+
+const spySections = ['home', 'services', 'about', 'coverage', 'contacts'];
+const navLinks = document.querySelectorAll('.nav__link');
+
+function updateSpy() {
+  const pos = window.scrollY + window.innerHeight * 0.35;
+  let current = 'home';
+  spySections.forEach(function (id) {
+    const sec = document.getElementById(id);
+    if (sec && sec.offsetTop <= pos) current = id;
+  });
+  navLinks.forEach(function (link) {
+    link.classList.toggle('is-current', link.getAttribute('href') === '#' + current);
+  });
+}
+
+window.addEventListener('scroll', updateSpy, { passive: true });
+window.addEventListener('resize', updateSpy, { passive: true });
+
+/* --------------------------------------------------------------------------
    Init
    -------------------------------------------------------------------------- */
 document.addEventListener('DOMContentLoaded', function () {
@@ -348,4 +464,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   applyLang(detectLang());
+  initMap();
+  updateSpy();
 });
