@@ -27,6 +27,8 @@
   <!-- ===== Styles ===== -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
 </head>
 <body data-page="wrecks">
 
@@ -77,6 +79,38 @@
 
         <div class="wrecks-stats reveal">
           <div><b id="wreck-count">0</b><span data-i18n="wrecks-count-suffix">known wrecks</span></div>
+        </div>
+
+        <div class="wrecks-filters reveal">
+          <input type="search" id="wf-name" class="wf-input" autocomplete="off"
+                 data-i18n-placeholder="wrecks-filter-name" placeholder="Search by name">
+          <select id="wf-region" class="wf-select">
+            <option value="all" data-i18n="f-all">All</option>
+            <option value="fe" data-i18n="f-reg-fe">Russian Far East</option>
+            <option value="pacific" data-i18n="f-reg-pacific">Pacific &amp; SE Asia</option>
+            <option value="indian" data-i18n="f-reg-indian">Indian Ocean</option>
+            <option value="baltic" data-i18n="f-reg-baltic">Baltic Sea</option>
+            <option value="eu" data-i18n="f-reg-eu">Europe &amp; Atlantic</option>
+            <option value="med" data-i18n="f-reg-med">Mediterranean</option>
+            <option value="carib" data-i18n="f-reg-carib">Caribbean</option>
+            <option value="us" data-i18n="f-reg-us">North Atlantic (US)</option>
+          </select>
+          <select id="wf-depth" class="wf-select">
+            <option value="all" data-i18n="f-depth-all">Any depth</option>
+            <option value="0-20" data-i18n="f-depth-0">0–20 m</option>
+            <option value="20-50" data-i18n="f-depth-1">20–50 m</option>
+            <option value="50+" data-i18n="f-depth-2">50+ m</option>
+            <option value="none" data-i18n="f-depth-n">No data</option>
+          </select>
+          <select id="wf-year" class="wf-select">
+            <option value="all" data-i18n="f-year-all">Any year</option>
+            <option value="y-before" data-i18n="f-year-before">Before 1900</option>
+            <option value="y-1900" data-i18n="f-year-1900">1900–1950</option>
+            <option value="y-1950" data-i18n="f-year-1950">1950–2000</option>
+            <option value="y-2000" data-i18n="f-year-2000">After 2000</option>
+            <option value="y-none" data-i18n="f-year-n">No data</option>
+          </select>
+          <button id="wf-reset" class="btn btn--ghost" type="button" data-i18n="f-reset">Reset</button>
         </div>
 
         <div class="wrecks-layout reveal">
@@ -137,6 +171,7 @@
   </a>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" defer></script>
   <script src="js/main.js" defer></script>
   <script src="js/wrecks.js" defer></script>
 </body>
