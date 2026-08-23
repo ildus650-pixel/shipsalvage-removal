@@ -15,9 +15,9 @@ const wfYear = document.getElementById('wf-year');
 const wfReset = document.getElementById('wf-reset');
 
 const filters = { q: '', region: 'all', depth: 'all', year: 'all' };
-let map = null;
+let wreckMap = null;
 let cluster = null;
-const markers = []; // { marker, f, visible }
+const wreckMarkers = []; // { marker, f, visible }
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, function (c) {
@@ -69,7 +69,7 @@ function matches(f) {
 function rebuildList() {
   if (!wreckList) return;
   wreckList.innerHTML = '';
-  const visible = markers.filter(function (m) { return m.visible; });
+  const visible = wreckMarkers.filter(function (m) { return m.visible; });
 
   visible.forEach(function (m) {
     const li = document.createElement('li');
@@ -81,7 +81,7 @@ function rebuildList() {
     btn.querySelector('.wreck-meta').textContent = metaText(m.f);
     btn.addEventListener('click', function () {
       const ll = m.marker.getLatLng();
-      map.flyTo([ll.lat, ll.lng], 9, { duration: 1.2 });
+      wreckMap.flyTo([ll.lat, ll.lng], 9, { duration: 1.2 });
       setTimeout(function () { m.marker.openPopup(); }, 1300);
     });
     li.appendChild(btn);
@@ -96,13 +96,13 @@ function rebuildList() {
     wreckList.appendChild(li);
   }
 
-  if (wreckCount) wreckCount.textContent = visible.length + ' / ' + markers.length;
+  if (wreckCount) wreckCount.textContent = visible.length + ' / ' + wreckMarkers.length;
 }
 
 function applyFilters() {
   if (!cluster) return;
   cluster.clearLayers();
-  markers.forEach(function (m) {
+  wreckMarkers.forEach(function (m) {
     m.visible = matches(m.f);
     if (m.visible) cluster.addLayer(m.marker);
   });
@@ -120,17 +120,13 @@ function initWrecks() {
     .then(function (data) {
       const features = data.features || [];
 
-      map = L.map(wrecksMapEl, { scrollWheelZoom: false }).setView([45, 10], 3);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
-        subdomains: 'abcd',
-        maxZoom: 19
-      }).addTo(map);
+      wreckMap = L.map(wrecksMapEl, { scrollWheelZoom: false }).setView([45, 10], 3);
+      addDarkTiles(wreckMap);
 
       cluster = (typeof L.markerClusterGroup === 'function')
         ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 55 })
         : L.layerGroup();
-      map.addLayer(cluster);
+      wreckMap.addLayer(cluster);
 
       features.forEach(function (f) {
         const lon = f.geometry.coordinates[0];
@@ -143,13 +139,13 @@ function initWrecks() {
           fillOpacity: 0.85
         });
         m.bindPopup(function () { return wreckPopup(f); });
-        markers.push({ marker: m, f: f, visible: true });
+        wreckMarkers.push({ marker: m, f: f, visible: true });
       });
 
       applyFilters();
 
       if (features.length) {
-        map.fitBounds(L.latLngBounds(markers.map(function (m) {
+        wreckMap.fitBounds(L.latLngBounds(wreckMarkers.map(function (m) {
           const ll = m.marker.getLatLng();
           return [ll.lat, ll.lng];
         })).pad(0.05));
@@ -173,6 +169,9 @@ function initWrecks() {
       });
       if (wfReset) wfReset.addEventListener('click', function () {
         filters.q = '';
+        filters.region = 'all';
+        filters.depth = 'all';
+        filters.year = 'all';
         if (wfName) wfName.value = '';
         if (wfRegion) wfRegion.value = 'all';
         if (wfDepth) wfDepth.value = 'all';
@@ -190,7 +189,7 @@ function initWrecks() {
 
 // При смене языка — перерисовываем список (попапы обновляются динамически)
 document.addEventListener('langchange', function () {
-  if (markers.length) rebuildList();
+  if (wreckMarkers.length) rebuildList();
 });
 
 document.addEventListener('DOMContentLoaded', initWrecks);

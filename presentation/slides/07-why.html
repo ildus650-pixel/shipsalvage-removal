@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+html, body { margin: 0; padding: 0; }
+body {
+  width: 720pt; height: 405pt; box-sizing: border-box;
+  padding: 26pt 40pt 40pt 40pt;
+  display: flex; flex-direction: column; overflow: hidden;
+  background: #0A1428; font-family: Arial, sans-serif;
+}
+p.kicker { font-size: 10pt; font-weight: bold; color: #2FB7FF; margin: 0 0 8pt; }
+h2 { font-size: 23pt; font-weight: bold; color: #F2F6FF; margin: 0 0 10pt; }
+div.bar { width: 52pt; height: 3pt; background: #2FB7FF; margin: 0 0 20pt; }
+.cards { flex: 1 1 0; min-height: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12pt; grid-auto-rows: minmax(0, 1fr); }
+.card { background: #101F3D; border: 1px solid #1E2F4D; border-radius: 8pt; padding: 16pt 13pt; display: flex; flex-direction: column; gap: 9pt; min-height: 0; }
+img.ic { width: 26pt; height: 26pt; }
+p.t { font-size: 11pt; font-weight: bold; color: #F2F6FF; margin: 0; }
+p.d { font-size: 7.5pt; color: #8FA3C4; line-height: 1.5; margin: 0; }
+</style>
+</head>
+<body>
+<p class="kicker">ADVANTAGES</p>
+<h2>WHY CHOOSE US</h2>
+<div class="bar"></div>
+<div class="cards">
+  <div class="card">
+    <img class="ic" src="../assets/icons/anchorcirclecheck.png" alt="experience">
+    <p class="t">PROVEN EXPERIENCE</p>
+    <p class="d">15+ years in the Far East and international waters.</p>
+  </div>
+  <div class="card">
+    <img class="ic" src="../assets/icons/shield.png" alt="safety">
+    <p class="t">SAFETY FIRST</p>
+    <p class="d">Certified procedures and diving standards on every project.</p>
+  </div>
+  <div class="card">
+    <img class="ic" src="../assets/icons/bolt.png" alt="speed">
+    <p class="t">24/7 RESPONSE</p>
+    <p class="d">Rapid mobilisation for emergency salvage.</p>
+  </div>
+  <div class="card">
+    <img class="ic" src="../assets/icons/award.png" alt="certification">
+    <p class="t">CERTIFIED TEAM</p>
+    <p class="d">Marine engineers certified to international standards.</p>
+  </div>
+</div>
+</body>
+</html>

@@ -475,14 +475,33 @@ function popupContent(point) {
   return '<b>' + (d[point.titleKey] || point.titleKey) + '</b><br>' + (d[point.descKey] || point.descKey);
 }
 
-function initMap() {
-  if (!mapEl || typeof L === 'undefined') return;
-  map = L.map(mapEl, { scrollWheelZoom: false }).setView([43, 100], 3);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+function addDarkTiles(targetMap) {
+  // Тёмные тайлы CARTO; при недоступности — запасной OSM с тёмным фильтром
+  let errors = 0;
+  const carto = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
     subdomains: 'abcd',
     maxZoom: 19
-  }).addTo(map);
+  });
+  carto.on('tileerror', function () {
+    errors += 1;
+    if (errors >= 12 && targetMap) {
+      targetMap.removeLayer(carto);
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19
+      }).addTo(targetMap);
+      if (targetMap._container) targetMap._container.classList.add('map--osm-fallback');
+    }
+  });
+  carto.addTo(targetMap);
+  return carto;
+}
+
+function initMap() {
+  if (!mapEl || typeof L === 'undefined') return;
+  map = L.map(mapEl, { scrollWheelZoom: false }).setView([43, 100], 3);
+  addDarkTiles(map);
   mapPoints.forEach(function (p) {
     const m = L.marker([p.lat, p.lng]).addTo(map);
     m.bindPopup(popupContent(p));
@@ -522,7 +541,9 @@ function updateSpy() {
     if (sec && sec.offsetTop <= pos) current = id;
   });
   navLinks.forEach(function (link) {
-    link.classList.toggle('is-current', link.getAttribute('href') === '#' + current);
+    const href = link.getAttribute('href') || '';
+    const active = href.charAt(0) === '#' && href === '#' + current;
+    link.classList.toggle('is-current', active);
   });
 }
 

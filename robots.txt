@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ildus650-pixel.github.io/shipsalvage-removal/sitemap.xml

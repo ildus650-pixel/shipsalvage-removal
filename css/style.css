@@ -900,6 +900,15 @@ a.leaflet-popup-close-button { color: var(--muted); }
   font-weight: 600 !important;
 }
 
+/* Текущая страница в навигации (отдельные страницы) */
+.nav__link[aria-current="page"] { color: var(--white); }
+.nav__link[aria-current="page"]::after { transform: scaleX(1); }
+
+/* Запасной режим: светлые тайлы OSM, затемнённые CSS-фильтром */
+.map--osm-fallback .leaflet-tile-pane {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.5);
+}
+
 @media (max-width: 1024px) {
   .wrecks-layout { grid-template-columns: 1fr; }
   .wrecks-map { min-height: 360px; }
