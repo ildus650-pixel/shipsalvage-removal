@@ -24,6 +24,8 @@ const I18N = {
     'nav-about': 'About Us',
     'nav-contacts': 'Contacts',
     'nav-coverage': 'Coverage',
+    'nav-wrecks': 'Wrecks',
+    'coverage-cta': 'Explore the Wreck Map',
     'aria-menu': 'Toggle menu',
     'aria-call': 'Call us',
     'coverage-kicker': 'Where We Work',
@@ -41,6 +43,16 @@ const I18N = {
     'cov-eu-desc': 'Presence region',
     'cov-am-title': 'Americas',
     'cov-am-desc': 'Presence region',
+    'wrecks-kicker': 'Shipwreck Database',
+    'wrecks-title': 'Interactive Wreck Map',
+    'wrecks-sub': 'Known wrecks from open data (OpenStreetMap, ODbL). Click a marker or a list item for details.',
+    'wrecks-count-suffix': 'known wrecks',
+    'wrecks-list-title': 'Wreck list',
+    'wrecks-depth': 'Depth',
+    'wrecks-year': 'Year',
+    'wrecks-unknown': 'unknown',
+    'wrecks-attr': 'Data © OpenStreetMap contributors (ODbL) via Overpass API',
+    'wrecks-meta-desc': 'Interactive map of shipwrecks with names, years and depths. Open data from OpenStreetMap (ODbL).',
     'hero-kicker': 'Marine Salvage Contractor',
     'hero-title': 'Ship Salvage & Wreck Removal',
     'hero-sub': 'A global marine contractor with proven experience in the Russian Far East — lifting vessels up to 3,000 tonnes, underwater cutting, dewatering and full-cycle metal recycling.',
@@ -108,6 +120,8 @@ const I18N = {
     'nav-about': 'О нас',
     'nav-contacts': 'Контакты',
     'nav-coverage': 'География',
+    'nav-wrecks': 'Крушения',
+    'coverage-cta': 'Смотреть карту крушений',
     'aria-menu': 'Открыть меню',
     'aria-call': 'Позвонить',
     'coverage-kicker': 'География работ',
@@ -125,6 +139,16 @@ const I18N = {
     'cov-eu-desc': 'Регион присутствия',
     'cov-am-title': 'Америка',
     'cov-am-desc': 'Регион присутствия',
+    'wrecks-kicker': 'База затонувших судов',
+    'wrecks-title': 'Карта затонувших судов',
+    'wrecks-sub': 'Крушения из открытых данных (OpenStreetMap, ODbL). Нажмите маркер или пункт списка для деталей.',
+    'wrecks-count-suffix': 'известных крушений',
+    'wrecks-list-title': 'Список крушений',
+    'wrecks-depth': 'Глубина',
+    'wrecks-year': 'Год',
+    'wrecks-unknown': 'нет данных',
+    'wrecks-attr': 'Данные © OpenStreetMap contributors (ODbL) через Overpass API',
+    'wrecks-meta-desc': 'Интерактивная карта затонувших судов: названия, годы и глубины. Открытые данные OpenStreetMap (ODbL).',
     'hero-kicker': 'Морской подрядчик по подъёму судов',
     'hero-title': 'Подъём и утилизация затонувших судов',
     'hero-sub': 'Международный морской подрядчик с опытом на Дальнем Востоке России — подъём судов до 3 000 тонн, подводная резка, откачка воды и утилизация металла полного цикла.',
@@ -221,7 +245,10 @@ function applyLang(lang) {
   });
 
   const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc && dict['meta-desc']) metaDesc.setAttribute('content', dict['meta-desc']);
+  if (metaDesc) {
+    const key = document.body.dataset.page === 'wrecks' ? 'meta-desc-wrecks' : 'meta-desc';
+    if (dict[key]) metaDesc.setAttribute('content', dict[key]);
+  }
 
   document.querySelectorAll('.lang__btn').forEach(function (btn) {
     const active = btn.getAttribute('data-lang') === lang;
@@ -237,6 +264,9 @@ function applyLang(lang) {
   }
 
   currentLang = lang;
+
+  // Событие для страниц с динамическим контентом (список крушений и т.п.)
+  document.dispatchEvent(new CustomEvent('langchange', { detail: { lang: lang } }));
 }
 
 function setLang(lang) {

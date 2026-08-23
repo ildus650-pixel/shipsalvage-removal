@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO ===== -->
+  <title>Wreck Database | Ship Salvage &amp; Wreck Removal</title>
+  <meta name="description" content="Interactive map of shipwrecks with names, years and depths. Open data from OpenStreetMap (ODbL).">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ildus650-pixel.github.io/shipsalvage-removal/wrecks.html">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wreck Database | Ship Salvage &amp; Wreck Removal">
+  <meta property="og:description" content="Interactive map of shipwrecks: names, years and depths.">
+  <meta property="og:image" content="img/hero.jpg">
+
+  <!-- ===== Favicon ===== -->
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+
+  <!-- ===== Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ===== Styles ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+</head>
+<body data-page="wrecks">
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo" aria-label="Ship Salvage &amp; Wreck Removal — home">
+        <svg class="logo__mark" viewBox="0 0 48 48" width="42" height="42" aria-hidden="true">
+          <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/>
+          <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 6" opacity=".25"/>
+          <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none">
+            <circle cx="24" cy="13" r="3"/>
+            <line x1="24" y1="16" x2="24" y2="35"/>
+            <line x1="17.5" y1="21" x2="30.5" y2="21"/>
+            <path d="M13 27c4.2 4.6 17.8 4.6 22 0"/>
+            <path d="M16.5 32c2.6 2.8 12.4 2.8 15 0"/>
+          </g>
+        </svg>
+        <span class="logo__text">Ship Salvage<br><em>&amp; Wreck Removal</em></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="index.html#home" class="nav__link" data-i18n="nav-home">Home</a>
+        <a href="index.html#services" class="nav__link" data-i18n="nav-services">Services</a>
+        <a href="index.html#about" class="nav__link" data-i18n="nav-about">About Us</a>
+        <a href="index.html#coverage" class="nav__link" data-i18n="nav-coverage">Coverage</a>
+        <a href="wrecks.html" class="nav__link is-current" aria-current="page" data-i18n="nav-wrecks">Wrecks</a>
+        <a href="index.html#contacts" class="nav__link" data-i18n="nav-contacts">Contacts</a>
+      </nav>
+
+      <div class="lang" role="group" aria-label="Language">
+        <button class="lang__btn" data-lang="en" type="button" aria-pressed="true">EN</button>
+        <button class="lang__btn" data-lang="ru" type="button" aria-pressed="false">RU</button>
+      </div>
+
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="aria-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="wrecks">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="wrecks-kicker">Shipwreck Database</p>
+        <h1 class="section__title reveal" data-i18n="wrecks-title">Interactive Wreck Map</h1>
+        <p class="section__sub reveal" data-i18n="wrecks-sub">Known wrecks from open data (OpenStreetMap, ODbL). Click a marker or a list item for details.</p>
+
+        <div class="wrecks-stats reveal">
+          <div><b id="wreck-count">0</b><span data-i18n="wrecks-count-suffix">known wrecks</span></div>
+        </div>
+
+        <div class="wrecks-layout reveal">
+          <div id="wreck-map" class="wrecks-map" role="application" aria-label="Map of shipwrecks"></div>
+          <aside class="wrecks-side" aria-label="Wreck list">
+            <div class="wrecks-head" data-i18n="wrecks-list-title">Wreck list</div>
+            <ul id="wreck-list" class="wrecks-list"></ul>
+          </aside>
+        </div>
+
+        <p class="wrecks-attr" data-i18n="wrecks-attr">Data © OpenStreetMap contributors (ODbL) via Overpass API</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="index.html" class="logo logo--footer" aria-label="Ship Salvage &amp; Wreck Removal">
+          <svg class="logo__mark" viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">
+            <circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="2" opacity=".35"/>
+            <g stroke="currentColor" stroke-width="2.2" stroke-linecap="round" fill="none">
+              <circle cx="24" cy="13" r="3"/>
+              <line x1="24" y1="16" x2="24" y2="35"/>
+              <line x1="17.5" y1="21" x2="30.5" y2="21"/>
+              <path d="M13 27c4.2 4.6 17.8 4.6 22 0"/>
+              <path d="M16.5 32c2.6 2.8 12.4 2.8 15 0"/>
+            </g>
+          </svg>
+          <span class="logo__text">Ship Salvage<br><em>&amp; Wreck Removal</em></span>
+        </a>
+        <p class="footer__tagline" data-i18n="footer-tagline">Marine salvage, wreck removal and metal recycling — worldwide.</p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title" data-i18n="footer-nav-title">Navigation</h4>
+        <a href="index.html#home" class="footer__link" data-i18n="nav-home">Home</a>
+        <a href="index.html#services" class="footer__link" data-i18n="nav-services">Services</a>
+        <a href="index.html#about" class="footer__link" data-i18n="nav-about">About Us</a>
+        <a href="index.html#coverage" class="footer__link" data-i18n="nav-coverage">Coverage</a>
+        <a href="wrecks.html" class="footer__link" data-i18n="nav-wrecks">Wrecks</a>
+        <a href="index.html#contacts" class="footer__link" data-i18n="nav-contacts">Contacts</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__title" data-i18n="footer-contacts-title">Contacts</h4>
+        <a href="tel:+79770170427" class="footer__link">+7 (977) 017-04-27</a>
+        <a href="mailto:ildus650@gmail.com" class="footer__link">ildus650@gmail.com</a>
+        <a href="https://t.me/Sudopodembot" target="_blank" rel="noopener" class="footer__link">Telegram</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Ship Salvage &amp; Wreck Removal. <span data-i18n="footer-rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <a href="tel:+79770170427" class="call-fab" data-i18n-aria="aria-call" aria-label="Call us">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+  </a>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/wrecks.js" defer></script>
+</body>
+</html>
