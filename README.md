@@ -20,11 +20,11 @@ img/
 
 Сейчас стоят плейсхолдеры. Найти и заменить в **3 местах**:
 
-| Что | Где | Сейчас |
+| Что | Где | Значение |
 |---|---|---|
-| Телефон | `index.html` (комментарий `TODO`, блок контактов + футер, JSON-LD) | `+7 (900) 000-00-00` |
-| Email | `index.html` + `js/main.js` → `CONFIG.CONTACT_EMAIL` + JSON-LD | `info@shipsalvage-removal.com` |
-| Telegram-бот | `index.html` (кнопка + футер) | `https://t.me/ShipSalvageBot` |
+| Телефон | `index.html` (контакты, футер, JSON-LD) | `+7 (977) 017-04-27` |
+| Email | `index.html` + `js/main.js` → `CONFIG.CONTACT_EMAIL` + JSON-LD | `ildus650@gmail.com` |
+| Telegram-бот | `index.html` (кнопка в контактах) | добавится после создания бота |
 
 Тексты сайта — в словаре `I18N` в `js/main.js` (блоки `en` и `ru`).
 Цифры «15+ лет, 120+ проектов, 10+ стран» — примерные, поправьте под себя.

@@ -6,12 +6,12 @@
 'use strict';
 
 /* --------------------------------------------------------------------------
-   CONFIG — замените email, на который должны приходить заявки с формы.
-   Пока стоит заглушка (info@shipsalvage-removal.com), форма вместо отправки
-   открывает почтовый клиент с готовым письмом.
+   CONFIG — email, на который приходят заявки с формы (через FormSubmit.co).
+   ВАЖНО: при первой заявке FormSubmit пришлёт на этот адрес письмо-активацию —
+   его нужно подтвердить один раз, и все заявки начнут приходить на почту.
    -------------------------------------------------------------------------- */
 const CONFIG = {
-  CONTACT_EMAIL: 'info@shipsalvage-removal.com'
+  CONTACT_EMAIL: 'ildus650@gmail.com'
 };
 
 /* --------------------------------------------------------------------------
@@ -284,7 +284,7 @@ function validate() {
 }
 
 function mailtoFallback(data) {
-  const subject = encodeURIComponent('Inquiry from shipsalvage-removal.com — ' + data.name);
+  const subject = encodeURIComponent('Заявка с сайта Ship Salvage — ' + data.name);
   const body = encodeURIComponent('Name: ' + data.name + '\nEmail: ' + data.email + '\n\n' + data.message);
   window.location.href = 'mailto:' + CONFIG.CONTACT_EMAIL + '?subject=' + subject + '&body=' + body;
 }
@@ -300,12 +300,6 @@ if (form) {
       return;
     }
 
-    // Пока email-заглушка — отправляем через почтовый клиент, без FormSubmit
-    if (CONFIG.CONTACT_EMAIL === 'info@shipsalvage-removal.com') {
-      mailtoFallback(data);
-      return;
-    }
-
     const btn = form.querySelector('button[type="submit"]');
     btn.disabled = true;
     btn.style.opacity = '0.6';
@@ -317,7 +311,7 @@ if (form) {
         name: data.name,
         email: data.email,
         message: data.message,
-        _subject: 'New inquiry from shipsalvage-removal.com',
+        _subject: 'Заявка с сайта Ship Salvage & Wreck Removal',
         _captcha: 'false'
       })
     })
