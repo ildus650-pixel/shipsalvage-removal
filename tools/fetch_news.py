@@ -18,16 +18,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "news.json")
 
 FEEDS = [
-    # (источник, url, strip_source_suffix)  — Google News тайтлы вида "Заголовок - Издание"
-    ("Google News — Salvage",
-     "https://news.google.com/rss/search?q=%22ship+salvage%22+OR+%22wreck+removal%22+OR+%22salvage+operation%22+OR+%22vessel+recovery%22&hl=en-US&gl=US&ceid=US:en",
-     True),
-    ("Google News — Shipwrecks",
-     "https://news.google.com/rss/search?q=shipwreck+OR+%22vessel+grounding%22+OR+%22ship+sinking%22+OR+%22rescue+at+sea%22&hl=en-US&gl=US&ceid=US:en",
-     True),
-    ("gCaptain", "https://gcaptain.com/feed/", False),
-    ("Hellenic Shipping", "https://www.hellenicshippingnews.com/feed/", False),
-    ("The Loadstar", "https://theloadstar.com/feed/", False),
+    # (источник, url) — только ленты с прямыми ссылками на статьи:
+    # у них есть link preview в Telegram (Google News скрывает реальные адреса)
+    ("gCaptain", "https://gcaptain.com/feed/"),
+    ("Hellenic Shipping", "https://www.hellenicshippingnews.com/feed/"),
+    ("The Loadstar", "https://theloadstar.com/feed/"),
 ]
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
@@ -48,6 +43,17 @@ def fetch(url, timeout=30):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
+
+
+def resolve_url(url):
+    """Разворачиваем redirect-ссылки (Google News) до реального адреса статьи —
+    у реальных статей есть link preview в Telegram, у redirect-ов нет."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return resp.geturl()
+    except Exception:
+        return url
 
 
 def strip_html(text):
@@ -99,6 +105,7 @@ def parse_feed(source, raw, strip_suffix=False):
         if strip_suffix:
             title, out_source = clean_google_title(title)
             out_source = out_source or source
+            link = resolve_url(link)
         date_str = child("pubDate") or child("dc:date")
         dt = parse_date(date_str)
         items.append({
@@ -143,10 +150,10 @@ def parse_feed(source, raw, strip_suffix=False):
 
 def main():
     all_items = []
-    for source, url, strip_suffix in FEEDS:
+    for source, url in FEEDS:
         try:
             raw = fetch(url)
-            items = parse_feed(source, raw, strip_suffix)
+            items = parse_feed(source, raw)
             print(f"{source}: {len(items)} items")
             all_items.extend(items[:MAX_PER_SOURCE])
         except Exception as exc:

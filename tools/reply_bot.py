@@ -69,11 +69,10 @@ def main():
               "email" if text.startswith("/email") else \
               "news" if text.startswith("/news") else "default"
         try:
+            # отдельное сообщение, без привязки к сообщению клиента
             api(token, "sendMessage",
                 chat_id=chat["id"],
-                text=REPLIES[key],
-                reply_to_message_id=msg.get("message_id", 0),
-                disable_web_page_preview="false")
+                text=REPLIES[key])
             replied += 1
             print("replied to", chat.get("username") or chat["id"], "| key:", key)
         except Exception as exc:

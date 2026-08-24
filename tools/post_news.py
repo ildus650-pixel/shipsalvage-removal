@@ -24,7 +24,6 @@ def send(token, chat_id, text):
         "chat_id": chat_id,
         "text": text,
         "parse_mode": "HTML",
-        "disable_web_page_preview": "false",
     }).encode("utf-8")
     req = urllib.request.Request(url, data=data)
     with urllib.request.urlopen(req, timeout=30) as resp:
