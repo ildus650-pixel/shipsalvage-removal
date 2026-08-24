@@ -63,7 +63,8 @@ function applyLang(lang) {
 
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
-    const key = document.body.dataset.page === 'wrecks' ? 'meta-desc-wrecks' : 'meta-desc';
+    const page = document.body.dataset.page;
+    const key = page === 'wrecks' ? 'meta-desc-wrecks' : (page === 'store' ? 'meta-desc-store' : 'meta-desc');
     if (dict[key]) metaDesc.setAttribute('content', dict[key]);
   }
 

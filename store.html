@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- ===== SEO ===== -->
-  <title>Wreck Database | Ship Salvage &amp; Wreck Removal</title>
-  <meta name="description" content="Interactive map of shipwrecks with names, years and depths. Open data from OpenStreetMap (ODbL).">
+  <title>Rigging &amp; Marine Equipment Store | Ship Salvage &amp; Wreck Removal</title>
+  <meta name="description" content="Marine rigging and equipment store: slings and ropes, anchors and chains, winches, navigation electronics, safety gear and outboard parts from trusted marine suppliers.">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://ildus650-pixel.github.io/shipsalvage-removal/wrecks.html">
+  <link rel="canonical" href="https://ildus650-pixel.github.io/shipsalvage-removal/store.html">
 
   <!-- ===== Open Graph ===== -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Wreck Database | Ship Salvage &amp; Wreck Removal">
-  <meta property="og:description" content="Interactive map of shipwrecks: names, years and depths.">
+  <meta property="og:title" content="Rigging &amp; Marine Equipment | Ship Salvage &amp; Wreck Removal">
+  <meta property="og:description" content="Curated marine gear: ropes, anchors, winches, navigation, safety and parts from trusted suppliers.">
   <meta property="og:image" content="img/hero.jpg">
 
   <!-- ===== Favicon ===== -->
@@ -26,11 +26,8 @@
 
   <!-- ===== Styles ===== -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.css">
-  <link rel="stylesheet" href="vendor/markercluster/MarkerCluster.Default.css">
 </head>
-<body data-page="wrecks">
+<body data-page="store">
 
   <!-- ===== HEADER ===== -->
   <header class="header" id="header">
@@ -55,8 +52,8 @@
         <a href="index.html#services" class="nav__link" data-i18n="nav-services">Services</a>
         <a href="index.html#about" class="nav__link" data-i18n="nav-about">About Us</a>
         <a href="index.html#coverage" class="nav__link" data-i18n="nav-coverage">Coverage</a>
-        <a href="wrecks.html" class="nav__link" aria-current="page" data-i18n="nav-wrecks">Wrecks</a>
-        <a href="store.html" class="nav__link" data-i18n="nav-store">Store</a>
+        <a href="wrecks.html" class="nav__link" data-i18n="nav-wrecks">Wrecks</a>
+        <a href="store.html" class="nav__link" aria-current="page" data-i18n="nav-store">Store</a>
         <a href="index.html#contacts" class="nav__link" data-i18n="nav-contacts">Contacts</a>
       </nav>
 
@@ -80,57 +77,49 @@
   </header>
 
   <main>
-    <section class="section" id="wrecks">
+    <section class="section" id="store">
       <div class="container">
-        <p class="kicker reveal" data-i18n="wrecks-kicker">Shipwreck Database</p>
-        <h1 class="section__title reveal" data-i18n="wrecks-title">Interactive Wreck Map</h1>
-        <p class="section__sub reveal" data-i18n="wrecks-sub">Known wrecks from open data (OpenStreetMap, ODbL). Click a marker or a list item for details.</p>
+        <p class="kicker reveal" data-i18n="store-kicker">Marine Store</p>
+        <h1 class="section__title reveal" data-i18n="store-title">Rigging &amp; Marine Equipment</h1>
+        <p class="section__sub reveal" data-i18n="store-sub">Curated gear from trusted marine suppliers. When you buy through our partner links, we earn a small commission at no extra cost to you.</p>
 
-        <div class="wrecks-stats reveal">
-          <div><b id="wreck-count">0</b><span data-i18n="wrecks-count-suffix">known wrecks</span></div>
+        <div class="store-filters reveal">
+          <input type="search" id="st-search" class="wf-input store-search" autocomplete="off"
+                 data-i18n-placeholder="store-search" placeholder="Search products…">
+          <div class="store-chips" id="st-chips" role="group" aria-label="Category filter">
+            <button type="button" class="store-chip is-active" data-cat="all" data-i18n="f-all">All</button>
+            <button type="button" class="store-chip" data-cat="rigging" data-i18n="store-cat-rigging">Rigging</button>
+            <button type="button" class="store-chip" data-cat="anchors" data-i18n="store-cat-anchors">Anchors &amp; Chains</button>
+            <button type="button" class="store-chip" data-cat="ropes" data-i18n="store-cat-ropes">Slings &amp; Ropes</button>
+            <button type="button" class="store-chip" data-cat="winches" data-i18n="store-cat-winches">Winches &amp; Hoists</button>
+            <button type="button" class="store-chip" data-cat="navigation" data-i18n="store-cat-navigation">Navigation</button>
+            <button type="button" class="store-chip" data-cat="safety" data-i18n="store-cat-safety">Safety</button>
+            <button type="button" class="store-chip" data-cat="parts" data-i18n="store-cat-parts">Parts</button>
+          </div>
         </div>
 
-        <div class="wrecks-filters reveal">
-          <input type="search" id="wf-name" class="wf-input" autocomplete="off"
-                 data-i18n-placeholder="wrecks-filter-name" placeholder="Search by name">
-          <select id="wf-region" class="wf-select">
-            <option value="all" data-i18n="f-all">All</option>
-            <option value="fe" data-i18n="f-reg-fe">Russian Far East</option>
-            <option value="pacific" data-i18n="f-reg-pacific">Pacific &amp; SE Asia</option>
-            <option value="indian" data-i18n="f-reg-indian">Indian Ocean</option>
-            <option value="baltic" data-i18n="f-reg-baltic">Baltic Sea</option>
-            <option value="eu" data-i18n="f-reg-eu">Europe &amp; Atlantic</option>
-            <option value="med" data-i18n="f-reg-med">Mediterranean</option>
-            <option value="carib" data-i18n="f-reg-carib">Caribbean</option>
-            <option value="us" data-i18n="f-reg-us">North Atlantic (US)</option>
-          </select>
-          <select id="wf-depth" class="wf-select">
-            <option value="all" data-i18n="f-depth-all">Any depth</option>
-            <option value="0-20" data-i18n="f-depth-0">0–20 m</option>
-            <option value="20-50" data-i18n="f-depth-1">20–50 m</option>
-            <option value="50+" data-i18n="f-depth-2">50+ m</option>
-            <option value="none" data-i18n="f-depth-n">No data</option>
-          </select>
-          <select id="wf-year" class="wf-select">
-            <option value="all" data-i18n="f-year-all">Any year</option>
-            <option value="y-before" data-i18n="f-year-before">Before 1900</option>
-            <option value="y-1900" data-i18n="f-year-1900">1900–1950</option>
-            <option value="y-1950" data-i18n="f-year-1950">1950–2000</option>
-            <option value="y-2000" data-i18n="f-year-2000">After 2000</option>
-            <option value="y-none" data-i18n="f-year-n">No data</option>
-          </select>
-          <button id="wf-reset" class="btn btn--ghost" type="button" data-i18n="f-reset">Reset</button>
+        <div class="store-head reveal">
+          <span id="st-count" class="store-count">0</span>
+          <button id="st-reset" class="btn btn--ghost store-reset" type="button" data-i18n="store-reset">Reset</button>
         </div>
 
-        <div class="wrecks-layout reveal">
-          <div id="wreck-map" class="wrecks-map" role="application" aria-label="Map of shipwrecks"></div>
-          <aside class="wrecks-side" aria-label="Wreck list">
-            <div class="wrecks-head" data-i18n="wrecks-list-title">Wreck list</div>
-            <ul id="wreck-list" class="wrecks-list"></ul>
-          </aside>
-        </div>
+        <div id="store-grid" class="store-grid reveal"></div>
+        <p id="st-empty" class="store-empty hidden" data-i18n="store-empty">Nothing matches your filters</p>
 
-        <p class="wrecks-attr" data-i18n="wrecks-attr">Data © OpenStreetMap contributors (ODbL) via Overpass API</p>
+        <div class="store-partners reveal">
+          <h3 class="store-partners__title" data-i18n="store-partners">Our partner stores</h3>
+          <div class="store-partners__row">
+            <a href="https://thmarinesupplies.com/" target="_blank" rel="noopener sponsored">T-H Marine</a>
+            <a href="https://www.gaelforcemarine.co.uk/" target="_blank" rel="noopener sponsored">Gael Force Marine</a>
+            <a href="https://mustangsurvival.com/" target="_blank" rel="noopener sponsored">Mustang Survival</a>
+            <a href="https://www.compass24.com/" target="_blank" rel="noopener sponsored">Compass24</a>
+            <a href="https://partsvu.com/" target="_blank" rel="noopener sponsored">PartsVu</a>
+            <a href="https://www.westmarine.com/" target="_blank" rel="noopener sponsored">West Marine</a>
+            <a href="https://boatworld.co.uk/" target="_blank" rel="noopener sponsored">Boatworld</a>
+            <a href="https://yatzoom.ru/" target="_blank" rel="noopener sponsored">Yatzoom</a>
+          </div>
+          <p class="store-affiliate" data-i18n="store-affiliate">Affiliate disclosure: partner links may earn us a commission at no extra cost to you.</p>
+        </div>
       </div>
     </section>
   </main>
@@ -160,9 +149,7 @@
         <a href="index.html#services" class="footer__link" data-i18n="nav-services">Services</a>
         <a href="index.html#about" class="footer__link" data-i18n="nav-about">About Us</a>
         <a href="index.html#coverage" class="footer__link" data-i18n="nav-coverage">Coverage</a>
-        <a href="index.html#eco" class="footer__link" data-i18n="nav-eco">Environment</a>
         <a href="index.html#news" class="footer__link" data-i18n="nav-news">News</a>
-        <a href="index.html#report" class="footer__link" data-i18n="nav-report">Report a Wreck</a>
         <a href="wrecks.html" class="footer__link" data-i18n="nav-wrecks">Wrecks</a>
         <a href="store.html" class="footer__link" data-i18n="nav-store">Store</a>
         <a href="index.html#contacts" class="footer__link" data-i18n="nav-contacts">Contacts</a>
@@ -178,11 +165,9 @@
     </div>
   </footer>
 
-  <script src="vendor/leaflet/leaflet.js" defer></script>
-  <script src="vendor/markercluster/leaflet.markercluster.js" defer></script>
   <script src="js/i18n.js" defer></script>
   <script src="js/tg-notify.js" defer></script>
   <script src="js/main.js" defer></script>
-  <script src="js/wrecks.js" defer></script>
+  <script src="js/store.js" defer></script>
 </body>
 </html>
