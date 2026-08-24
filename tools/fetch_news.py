@@ -1,36 +1,29 @@
 #!/usr/bin/env python3
 """Fetch marine / salvage news from public RSS feeds into news.json.
 
+Новости на 8 языках: news.json = {"updated": ISO, "items": {en, ru, cn, hi, bn, de, fr, es}}
+
 Run:  python3 tools/fetch_news.py
-Writes: news.json  ({"updated": ISO, "items": [{title, link, source, date, summary}]})
 """
 
 import json
 import os
 import re
 import html as html_mod
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, date
+from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "news.json")
 
-FEEDS = [
-    # (источник, url) — только ленты с прямыми ссылками на статьи:
-    # у них есть link preview в Telegram (Google News скрывает реальные адреса)
-    ("gCaptain", "https://gcaptain.com/feed/"),
-    ("Hellenic Shipping", "https://www.hellenicshippingnews.com/feed/"),
-    ("The Loadstar", "https://theloadstar.com/feed/"),
-]
-
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
-MAX_PER_SOURCE = 8
-MAX_TOTAL = 15
+MAX_TOTAL = 12
 SUMMARY_LEN = 220
 
-# Ключевые слова темы (приоритет — новости про спасение/крушения)
+# Ключевые слова темы для английских лент
 TOPIC_KEYWORDS = [
     "salvage", "wreck", "shipwreck", "grounded", "grounding", "sunken",
     "sinking", "stranded", "refloat", "casualty", "rescue", "towage",
@@ -39,21 +32,32 @@ TOPIC_KEYWORDS = [
 ]
 
 
+def gn(query, hl, gl, ceid):
+    return ("https://news.google.com/rss/search?"
+            + urllib.parse.urlencode({"q": query, "hl": hl, "gl": gl, "ceid": ceid}))
+
+
+# (источник, url, strip_google_suffix)
+FEEDS = {
+    "en": [
+        ("gCaptain", "https://gcaptain.com/feed/", False),
+        ("Hellenic Shipping", "https://www.hellenicshippingnews.com/feed/", False),
+        ("The Loadstar", "https://theloadstar.com/feed/", False),
+    ],
+    "ru": [("Google News", gn("спасение судов OR крушение корабля OR затонувшее судно OR судно село на мель", "ru", "RU", "RU:ru"), True)],
+    "cn": [("Google News", gn("沉船打捞 OR 船舶拆解 OR 海难救援 OR 搁浅货船", "zh-CN", "CN", "CN:zh-Hans"), True)],
+    "hi": [("Google News", gn("जहाज़ तोड़ना OR जहाज़ डूबना OR जहाज़ बचाव", "hi", "IN", "IN:hi"), True)],
+    "bn": [("Google News", gn("জাহাজ ভাঙা OR জাহাজ ডুবি OR জাহাজ উদ্ধার", "bn", "BD", "BD:bn"), True)],
+    "de": [("Google News", gn("Schiffswrack OR Schiffsbergung OR Schiffsverschrottung", "de", "DE", "DE:de"), True)],
+    "fr": [("Google News", gn("épave de navire OR sauvetage maritime OR démolition navale", "fr", "FR", "FR:fr"), True)],
+    "es": [("Google News", gn("naufragio OR salvamento marítimo OR desguace de buques", "es", "ES", "ES:es"), True)],
+}
+
+
 def fetch(url, timeout=30):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
-
-
-def resolve_url(url):
-    """Разворачиваем redirect-ссылки (Google News) до реального адреса статьи —
-    у реальных статей есть link preview в Telegram, у redirect-ов нет."""
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            return resp.geturl()
-    except Exception:
-        return url
 
 
 def strip_html(text):
@@ -67,20 +71,15 @@ def strip_html(text):
 def parse_date(value):
     if not value:
         return None
-    try:
-        dt = parsedate_to_datetime(value)
-        return dt
-    except Exception:
-        pass
-    try:
-        dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
-        return dt
-    except Exception:
-        return None
+    for fn in (parsedate_to_datetime, lambda v: datetime.fromisoformat(v.replace("Z", "+00:00"))):
+        try:
+            return fn(value)
+        except Exception:
+            continue
+    return None
 
 
 def clean_google_title(title):
-    # "Заголовок - Источник" -> (Заголовок, Источник)
     if " - " in title:
         head, _, tail = title.rpartition(" - ")
         if head and len(tail) <= 45 and ". " not in tail:
@@ -91,7 +90,6 @@ def clean_google_title(title):
 def parse_feed(source, raw, strip_suffix=False):
     items = []
     root = ET.fromstring(raw)
-    # RSS 2.0
     for item in root.iter("item"):
         def child(tag):
             el = item.find(tag)
@@ -105,22 +103,11 @@ def parse_feed(source, raw, strip_suffix=False):
         if strip_suffix:
             title, out_source = clean_google_title(title)
             out_source = out_source or source
-            link = resolve_url(link)
-        date_str = child("pubDate") or child("dc:date")
-        dt = parse_date(date_str)
+        dt = parse_date(child("pubDate") or child("dc:date"))
         items.append({
             "title": title,
             "link": link,
             "source": out_source,
-            "date": dt.isoformat() if dt else None,
-            "summary": strip_html(child("description"))[:SUMMARY_LEN],
-        })
-        date_str = child("pubDate") or child("dc:date")
-        dt = parse_date(date_str)
-        items.append({
-            "title": title,
-            "link": link,
-            "source": source,
             "date": dt.isoformat() if dt else None,
             "summary": strip_html(child("description"))[:SUMMARY_LEN],
         })
@@ -131,7 +118,6 @@ def parse_feed(source, raw, strip_suffix=False):
             def child(tag):
                 el = entry.find("a:" + tag, ns)
                 return el.text if el is not None and el.text else ""
-
             title = strip_html(child("title"))
             link_el = entry.find("a:link", ns)
             link = link_el.get("href", "").strip() if link_el is not None else ""
@@ -148,53 +134,49 @@ def parse_feed(source, raw, strip_suffix=False):
     return items
 
 
+def relevance_en(text):
+    return sum(1 for kw in TOPIC_KEYWORDS
+               if re.search(r"\b" + re.escape(kw) + r"\b", text))
+
+
 def main():
-    all_items = []
-    for source, url in FEEDS:
-        try:
-            raw = fetch(url)
-            items = parse_feed(source, raw)
-            print(f"{source}: {len(items)} items")
-            all_items.extend(items[:MAX_PER_SOURCE])
-        except Exception as exc:
-            print(f"{source}: ERROR {exc}")
+    out_items = {}
+    for lang, feeds in FEEDS.items():
+        all_items = []
+        for source, url, strip_suffix in feeds:
+            try:
+                all_items.extend(parse_feed(source, fetch(url), strip_suffix))
+            except Exception as exc:
+                print(f"{lang}/{source}: ERROR {exc}")
 
-    # дедупликация по ссылке
-    seen, unique = set(), []
-    for it in all_items:
-        if it["link"] in seen:
-            continue
-        seen.add(it["link"])
-        unique.append(it)
+        # дедупликация
+        seen, unique = set(), []
+        for it in all_items:
+            if it["link"] in seen:
+                continue
+            seen.add(it["link"])
+            unique.append(it)
 
-    # релевантность теме: совпадения ключевых слов по границам слова
-    def relevance(it):
-        text = it["title"].lower()
-        return sum(1 for kw in TOPIC_KEYWORDS
-                   if re.search(r"\b" + re.escape(kw) + r"\b", text))
+        # сортировка: en — по релевантности и дате; остальные — по дате
+        if lang == "en":
+            unique.sort(key=lambda it: (relevance_en(it["title"].lower()), it["date"] or "0000"), reverse=True)
+        else:
+            unique.sort(key=lambda it: (it["date"] or "0000"), reverse=True)
 
-    for it in unique:
-        it["score"] = relevance(it)
-
-    def sort_key(it):
-        # сначала релевантные, внутри — по дате
-        return (it["score"], it["date"] or "0000")
-
-    unique.sort(key=sort_key, reverse=True)
-    unique = unique[:MAX_TOTAL]
-    for it in unique:
-        del it["score"]
+        out_items[lang] = unique[:MAX_TOTAL]
+        print(f"{lang}: {len(unique[:MAX_TOTAL])} items")
 
     data = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "items": unique,
+        "items": out_items,
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
-    print(f"\nSaved {len(unique)} items -> news.json")
-    for it in unique[:5]:
-        print(" -", (it["date"] or "????-??-??")[:10], "|", it["source"], "|", it["title"][:70])
+    for lang in ("en", "ru", "cn", "hi", "bn", "de", "fr", "es"):
+        lst = out_items.get(lang, [])
+        first = lst[0]["title"][:55] if lst else "—"
+        print(f"  {lang}: {len(lst)} | {first}")
 
 
 if __name__ == "__main__":

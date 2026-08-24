@@ -43,7 +43,7 @@ def main():
         return
 
     with open(os.path.join(ROOT, "news.json"), encoding="utf-8") as f:
-        items = json.load(f)["items"]
+        items = json.load(f)["items"]["en"]  # в канал — английская лента
 
     if args.since:
         items = [i for i in items if (i.get("date") or "")[:10] >= args.since]

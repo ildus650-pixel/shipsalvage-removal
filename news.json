@@ -1,89 +1,693 @@
 {
- "updated": "2026-08-24T01:44:07+00:00",
- "items": [
-  {
-   "title": "British Army Sailors Rescue Exhausted Owl 70 Miles Out To Sea",
-   "link": "https://gcaptain.com/british-army-sailors-rescue-exhausted-owl-70-miles-out-to-sea/",
-   "source": "gCaptain",
-   "date": "2026-08-23T00:19:16+00:00",
-   "summary": "Aug 22 (Reuters) – A British Army sailing crew competing in one of yachting’s most demanding races found themselves conducting an impromptu wildlife rescue 70 nautical miles from shore when an exhausted..."
-  },
-  {
-   "title": "Stop Trusting One Number: Why the Smartest Ocean Freight Teams Now Watch a Gap, Not an ETA",
-   "link": "https://theloadstar.com/ocean-freight-carrier-eta-vs-predicted-pta/",
-   "source": "The Loadstar",
-   "date": "2026-08-23T23:01:03+00:00",
-   "summary": "For as long as ocean freight has existed, teams have asked the same question: which number do I trust? It’s the wrong question. Every shipment carries at least two arrival estimates. The carrier’s ETA, the official sched"
-  },
-  {
-   "title": "Tanker Market: VLCC ton-miles Falling in 2026, With Smaller Classes Gaining Market Share",
-   "link": "https://www.hellenicshippingnews.com/tanker-market-vlcc-ton-miles-falling-in-2026-with-smaller-classes-gaining-market-share/",
-   "source": "Hellenic Shipping",
-   "date": "2026-08-23T21:00:59+00:00",
-   "summary": "The crude tanker segment has seen a series of upsets with ton-mile demand shifting considerably between various classes. In its latest weekly report, shipbroker Gibson said that “the crude vessel segments have crossed wa"
-  },
-  {
-   "title": "The Week in Alt Fuels: Uncle Sam’s nuclear push",
-   "link": "https://www.hellenicshippingnews.com/the-week-in-alt-fuels-uncle-sams-nuclear-push/",
-   "source": "Hellenic Shipping",
-   "date": "2026-08-23T21:00:58+00:00",
-   "summary": "The Trump administration is starting to put serious weight behind nuclear-powered shipping. But regulations, liability and safety still stand between ambition and commercial deployment. Washington wants nuclear to be inc"
-  },
-  {
-   "title": "Dry Bulk Market: Capesizes Showing Signs of Strength",
-   "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-showing-signs-of-strength/",
-   "source": "Hellenic Shipping",
-   "date": "2026-08-23T21:00:58+00:00",
-   "summary": "Capesize The market delivered a mixed but broadly resilient performance, with the Pacific providing the principal source of activity and direction. Consistent miner presence supported C5 throughout the week, although rat"
-  },
-  {
-   "title": "Half-year horizon: The shipping cases shaping 2026",
-   "link": "https://www.hellenicshippingnews.com/half-year-horizon-the-shipping-cases-shaping-2026/",
-   "source": "Hellenic Shipping",
-   "date": "2026-08-23T21:00:57+00:00",
-   "summary": "This briefing covers a round-up of a few cases that have caught our attention during the first six months of 2026, together with our thoughts on some of the key issues and developments we expect to shape the remainder of"
-  },
-  {
-   "title": "Freight rates, peak season and what’s next",
-   "link": "https://theloadstar.com/freight-rates-peak-season-and-whats-next/",
-   "source": "The Loadstar",
-   "date": "2026-08-23T16:00:24+00:00",
-   "summary": "What’s really driving freight rates in 2026? In this episode of The Loadstar Podcast, we’re joined by Judah Levine, Head of Research at Freightos, to discuss the latest trends across global ocean and airfreight markets. "
-  },
-  {
-   "title": "Search Continues For 22 After Bulk Carrier Sinks Off India",
-   "link": "https://gcaptain.com/search-continues-for-22-after-bulk-carrier-sinks-off-india/",
-   "source": "gCaptain",
-   "date": "2026-08-23T13:31:09+00:00",
-   "summary": "By Jatindra Dash, Nidhi Verma and Saurabh Sharma NEW DELHI, Aug 23 (Reuters) – India’s Coast Guard and Navy continued search-and-rescue operations off the eastern coast on Sunday after a Panama-flagged cargo vessel carry"
-  },
-  {
-   "title": "Zelenskyy Says Putin Rejected Black Sea Shipping Truce Offer",
-   "link": "https://gcaptain.com/zelenskyy-says-putin-rejected-black-sea-shipping-truce-offer/",
-   "source": "gCaptain",
-   "date": "2026-08-23T13:10:12+00:00",
-   "summary": "By Volodymyr Verbianyi Aug 23, 2026 (Bloomberg) –Ukraine offered Russia a truce on attacks against ships carrying agricultural commodities through the Black Sea, but Moscow rejected the deal because it wanted..."
-  },
-  {
-   "title": "Russia Considers Grain Purchases To Offset Export Disruptions",
-   "link": "https://gcaptain.com/russia-considers-grain-purchases-to-offset-export-disruptions/",
-   "source": "gCaptain",
-   "date": "2026-08-23T03:37:46+00:00",
-   "summary": "By Bloomberg News Aug 22, 2026 (Bloomberg) –Russia’s government is planning a series of measures to support grain producers, include crop procurement, preferential loan extensions and sales subsidies, Interfax reported, "
-  },
-  {
-   "title": "BBC: Canada says it will match US tariffs ‘dollar for dollar’ as trade talks break down",
-   "link": "https://theloadstar.com/bbc-canada-says-it-will-match-us-tariffs-dollar-for-dollar-as-trade-talks-break-down/",
-   "source": "The Loadstar",
-   "date": "2026-08-22T10:48:16+00:00",
-   "summary": "BBC reports: A fresh wave of US tariffs on a wide array of Canadian goods came into effect on Saturday after a last-minute breakdown in trade talks. Announcing the suspension of negotiations shortly before the Friday nig"
-  },
-  {
-   "title": "EXCLUSIVE: DSV CEO Lund reads riot act over Air & Sea",
-   "link": "https://theloadstar.com/exclusive-dsv-ceo-lund-reads-riot-act-over-air-sea/",
-   "source": "The Loadstar",
-   "date": "2026-08-21T15:29:55+00:00",
-   "summary": "“It is safe to say that much has happened over the past few months.” Those were recent remarks from performance-driven DSV CEO Jens Lund to staff* – clearly, he wasn’t pointing to any good news to share with the crew. (*"
-  }
- ]
+ "updated": "2026-08-24T02:48:20+00:00",
+ "items": {
+  "en": [
+   {
+    "title": "British Army Sailors Rescue Exhausted Owl 70 Miles Out To Sea",
+    "link": "https://gcaptain.com/british-army-sailors-rescue-exhausted-owl-70-miles-out-to-sea/",
+    "source": "gCaptain",
+    "date": "2026-08-23T00:19:16+00:00",
+    "summary": "Aug 22 (Reuters) – A British Army sailing crew competing in one of yachting’s most demanding races found themselves conducting an impromptu wildlife rescue 70 nautical miles from shore when an exhausted..."
+   },
+   {
+    "title": "India Launches Rescue Operation As Bulk Carrier Sinks Off East Coast",
+    "link": "https://gcaptain.com/india-launches-rescue-operation-as-bulk-carrier-sinks-off-east-coast/",
+    "source": "gCaptain",
+    "date": "2026-08-22T23:50:15+00:00",
+    "summary": "By Nidhi Verma, Saurabh Sharma and Jatindra Dash Aug 22 (Reuters) – India’s maritime rescue agency lost communication on Saturday with a Panama-flagged cargo vessel that sank off the coast of eastern..."
+   },
+   {
+    "title": "Stop Trusting One Number: Why the Smartest Ocean Freight Teams Now Watch a Gap, Not an ETA",
+    "link": "https://theloadstar.com/ocean-freight-carrier-eta-vs-predicted-pta/",
+    "source": "The Loadstar",
+    "date": "2026-08-23T23:01:03+00:00",
+    "summary": "For as long as ocean freight has existed, teams have asked the same question: which number do I trust? It’s the wrong question. Every shipment carries at least two arrival estimates. The carrier’s ETA, the official sched"
+   },
+   {
+    "title": "Tanker Market: VLCC ton-miles Falling in 2026, With Smaller Classes Gaining Market Share",
+    "link": "https://www.hellenicshippingnews.com/tanker-market-vlcc-ton-miles-falling-in-2026-with-smaller-classes-gaining-market-share/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:59+00:00",
+    "summary": "The crude tanker segment has seen a series of upsets with ton-mile demand shifting considerably between various classes. In its latest weekly report, shipbroker Gibson said that “the crude vessel segments have crossed wa"
+   },
+   {
+    "title": "The Week in Alt Fuels: Uncle Sam’s nuclear push",
+    "link": "https://www.hellenicshippingnews.com/the-week-in-alt-fuels-uncle-sams-nuclear-push/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:58+00:00",
+    "summary": "The Trump administration is starting to put serious weight behind nuclear-powered shipping. But regulations, liability and safety still stand between ambition and commercial deployment. Washington wants nuclear to be inc"
+   },
+   {
+    "title": "Dry Bulk Market: Capesizes Showing Signs of Strength",
+    "link": "https://www.hellenicshippingnews.com/dry-bulk-market-capesizes-showing-signs-of-strength/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:58+00:00",
+    "summary": "Capesize The market delivered a mixed but broadly resilient performance, with the Pacific providing the principal source of activity and direction. Consistent miner presence supported C5 throughout the week, although rat"
+   },
+   {
+    "title": "Half-year horizon: The shipping cases shaping 2026",
+    "link": "https://www.hellenicshippingnews.com/half-year-horizon-the-shipping-cases-shaping-2026/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:57+00:00",
+    "summary": "This briefing covers a round-up of a few cases that have caught our attention during the first six months of 2026, together with our thoughts on some of the key issues and developments we expect to shape the remainder of"
+   },
+   {
+    "title": "Sunoco LP (Sunoco Marine Ltd) and Verde Marine Energy Announce Commercial Collaboration in ARA and UK Bunker Markets",
+    "link": "https://www.hellenicshippingnews.com/sunoco-lp-sunoco-marine-ltd-and-verde-marine-energy-announce-commercial-collaboration-in-ara-and-uk-bunker-markets/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:57+00:00",
+    "summary": "Sunoco LP, through its wholly owned subsidiary Sunoco Marine Ltd, has entered into a new commercial collaboration with Verde Marine Energy B.V. (VME), expanding Sunoco’s marine fuel offering into the ARA and UK bunker ma"
+   },
+   {
+    "title": "Tankers: VLCCs on the Rise",
+    "link": "https://www.hellenicshippingnews.com/tankers-vlccs-on-the-rise-3/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:56+00:00",
+    "summary": "Clean LR2 The TC1 75kt MEG/Japan index strengthened this week, climbing 24.45 points to WS536.67 as sentiment improved in the East. A voyage west also firmed, with the TC20 90kt MEG/UK-Continent index increasing by $462,"
+   },
+   {
+    "title": "Asia-US container rates edge higher, tanker rates softer; Panama Canal limits transits",
+    "link": "https://www.hellenicshippingnews.com/asia-us-container-rates-edge-higher-tanker-rates-softer-panama-canal-limits-transits/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:54+00:00",
+    "summary": "Rates for shipping containers from east Asia and China to the US edged higher, liquid chemical tanker rates ex-US Gulf were stable to softer, and the Panama Canal will limit the number of daily transits in September, hig"
+   },
+   {
+    "title": "Iran lets Iraqi oil tankers pass Hormuz as Trump claims “total control”",
+    "link": "https://www.hellenicshippingnews.com/iran-lets-iraqi-oil-tankers-pass-hormuz-as-trump-claims-total-control/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:52+00:00",
+    "summary": "Iran has granted permission for a number of Iraqi oil tankers to transit the Strait of Hormuz following repeated requests from Baghdad, state news agency IRNA reported on Saturday. The concession followed a visit to Iraq"
+   },
+   {
+    "title": "Nuclear maritime investing: SMR stocks and LNG shipping in a shifting energy landscape",
+    "link": "https://www.hellenicshippingnews.com/nuclear-maritime-investing-smr-stocks-and-lng-shipping-in-a-shifting-energy-landscape-2/",
+    "source": "Hellenic Shipping",
+    "date": "2026-08-23T21:00:50+00:00",
+    "summary": "When one of America’s largest LNG export hubs formally endorses nuclear-powered shipping, it is not a press release — it is a policy signal that reprices an entire asset class. The Port of Corpus Christi’s alignment with"
+   }
+  ],
+  "ru": [
+   {
+    "title": "Яхта Цукерберга проигнорировала просьбу о помощи от терпящей бедствие лодки",
+    "link": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE1NQVNlYmtxSDF3WlRYaDhrdENqcnlFV0xCaUFqbHhOT2h4SHItaXFPRFNxRS11UTZYWGlUN3lR0gFDQVVfeXFMUHVWd1ZUUmhwZElWUkZjaUsxVmkyTEV1ZUxMWTRaV2FxcEk2M3VYbmVtcEZXLXE1bFJQU1A3OXBIYWxfUQ?oc=5",
+    "source": "Life.ru",
+    "date": "2026-08-09T07:00:00+00:00",
+    "summary": "Яхта Цукерберга проигнорировала просьбу о помощи от терпящей бедствие лодки Life.ru"
+   },
+   {
+    "title": "У берегов Греции затонул сухогруз, следовавший в Украину: экипаж спасен",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBuQVVuVklGYmhVSVQwZHVFMkxuTkRWc0pCSjRlR0FpallsT2oxZ2syQVlzTzNRd3RxeXVBLWJzTTVjWEp0YkdDUFBkNzR3RnJnXy14aUQtOTFJT2hzQkNnMksySWxSTFdxdVcwVGFUcw?oc=5",
+    "source": "Європейська правда",
+    "date": "2026-05-06T07:00:00+00:00",
+    "summary": "У берегов Греции затонул сухогруз, следовавший в Украину: экипаж спасен Європейська правда"
+   },
+   {
+    "title": "Плавучие бомбы: в Персидском заливе дрейфуют подбитые Ираном корабли (видео)",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaUhFZjlLeGUtRE51LW1jamVYX2pzSEZDTnJpeXRyMHQ3SG5sNXFuWGxHeWw0UU5LbFYzREZQVkhNdjZ4bzJpeVo1MHVMMXhPZjhaN2FSblJPeFBTamNxWUFYVVVWWmM5MWRRdkJlTU1vVUh0Q0dFVTBXbDc3LVAySm9RYlhYLVpUczQwbElaWE1VN0NBTkVBcERPVHhRVFBWVU0xQ1pOSVbSAa4BQVVfeXFMTTdKWWFXSzZ4M3h2RzhnVG1EOWh5RUo0QnZ3ZDJkMFQ0cnNUc0lhMDBMS0gydXdTSjNDbldwT2QzdGcwWjR6YUlRWEpNTElTdndGXzJXeU5IUmdndlh6MHkzdlpZYlVxMmNEMGdiUnhBbm9TRFBOYl80Z1lmbDFJZDdEcW9yOWthWU1SMHVJYXltQzhZZWh0aUtUUlBNQVZkaWJfRTF2anBSQUsxcHl3?oc=5",
+    "source": "focus.ua",
+    "date": "2026-03-27T07:00:00+00:00",
+    "summary": "Плавучие бомбы: в Персидском заливе дрейфуют подбитые Ираном корабли (видео) focus.ua"
+   },
+   {
+    "title": "Два судна с химудобрениями затонули у румынского города на Дунае",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUE3UEtGbnJmcFVHZ0V0NGtqVjhnR24tT19YRktkMVVMd2dWWHpoX20tb2JoV3Y0cEp1TVhqYko5aVRSSFlCUDBpal9NY182MXFBRm9wSHhWa0JnWXRYb3laMEtSbktmbE42N0lKSmprUFY0UFc3STFtVTlIQWFPNk1LLUppN1JneENJ?oc=5",
+    "source": "nokta.md",
+    "date": "2026-01-13T08:00:00+00:00",
+    "summary": "Два судна с химудобрениями затонули у румынского города на Дунае nokta.md"
+   },
+   {
+    "title": "Спасение экипажа An Yang 2 на Сахалине: судно обесточено, идет эвакуация",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1l3VXVFa1Y2QVFRU0ZYaG1UdzlaNGdzb0FoV3MzWUZSME1CMmJPZXV4X2oxV3pXcU9SaU5RUGFrQlFKZDRtck44Q0pVNG5BZmpZMmg3OTZGWkJ6a0dLd25WUUUyX0pHYmhOaVc4ZkV6elhkWDI4cURJc2FuWW1WVnJBb1BDQlRYQUliLUZIbVg4cDF0WnhkUlFGaWpSYnZnNk9CNFFOSDJzNno4cmVTOWRoTFBNRG8?oc=5",
+    "source": "Сахалин-Курилы",
+    "date": "2025-12-01T08:00:00+00:00",
+    "summary": "Спасение экипажа An Yang 2 на Сахалине: судно обесточено, идет эвакуация Сахалин-Курилы"
+   },
+   {
+    "title": "На Сахалине заканчивают подготовку к снятию севшего на мель в феврале китайского судна",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdUdYekY5TVNjSUVIMG1jRHRzSThFdmx5Z2pzZlRMZWtmZFNZaXhhR3NEMjhjZjdNMEJYMTc4dzZQZ2JZUDBsUzU2ZVRQWjVvcW9vWnpGODJuWkh0QTFqQUpvOHdnUDVMWm9IU0luQWd1ZXNUUXpLdDhlNWN0aDR5bklSLXlRT1R4Z0Z2ZTNDblF4dVdIMDdBTEowY3ZFOG11aXhzRUVEbk14UkZTUmprWHk3aWRRTkpwVUdkNzVkQ2d3aFEzY0l2cTFR?oc=5",
+    "source": "АСТВ",
+    "date": "2025-10-21T07:00:00+00:00",
+    "summary": "На Сахалине заканчивают подготовку к снятию севшего на мель в феврале китайского судна АСТВ"
+   },
+   {
+    "title": "Более 120 пассажиров теплохода «Александра» оказались в «водном плену»: что известно о ситуации",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBpcW5HSkltMlFEQmVrQ3BRUTMzSG0tRFJjaHZoWnBGUkpBS0ZQOXVuWW9SWldoTVpNQk5kN2VLV01mbUhHandn?oc=5",
+    "source": "URA.RU",
+    "date": "2025-09-11T07:00:00+00:00",
+    "summary": "Более 120 пассажиров теплохода «Александра» оказались в «водном плену»: что известно о ситуации URA.RU"
+   },
+   {
+    "title": "Специалисты практически полностью разобрали севший на мель возле Холмска корабль Xing Yuan",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeERqVE5IR0dmaTZjNEtpX0hianIwQzdCY3hHSDNhOTZqY0lmUWdoRG85X181STRBWFlVd19WZUJhN3JDM2tObklIS0tEWktrbmpJV3liTnQwZl9LekdpMzYwUEpHQi1oczNCUzBLb2p2Ml9Xd05LUmtPdldvalNLVVZDMms1SWxYLWtrU19BN1g1a3prc1R2Vi1Ycklrd3g1QzVObVFWUC1uZ0pocXZZWk13ZnZoTWJhYzg3TmVTRHVQQlFxWTZQMWcyNA?oc=5",
+    "source": "АСТВ",
+    "date": "2025-08-29T07:00:00+00:00",
+    "summary": "Специалисты практически полностью разобрали севший на мель возле Холмска корабль Xing Yuan АСТВ"
+   },
+   {
+    "title": "Шедшее в Россию судно село на мель между Данией и Швецией",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMHNuZ3dncmZyaEdsTllXRzlvYmNhVzBaSGRMUXZMN3lKd0NnbUd0a0xqeXhHTWRScDBDdW8wRkY1UDluQ1lTcmRlUzVMOEJMcmxUTHhnWkFCRDlZN1RLZU50LXA1XzR3ZzVQUlJPeDN2ZXR5aVp3OGQ3TXVyV2lGTTV4dzZkYTBueFNFa0FkV2xXVlpLZElCNWhVUdIBmwFBVV95cUxNSkNHdndGNWdabjdpMmd5Q2FUa2N4SGY2YTJsMjhkS182TUpFTm40TDVzT01VbW1QNEtUWGdaX01jLWhxV0N5VktndFNNc0FuQlFwY3JzV1lsYXFFRTZXci1faXdFTlA2cTJCd3c4LUZrVWVTblRtbEpFeTZaemJtLUlKMS1rZUY1Y0xxcjBsMG5JVVBLRGYtUG5vaw?oc=5",
+    "source": "DW.com",
+    "date": "2025-05-31T07:00:00+00:00",
+    "summary": "Шедшее в Россию судно село на мель между Данией и Швецией DW.com"
+   },
+   {
+    "title": "В Невельске начали подготовку к перекачке нефтепродуктов с севшего на мель судна An Yang 2",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZmpNNVFyVEw0WGdXTldvaWJYMjNyNkJmcml5cDQ5eDRKVUdyb1lXTHhRTjVRd2Vmakg5N3pjSEdfYzQyN1dQSEpMMTBiY0RRSUZkRlFKcXJlMzV6d1c0bW4ybEFSU1RHZm5LR3RsblkxNnQ4Q1FqUWpzSVB2M3o5aHJ0cnN2Mi1NVlJ6YlVweDlna1QtWVZkWlVtVDNCRXlCRmg5U202RjRNYUJERlo5VUxMNnVFeUdoVlA3V1lVd0xoOXRLdXNxSExDT0ZER3MtV1E?oc=5",
+    "source": "АСТВ",
+    "date": "2025-05-15T07:00:00+00:00",
+    "summary": "В Невельске начали подготовку к перекачке нефтепродуктов с севшего на мель судна An Yang 2 АСТВ"
+   },
+   {
+    "title": "Корабль с тысячами овец на борту потерпел крушение у берегов Йемена",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS3AxN2VZWGsxc2RXNXpaYWk4VnVIR2NsRjQyR005OEQ2b1VDRFN2TFFQNWIwMnZ1YmRla2tRS2pHWFFNV0syN1kzUGVud2Y0SUJvSTExamx5Z0d3aGtDOFpwMnJseDhhVUYwT1E1NTdOR3VSYVdEWG1pLTlvMVVWbzBRM240SnR0RnJDb3ZQSlpfdWpHWENSVWh4RDgwc3J4cGpnbWtQaWpDY2NDR0pNYw?oc=5",
+    "source": "Вести.kg",
+    "date": "2025-04-28T07:00:00+00:00",
+    "summary": "Корабль с тысячами овец на борту потерпел крушение у берегов Йемена Вести.kg"
+   },
+   {
+    "title": "От разлива до распила. Как крушение двух танкеров с мазутом изменило жизнь на черноморском побережье",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYNE9aeEdveGlaRmhNQTlWVW1rcUhiTk9iNXoyWUp4SFBJRTlJeUY0WGRXWEFOcmFhS19aNWdya1o5azZtSk9HdUtZenpiWC1CdTVtNmRNaw?oc=5",
+    "source": "ФОНТАНКА.ру",
+    "date": "2025-02-16T08:00:00+00:00",
+    "summary": "От разлива до распила. Как крушение двух танкеров с мазутом изменило жизнь на черноморском побережье ФОНТАНКА.ру"
+   }
+  ],
+  "cn": [
+   {
+    "title": "威海： 搁浅货船成网红打卡地",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fYlpkVmZPa1I0MTZsancxOXU3ekFZTFJrckljdXF1TmtsRE15UHlkaGRER0FPVWhWbmNNYXZLS3Y3RmZCYlZna1dnT0R1R1cwajY5SE9JSVh2dGlpanhYV0tGVQ?oc=5",
+    "source": "手机新浪网",
+    "date": "2026-08-19T07:38:20+00:00",
+    "summary": "威海： 搁浅货船成网红打卡地 手机新浪网"
+   },
+   {
+    "title": "孟加拉国一艘旧船拆解时发生毒气泄漏 已致8人死亡",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5OaDdaZ0xpamFCYXpuVjBiaHBCc1V3Szd3SWVlT0dhWHJfUG9hYmxMTVdNSXlmZkFsQmlKSEJRS1FRRXNRTEwtRm51bERfUXl6aldxZEtNZnc5eU5nWDJJR3l3QkxWWlJPcVJ4aHVlWnNtUW9fZUdCM2dpcVo?oc=5",
+    "source": "国际在线",
+    "date": "2026-08-14T10:46:22+00:00",
+    "summary": "孟加拉国一艘旧船拆解时发生毒气泄漏 已致8人死亡 国际在线"
+   },
+   {
+    "title": "日本著名造船和军工城市 船舶拆解厂发生火灾！ 大火历时两天仍未扑灭 此前已派出10余辆消防车、4艘巡逻船",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HY3B0NENROEhoNHMyQm9NUmNwRkM5THRTQkRIc0RiTTFqSDJncGxnV21xaXN3SXZFdThHTlNRWThIVGdqdXpEaVJuekhGXzNWSERUOTJNMA?oc=5",
+    "source": "搜狐网",
+    "date": "2026-08-11T15:13:52+00:00",
+    "summary": "日本著名造船和军工城市 船舶拆解厂发生火灾！ 大火历时两天仍未扑灭 此前已派出10余辆消防车、4艘巡逻船 搜狐网"
+   },
+   {
+    "title": "AI技术公司招募古代沉船打捞人员：最高年薪50万美元",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oaDJMTjJLQk12UVQyNy1SS2pxYjdUbjlFeFJtZ2NVMjN4eXRocjI1clBzaTlnYnlxN1dfQTZlTzNyM1FCX0FNME5CMkR1MTQ5Tnc?oc=5",
+    "source": "搜狐网",
+    "date": "2026-07-31T08:32:55+00:00",
+    "summary": "AI技术公司招募古代沉船打捞人员：最高年薪50万美元 搜狐网"
+   },
+   {
+    "title": "多瑙河布达佩斯段水位创历史新低！酒店船搁浅，货船停滞",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZW5hdGNJVGl0LXhVRDZ0ajFuTnJZYlpzdFFUU3I4N1FycThGTGlCZGFpZHJheDFMSXcwbk12cHVieF9xNVctXzhuX3BvcThwOTdlc3FsVmtYMjVlbjlDLVRyZHF2MDdpclpPajB3NVhXYU5XQ1ZTeHJmSFFBbWx4Y09mREk?oc=5",
+    "source": "xindb.com",
+    "date": "2026-07-30T07:00:00+00:00",
+    "summary": "多瑙河布达佩斯段水位创历史新低！酒店船搁浅，货船停滞 xindb.com"
+   },
+   {
+    "title": "花数百万元购船舶拆解项目陷僵局 湖北宜昌一民企投入巨资面临打水漂",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeXB2bGY1QmNLRG5fSnVXR05oX2hwZ2YtR2VoUHpNNEFUUWlYS1dmWWsybm9UbmZEWTVSbFNQbUs5QmZjTVJkY2tuUTdaU3ozdHZVeGZ1Y2EzbEwxeWJ4N2hlZGgyTG9YSEg3WFJ4Y0VabF9xWk1fR01WRGVTMGJrRmJWV1QwZWlJMktrcg?oc=5",
+    "source": "搜狐网",
+    "date": "2026-07-28T07:00:00+00:00",
+    "summary": "花数百万元购船舶拆解项目陷僵局 湖北宜昌一民企投入巨资面临打水漂 搜狐网"
+   },
+   {
+    "title": "卑詩警方：沉船打撈「充滿挑戰」 推定6人罹難",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yYlU0VEdfWlljRmUtY3I5aGRlNGtyQWNrQmVNV25YUnEtdEl1dDl1OG4wWGdJdHhHVncweFVsMGdDM0J6UHdtY05wc3RfSVRsdWEwTnZrbTl4Y29xMjVV0gFkQVVfeXFMUGg5SU5qNFlVUzlvNXJQVHR6SFRjeE1sMkpSY3JmQmYxdnRITndBZGE4STBNenQyMllVU2owc20xRS0yUHZSNXlwQUljOWNsUjZaQVFxMHowaUpzejRhTGhWU3ZTXw?oc=5",
+    "source": "大纪元",
+    "date": "2026-07-03T07:00:00+00:00",
+    "summary": "卑詩警方：沉船打撈「充滿挑戰」 推定6人罹難 大纪元"
+   },
+   {
+    "title": "Goslar号沉船打捞进入实质准备阶段：清除障碍，提升苏里南河航运能力",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBFN3IwcXVLeWRaSWdmUjRGdlc3NXlyb19VQkFzMjNmVWZDTmVUd2NBMkZ4amVmUW5jeWFIYjJtUjVfaVRUcC1xWVE0SlptcHlfdWoxQkl1Q0JJR1dNcF9n?oc=5",
+    "source": "华人头条",
+    "date": "2026-06-30T07:00:00+00:00",
+    "summary": "Goslar号沉船打捞进入实质准备阶段：清除障碍，提升苏里南河航运能力 华人头条"
+   },
+   {
+    "title": "独家连线挪威海事博物馆：载中国瓷器的沉船打捞一度保密进行",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pRWhuOTAzMUVNSzhkWmtsbTNHbkZiRnVUamFkUkY1OGJTNTBxWGcxTnFNV0p2RkdjYlYyOG43N3FHSmlCY05saGNrNVRLQi1qNXc?oc=5",
+    "source": "搜狐网",
+    "date": "2026-06-06T07:00:00+00:00",
+    "summary": "独家连线挪威海事博物馆：载中国瓷器的沉船打捞一度保密进行 搜狐网"
+   },
+   {
+    "title": "挪威深海发现一艘18世纪沉船，打捞出大批中国青花瓷",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYcVA1Z016NG5NdU9uU0Z3T0lnMjhtMUwyYjFFeHNqanJKQTZDenhHbEU3MS1MRGktLXYtbUp4ak1EMW8yZUJWbkZjMFRKZHlibmx4ZHNB?oc=5",
+    "source": "搜狐网",
+    "date": "2026-06-02T07:00:00+00:00",
+    "summary": "挪威深海发现一艘18世纪沉船，打捞出大批中国青花瓷 搜狐网"
+   },
+   {
+    "title": "挪威深海发现载有中国瓷器的沉船打捞出数千件珍贵文物_新闻快讯_新闻频道",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rdzRhYjZTXy1GVVRsUG5BREY2SGtoSEQ0RDAwMkpsRE1oU1JVZVljbzJQR0kyOURzODE2TTlraXBnQU1VM3E1Wm1USXg3WXhxOHNVWUU1Ql9HUGRRTHJDRFo3WQ?oc=5",
+    "source": "海峡网",
+    "date": "2026-06-02T07:00:00+00:00",
+    "summary": "挪威深海发现载有中国瓷器的沉船打捞出数千件珍贵文物_新闻快讯_新闻频道 海峡网"
+   },
+   {
+    "title": "清远完成2026年全省首艘老旧船舶拆解",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzQ3Z3A4VDdYM2JGOEZKY24xUmx2NmRXU3k3RmhtNkJOd2JQS2RKRU14T043dGRFNnUwSUtYWEpSbi13Njg5OTNJWFRKR2t0eG5kX3JKeUE4TWZTN1VWc2NLR2gyZTlFZUJVZ1BUdmJCdVdoWnBlOGhWbWp2dzl5MTd3TXg?oc=5",
+    "source": "nfplus.nfnews.com",
+    "date": "2026-05-24T07:00:00+00:00",
+    "summary": "清远完成2026年全省首艘老旧船舶拆解 nfplus.nfnews.com"
+   }
+  ],
+  "hi": [
+   {
+    "title": "बंगाल की खाड़ी में डूबा मालवाहक जहाज: दो की बची जान, 22 लोग लापता; 24 घंटे बाद भी नहीं मिला कोई सुराग",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUU9EYTFrUkNhNHp3Z19Gd05FVnBXSmM1T1NIcHdPcTBrRWpmQlY3OXdyRzA0V1RSa09mbWdoSnF4eTl2SllLakR6M0RXN0EycGk1VmI4YUotdGg2Vk1jY2hpR2VDTEMyX3JPcXNjV085ZlZIMWxWTkZwekhBTXpRbFhFZ2p5NmdDaVNJVGVsWmgxNnFJZGtNSmtHZW92NEJCcEVz0gGoAUFVX3lxTE5fSkNndldSTG5lUlBsa1MzTVhXckFnaHhEbkJnWjlocEtKSDdyZDhMUURVZFo1SVcyb2JmeENxYjlTeWQ5Y3pWRjZRQzd0TGFDME1JaUVzNzh2WnZxU3NMRFlYV3BnSnlHTEhteWxtaHB0ZTBtdkFBc0dpZkd4VG9udWRIRGVId3BTSVdzTkF5THJTZk56ZGdjcTRGZlo1UW9wdC1YVFRfQw?oc=5",
+    "source": "Amar Ujala",
+    "date": "2026-08-23T17:24:17+00:00",
+    "summary": "बंगाल की खाड़ी में डूबा मालवाहक जहाज: दो की बची जान, 22 लोग लापता; 24 घंटे बाद भी नहीं मिला कोई सुराग Amar Ujala"
+   },
+   {
+    "title": "बंगाल की खाड़ी में माल वाहक जहाज डूबा; तटरक्षक बल ने 2 नाविक बचाए, 22 अभी लापता",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQSVlpczVQTmdyMlFqLXpFc3BKLXlCNGNyLVZxYUxLWHBVWThLelZyTVJBS3pRYzNHQjV3ckJmZWprUml6NXdMS3pSUU9ibVJLekI1YnBTZ3ljdVhLSHR6dWtRWWJyQWdsbGJDcUpDcFFVcTByN3lid0tGdWJPRVNNNHJPUXBMX0F4RmlxaUlpU1pId2lvZGs5Q25reVZacFo2RHV3Nml4ckNKaUdhRE9FRm1uT0g1T3ZDanFyUnUzME9FREEtbnUtVlJpWUQ0aS1QdEl1MzVUMFTSAd4BQVVfeXFMTVVpNEswcWRkbnpXMi1tZEZxRUhfVTZnRzBhVXo2OE5nS3lWNE9Mb2NGdG4tRkdxS0VaZnZXazFKeG1id0hONUJld3RTWGVZR1NnWm5KTUhfdklyNlpBSlJiZ1dwMmwtMkNKaGNfOTdFWkdKdnFzT2ZYZDVRdXdyM21rOFYyTWEtSVAxVGVTRF9vR215WktqY2lmbEhNRWhvcTFZaHdwZ0M5VEZyOVg1R3RadU1LcWl4MWVocnhlNXJyZ0pVaWEwbEhRSjcxd1pfSy10bGRESndRa1NyVHZR?oc=5",
+    "source": "बिजनेस स्टैंडर्ड",
+    "date": "2026-08-23T16:58:43+00:00",
+    "summary": "बंगाल की खाड़ी में माल वाहक जहाज डूबा; तटरक्षक बल ने 2 नाविक बचाए, 22 अभी लापता बिजनेस स्टैंडर्ड"
+   },
+   {
+    "title": "ओडिशा के पास समंदर में डूबा कार्गो जहाज़, 24 लोग थे सवार, दो बचाए गए, बाकी लापता",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56dmZXX2VyX2RZY2dDRHpZVkVQZm12X2dFLTM1bjhGb1FfalVscE91b2JXRlU2NmJmYWZMbE9QNUNvMF9Pd18tV2RzUnhJeW5XMGFWZkdfZ1g3TGvSAWBBVV95cUxNeGt1Mno4XzlhejFHcHZfV1VWM3FSNVhKQ3F0MjRHanZTOUhLbFNSLTZnVEZDZWxvMUhkcXlCdUdCVkprSXAzTWdka2RCS1FVYnNyWDkycGl1aDF3WFBYU3I?oc=5",
+    "source": "BBC",
+    "date": "2026-08-23T16:22:19+00:00",
+    "summary": "ओडिशा के पास समंदर में डूबा कार्गो जहाज़, 24 लोग थे सवार, दो बचाए गए, बाकी लापता BBC"
+   },
+   {
+    "title": "जहाज डूबा, भारतीय नौसेना ने बचाए 2 चीनी नागरिक, 22 लोग लापता",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGIwTURIMUNXTzVSZzNhY29TbUc5eS00b3RQdlg3TVJydnZGTm9Ea2xjb0pQbFhXYUp3ZGNvaXJVRGs1c0FJSElRcGF4RWo2Ni14RGlvOGYyTUpzTjNwZDlRNThqWDRTeTU0NnU2eFZ0aDBINWFrdUNudW1UekVlWUp1WkRpUnk1WkU1OHZZcV9HZTdjU0lhYmxFdTg4WElZcFNIbUZVU21xLXU0cnFwYjZrONIBuAFBVV95cUxQWWtuWDFjSWgwTlFXQl82OUVqdVVqS29uVFZhSjgxMDdsUmtycjBDRzlTTDRzTHdiRWNjT254b09SeGdCeXlVV21yX3dudVVHMVZQaFlGc2VmR2pmU1Z0bEZCd2RoNjRySG5TYmRyVDlOTXVOUDYyS2VYanhkV3NFVW5MR3BieWNuYks2a0dualQzcndhN3NFY0g2QjQ3RDNpYlpERHRoelVjUWZzdkd5YUI5ZWlhLVBF?oc=5",
+    "source": "LatestLY",
+    "date": "2026-08-23T09:20:06+00:00",
+    "summary": "जहाज डूबा, भारतीय नौसेना ने बचाए 2 चीनी नागरिक, 22 लोग लापता LatestLY"
+   },
+   {
+    "title": "बंगाल की खाड़ी में डूबा कार्गो जहाज, 24 क्रू मेंबर्स थे सवार, खोज एवं बचाव अभियान जारी",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYklVeFJ0VEVfOWxfcl9LaTNVNW1tQUxXOWpCNF9PREdHek54Q1NwQzlzdkpfeG5pTFNxcHRueTVUV05KdG9uaEg5cGVpUmpKX040TTBPSHFaMmhSUmExQlFZbUxlLUppZDdqcWdSQm5Ick1kZEJOdmY2aHJaUFpUSG1PRTFGWWFyYW9yNWpyaXNzdUxIUU1KNkt1UmpDZjV2bklnZXZ0dUpITFFUdmhKQkZuS3dUWjBPbUpVbjJnNUVOb28xV2QxZmZ2S2Q?oc=5",
+    "source": "uttamhindu.com",
+    "date": "2026-08-23T08:42:11+00:00",
+    "summary": "बंगाल की खाड़ी में डूबा कार्गो जहाज, 24 क्रू मेंबर्स थे सवार, खोज एवं बचाव अभियान जारी uttamhindu.com"
+   },
+   {
+    "title": "ओडिशा तट के पास कार्गो जहाज डूबा, 24 मेंबर ?...",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcGQ3N2xEYlBjQ0x4SkRPaFZHeldtTmdDZnhINEo2bDhnelhkd0hwYWtteUE3cldzT0lNQmJHQ29kTXJLbWszQjdTVmRwYWh0THVBUWRHSWFNX3ZPRGtNLWlCT3pQa2R6VEhFM0VpMGJqLU1Kb215UEdWZ1ZIMGpJOUNnb3RNSThUTnNBMTF4b9IBlAFBVV95cUxNVzM1ZEw4TG81ZkpocVpNa3lmdG9UWUEyaHRydTFFR3RVbnZ0X19hS2RoaGVTQzNfOFQ2MWk1RTZnbmxTeU14NHVUeE5WSmhHU0licU1aZmNBMWtWSnNhakpuVWdISkVBWDZ4bFNjYzZ4cVhhM2NxS1VzTDB1UEkyMm53Y3p6ZHZRR2Jwc09VMy1pYVdf?oc=5",
+    "source": "Bharat Express",
+    "date": "2026-08-23T02:09:00+00:00",
+    "summary": "ओडिशा तट के पास कार्गो जहाज डूबा, 24 मेंबर ?... Bharat Express"
+   },
+   {
+    "title": "समुद्र में अचानक गायब हुआ जहाज, फिर डूबने की खबर, 24 लोग थे सवार; रेस्क्यू ऑपरेशन जारी",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUEtsUFNUcVQ2TU5INXQ4NnY2cEtIUTZlLUxDeGpsaHFXdzBVdHI3cktLMko4NzdtTFV0OUg3UFhnTjU2QWlWZmFTc1QzanVlZldzdzJ0QVJiSk5ST3o1VmpiY3VNNnhhb0p4OGZfblRwcXFrNUNGbENVQzhxRVpRM3lRb1FUTFp6SWN6MUR0Skpmbnd1aW1WbnZ0dzlNaTdrY0JpQ2V5bUtXWk9TeFhCRHVhQk42NjVsa0FqZmxzVmxyNDV2cjYzUmZBT3RSVHZja1pVZnh4VlpfN1EteEFYQVoxOFJUTzNs0gHuAUFVX3lxTE1kLUcxUE9VX3ZQa3FOZUNUYUk0b2pXbTFfVFdIeE9Cd0MxUEoxZmF5Rm9TS1RLNmZpb1RFOTAzV1dybmRtelViR3hEYU0xM0w4bkplM09xcGRyVzRLNTY4U0N4TVdIdFRvemRXbmZoOVBidDhTNVFZeVdrWFNyNmJHUGZCZXJzcDNhWHRsWlgwYnV5OG1QLXRURnRSR1Q1YkxhaDNHcGtKNEQ4V3dvNXN2VmM5dS0yMDVaLXVMNDYyVC1GNXhxUDJiNHVJUW96M3JMMUxmR2RubFVSZTJNWVR6dDAxRl9qLTU2dFhKOUE?oc=5",
+    "source": "livemint.com",
+    "date": "2026-08-23T01:25:50+00:00",
+    "summary": "समुद्र में अचानक गायब हुआ जहाज, फिर डूबने की खबर, 24 लोग थे सवार; रेस्क्यू ऑपरेशन जारी livemint.com"
+   },
+   {
+    "title": "Ocean Winner Vessel: मालवाहक जहाज ओशन विनर से संपर्क टूटा, पूर्वी भारत के पास डूबने की खबर; ICG ने क्या कहा?",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWDZZNDhtSnNRT1FOYmJYRGdwdVp4RFFsRDhGTWxTUXNoTTdzWEdMRS1hRzV2NTE4YU5URzk0WGpWRTJuWnZEem1qQjBLUjVYSVJTSjZqbjZUbUpMV3hPel9GUk9zNXpvNGZUTmZtTEhtQThGWmVNNnFoWnlSWFZLRkxINjhnbHRMZHJDNjNpVWpLZGpQYXRkS19CbW1DcUluTnBrMVRlbEpQODhUcTRlWGtLdENmSGxQcmx5akxYendBY2dfZ0pTQVFvSVJnR252SHQxMzJ6aHVYVEVoWWgwSGk0WdIB6AFBVV95cUxPcHV0aUx4ZTdaYnp3dXVuQjNjUHpfVVNJWmQ5dUN4QW9aRlI1ZlFrWXNrOUJ5a1F6dTBrZmdhODhxTk1xWFlFREt5YXBGNmdaQWpwamRxTV93cTgtOUM2UFNkWXNHeC05Z2V2eElhdVRDOW90TUNldjVIei1EcHNKWGZfYmZmbU4tOUJHYkR4eVpSYjhJMGVpaW5qYU9XMlVWTFZWS2NhVlh4aEtQbXhDUWlZbjMwQjVjR0FaenBlcmZJUnVBY2tPU3JfR2N4OTZYa2J6S1pVaHdIUTUwMUFWUERHM21FVWh5?oc=5",
+    "source": "Amar Ujala",
+    "date": "2026-08-22T20:42:58+00:00",
+    "summary": "Ocean Winner Vessel: मालवाहक जहाज ओशन विनर से संपर्क टूटा, पूर्वी भारत के पास डूबने की खबर; ICG ने क्या कहा? Amar Ujala"
+   },
+   {
+    "title": "ओडिशा तट के पास पनामा के झंडे वाला कार्गो जहाज डूबा, 24 सदस्य थे सवार, 22 लापता",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaGxxdGJXOUhIR1hCa2ZENmw2ZDhQUmlfa29QazNmVy1UckdRYTVJanJVSGt4bXNqdHdhZVFHSUwtWjlOQWYtbXNNZnR3SU9sXzBrbGtiX29FZ3poRElaZ0FhZ21ScmVUdnVHSkFpbW9ZZUpkMkVUZ181akE5UC1YckJFUjVXS2l4eEhEaTQwN3FDWnlldFBqQ3VrNFVGZVd1T0FiMnRSZk8zZDl6?oc=5",
+    "source": "hindi.revoi.in",
+    "date": "2026-08-22T20:34:20+00:00",
+    "summary": "ओडिशा तट के पास पनामा के झंडे वाला कार्गो जहाज डूबा, 24 सदस्य थे सवार, 22 लापता hindi.revoi.in"
+   },
+   {
+    "title": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUEd0cmpLTlp6UXlUNDZpeUxwSFE5VlM5RnlsMG9LbVp3SkNqbzFsUnZMY1A4eHU4a21WYnZMQmRlakpnSEszaWRhbnFlOFpvazd1MmEzRVpNek03ZDZrZWpRSzNWbktEcHN0bnc0ODI5QVBnVkh6a1NVU1h1dEpxTzd6MHQ0VkVRck56djlLbEh4SWhPQTFkQk9qVktNYVRaZ2dvclpYQkxKS2FBaFVSWUh1LXlUSkR3OFFZVDFMTdIBvwFBVV95cUxNUEd0cmpLTlp6UXlUNDZpeUxwSFE5VlM5RnlsMG9LbVp3SkNqbzFsUnZMY1A4eHU4a21WYnZMQmRlakpnSEszaWRhbnFlOFpvazd1MmEzRVpNek03ZDZrZWpRSzNWbktEcHN0bnc0ODI5QVBnVkh6a1NVU1h1dEpxTzd6MHQ0VkVRck56djlLbEh4SWhPQTFkQk9qVktNYVRaZ2dvclpYQkxKS2FBaFVSWUh1LXlUSkR3OFFZVDFMTQ?oc=5",
+    "source": "ThePrint Hindi",
+    "date": "2026-08-22T19:48:36+00:00",
+    "summary": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान ThePrint Hindi"
+   },
+   {
+    "title": "ओडिशा तट के पास कार्गो जहाज डूबा, 24 लोग थे सवार; इंडियन नेवी ने शुरू किया रेस्क्यू ऑपरेशन",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUVlXTGhmX0gybFhmZ0lEUU1GX0lRMWJiN2NvNGNOd0MtaWgwMGU3S0hxdDJWTkRYM3BCYkVXMmZlcUVvempDUnFPdkVPWkVwdW5PRUc5M3JSTERsZ2xySW9oTjB6WEt6N216c1pPUS0xTHBMNmxvVktCN0JmcHcwdzdkVElfeW9jWGNqN0dMQlk3U0V0M2ltQU5RTkdiVXlMSjR1TTRQUWNZSjVySjkxcTMyWTBhZlZVb0Y2c0R0d3lQd3FwTWNYaEpTNmFCd9IB0wFBVV95cUxNaUZhdHBsU2xrLXZWeWE2cE1FUnFnUnVPbUJBRFlwSDJiSzBwejhmUkJVSy03RkNiOHhRVEJuaUM3N3RRUUkwbnJ4MDJBZ2FIaDVvY2hld0xhVm1mSHlwWGN5cllGZTgyRmVtWU5rNlp0TVZNTVFpNS0yWVFYX3U3aXMxZi1oZDE5LTBhNnJTbFR1SVkzQV9fd3k5RVBuODJSUDNFZ3FEZ3puMzB2elZhUTVRM0ZIZExxTS1tTkhpakh1SlVzSjlRNTFIb1NlQ2FFRWdn?oc=5",
+    "source": "Navbharat Times",
+    "date": "2026-08-22T17:48:04+00:00",
+    "summary": "ओडिशा तट के पास कार्गो जहाज डूबा, 24 लोग थे सवार; इंडियन नेवी ने शुरू किया रेस्क्यू ऑपरेशन Navbharat Times"
+   },
+   {
+    "title": "ओडिशा के पास समंदर में डूबा पनामा के झंडे वाले कार्गो जहाज, सवार 24 लोगों में 2 बचाए गए, बाकी लापता",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOekNrQ1hhb0xmT1BHMG9xRTRZdWRUOUdPbVNCeGN0NUJ2TFVBSWpMT0N4d1V3Q0dyVUxhT1M3YlR2Y01zZDVRaTdOaU9BTnBMRHlTTjd4dy1heEVBSkFEeWdkY2p6UzBIVHRjSnFoUVFRTGNzUlVkUWMzVE0zVWxLSUtlNWc4VnlPQUtxdG4tdVhieWhYN1RORlFWbzZyM2tPeHAwN3hjSE9FcGYyYks5UUFQWdIBuAFBVV95cUxQN2hLZ2NCQUFoQUxDbkZ3QnAxNXFVbUNQNVNrZWJBaF8wVGJBS1FSQzQ2Q2NEVlVyeFF0OXh3TmNpSWRNOFJTT1VsMFF6SjdsakJfRFJiOFdQZk1RZzlva3EweERtZU1vNFg2X2dHcUw1NjJocURxSFFEa21mcnFmemNxa0NtYTB1WS1SRUItVU1SZ1RpOE9GSmRBV3QyZzR5cnpkSTdueTVDbUdWWTRCWVU1VU93TEpJ?oc=5",
+    "source": "ETV Bharat",
+    "date": "2026-08-22T17:35:32+00:00",
+    "summary": "ओडिशा के पास समंदर में डूबा पनामा के झंडे वाले कार्गो जहाज, सवार 24 लोगों में 2 बचाए गए, बाकी लापता ETV Bharat"
+   }
+  ],
+  "bn": [
+   {
+    "title": "ডুবে যাওয়া ২২ নাবিকের খোঁজে তল্লাশি চলছে",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX0p0a3d4dTJib0hRZGoxRHdxVGZDOXlmNi03TDZXc1BBUldEN0M5aHZ5S050MUhhMlpwOHlzR011Q1hLdkF4T2x0el9EVkFzMndoaUlrclBvZGJPekwzeUFZb245ZWZtcXBKd1ppWEtRVFREeDNWdW85cFBMQVNSLTN5OWZLRWt5dUFhbmV6SQ?oc=5",
+    "source": "Anandabazar Patrika",
+    "date": "2026-08-24T02:34:04+00:00",
+    "summary": "ডুবে যাওয়া ২২ নাবিকের খোঁজে তল্লাশি চলছে Anandabazar Patrika"
+   },
+   {
+    "title": "বঙ্গোপসাগরে ডুবে যাওয়া পানামার জাহাজে বাংলাদেশি প্রকৌশলী মামুন, মেলেনি সন্ধান",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yeVlsZGlueVBiQThodjVqUEwwRFdSVy1OY0hJbWFYOXI5Qm5Dc1VjTVVESmpEeEVXenpvYzU5dVV0bjI2bWd3THRfekVuaDVuei1CZ2wwOVNUUy1j?oc=5",
+    "source": "NewsNow24",
+    "date": "2026-08-24T02:12:24+00:00",
+    "summary": "বঙ্গোপসাগরে ডুবে যাওয়া পানামার জাহাজে বাংলাদেশি প্রকৌশলী মামুন, মেলেনি সন্ধান NewsNow24"
+   },
+   {
+    "title": "নিখোঁজ বাংলাদেশি প্রকৌশলীকে ঘিরে বাড়ছে উদ্বেগ",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tQklXczdDUEJuY3QwVEdlVzdxSmNpbUlOamhESFpJZWJNZVR0b1BrSko1cGtCbTV6Mm5VZGVEajFXamZGM3VWbmcybXJWLVBfaG11SWJJUmxrUFdfSDFN?oc=5",
+    "source": "24 Live Newspaper",
+    "date": "2026-08-23T21:22:00+00:00",
+    "summary": "নিখোঁজ বাংলাদেশি প্রকৌশলীকে ঘিরে বাড়ছে উদ্বেগ 24 Live Newspaper"
+   },
+   {
+    "title": "বাংলাদেশিসহ ২৪ ক্রু নিয়ে বঙ্গোপসাগরে সিঙ্গাপুরগামী জাহাজডুবি",
+    "link": "https://news.google.com/rss/articles/CBMi7gVBVV95cUxOdFpiV0VYdHR2THoxYW9lQl9HeDFvRFRHVEZ3YnI4LWRFTi16STJRMDBzWjVnXzNRQkg3aTJtMkFxR1pvTUZack56UEd0LVJGWGM5Wld2QWljN2dsTVVkWXItcHNqc01kSHhKdkc2a3FhWG5RWWxqblR1TDdEZFhxYndVa0pCbG5jVkZ5YTJGekh0TXdZczVTTksxQlpsQmxqTm4ybWlSMzZoQTU5LUdaT0RudWtKcldFWEpnZXVOQ1diNDhmSnU5WERDNWJrS0t4anFmOEpSeHBXYnpfZGZ3cmR4MFI3bjNRWWhZZW5jVllKMVo2aWJmVUxlVjh2cDgtMWhUc0VNTnFsNHo2dWVFSVdBS0VuUXBqSGNaMTZMYnd4WnR0ZHlDZUp0YnB2Ty1rM0VNOWhKaEQ5Tm1QY0gyOEQzX0dZVHlRaVBfSDI3WkdjQ25BRDRXWTFyZGhuV2ZDSlpVY24zQ05CelloNEtnUkZTZTg5S0RSOWJEelFneTdiV0JHMWV5ZE1XRzgzRmg0RnhMaklfOGlyZ2xSbzU1aE91ZUdqU2xrRTZ3VjJxc25URTU1ekMzMjM0YXI2QlI2TFZkOWQtMnB5blgwUm9XRGdMb19PaHY4NWNtV0Z2c1V0VzR0OWR0dm05anczeFpsWVgzV0ZZdTVRYWxkMTRjRFZvLUdDX01yMUlMSnlwZXZKaEs0VWpiRHp5ZEQ2Zk5nbDBaakZsYVkzbmRyT1FlWU9EQnp2aUpJQTZSS3JxbEpBZHJXVGROajV6YlpmcDVod2tLQzN0NWJ0SERZRHFRc3BYcEVTRnFyWl9oQndYeUw0MTRJcy1QZmRhUHZiRFhHendtOFdIN3czMGswc0RsbS1hdnlKd2M2Mzh1cDVEaWszUWdWY2FYcko1dXVzX3hoQndvRWU1eFNXTXMwaTFsdmRNRUtEVXJOZklEcVV1YklKSkVDNlcxamliY05VeklENDZrTVhtX1BLSmVsZmc?oc=5",
+    "source": "SAMAKAL",
+    "date": "2026-08-23T20:19:51+00:00",
+    "summary": "বাংলাদেশিসহ ২৪ ক্রু নিয়ে বঙ্গোপসাগরে সিঙ্গাপুরগামী জাহাজডুবি SAMAKAL"
+   },
+   {
+    "title": "ভারতের উপকূলে পণ্যবাহী জাহাজ ডুবে গেছে।",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lSXZGempjNjNPUk81UTBmNV95NUU2RDk0aEhiaDlTeVFSMkxCWjdnZzRBbmpjSDdROWdwTS1YWHhFdDJEMlYxOTd1U25tMkFCcU42ZHBTWm82bFZWcjF6MFFJdS1Ra1RvNEFNSQ?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-08-23T19:12:08+00:00",
+    "summary": "ভারতের উপকূলে পণ্যবাহী জাহাজ ডুবে গেছে। Vietnam.vn"
+   },
+   {
+    "title": "ভারতে জাহাজডুবি, এখনো নিখোঁজ বাংলাদেশি মেরিন ইঞ্জিনিয়ার মামুন",
+    "link": "https://news.google.com/rss/articles/CBMiswRBVV95cUxOVFBka0tXalVwa0J4N0NqQTVJbDFaem5fd2U4c2lQT0Y2bmdkc1F0azBuNVFUTEdZVjBCYmtfbEF6MnFITGpNOFhmNlhvRFBCR0lEWS0wYnRUd3AxUFRJaUpCZHpvVjQ4MjJkWldIdXBFWG85akJzakxtTEFTSlZGbXgxWFgwRzgzeTQxa2U2VHpub29QWkREV3JtR04wclNTbWtOYzZvNlg2d0M4RlZ2a1NvTXd6RFpubU1CVC0ydzBuZDlILUZEdnpFNFlXMkcwZVIySmxONU5OY3oxUERNN09UbmpTS29ONV9fYWNPellmY2xKejZFRm5CcTdBenJYNDY2WWQyOE1oanM5X3lJWktEaU0wZnVvMndYRWI4VW9TRG5hZXNSMWlaOFdIRmF5NjVJbmk3eUtleWsyVDhxc28xMzRsSHJmbDhDTzhoVFZjOENkdkd3TnR2M0JQOWo2SUZmV2pRc2VLOGZWZ2tCTVV2R29XdGZvSHNURVVRSkRlNnN3T1ZnNTExRXR3cXc2c1BLZzVCZGRxSi1JdmZqcUx4OG9COHEtQ1dkWmNPRFdLN1Ixcnk2V0RGcFUtU0NSLWhDaExJN2pJd3d5Yi14X0JMbHZSMmhxbVd3OTBteGNnYWF3OC03d2o1enRFRDFBaXhlX0h1ZTViNUxsTEF5bENjeF9hVDRoaGNiWUhqQ1QtX1c1dzJ5U0dMV2dYVjFTVXpwNUZrYVdaamRzWVZLaUIyONIBswRBVV95cUxOVFBka0tXalVwa0J4N0NqQTVJbDFaem5fd2U4c2lQT0Y2bmdkc1F0azBuNVFUTEdZVjBCYmtfbEF6MnFITGpNOFhmNlhvRFBCR0lEWS0wYnRUd3AxUFRJaUpCZHpvVjQ4MjJkWldIdXBFWG85akJzakxtTEFTSlZGbXgxWFgwRzgzeTQxa2U2VHpub29QWkREV3JtR04wclNTbWtOYzZvNlg2d0M4RlZ2a1NvTXd6RFpubU1CVC0ydzBuZDlILUZEdnpFNFlXMkcwZVIySmxONU5OY3oxUERNN09UbmpTS29ONV9fYWNPellmY2xKejZFRm5CcTdBenJYNDY2WWQyOE1oanM5X3lJWktEaU0wZnVvMndYRWI4VW9TRG5hZXNSMWlaOFdIRmF5NjVJbmk3eUtleWsyVDhxc28xMzRsSHJmbDhDTzhoVFZjOENkdkd3TnR2M0JQOWo2SUZmV2pRc2VLOGZWZ2tCTVV2R29XdGZvSHNURVVRSkRlNnN3T1ZnNTExRXR3cXc2c1BLZzVCZGRxSi1JdmZqcUx4OG9COHEtQ1dkWmNPRFdLN1Ixcnk2V0RGcFUtU0NSLWhDaExJN2pJd3d5Yi14X0JMbHZSMmhxbVd3OTBteGNnYWF3OC03d2o1enRFRDFBaXhlX0h1ZTViNUxsTEF5bENjeF9hVDRoaGNiWUhqQ1QtX1c1dzJ5U0dMV2dYVjFTVXpwNUZrYVdaamRzWVZLaUIyOA?oc=5",
+    "source": "Dhaka Tribune Bangla",
+    "date": "2026-08-23T19:08:58+00:00",
+    "summary": "ভারতে জাহাজডুবি, এখনো নিখোঁজ বাংলাদেশি মেরিন ইঞ্জিনিয়ার মামুন Dhaka Tribune Bangla"
+   },
+   {
+    "title": "বাংলাদেশি মেরিন ইঞ্জিনিয়ার মামুনের খোঁজ নেই, উৎকণ্ঠায় পরিবার",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RMWM2MHBwUlY4aVBiLUlKX3JDNUdNZzQ4M1VqSHRoTUU2QV9jNjFtYzhoSEFuLTVIdUpWZlRKdGNYeU4yTDViY3pRcHJ1ZEI2VGxQTjRKbHZIU0E5SXVhQkJoUXExNnlpb1HSAWpBVV95cUxOUTFjNjBwcFJWOGlQYi1JSl9yQzVHTWc0ODNVakh0aE1FNkFfYzYxbWM4aEhBbi01SHVKVmZUSnRjWHlOMkw1YmN6UXBydWRCNlRsUE40Smx2SFNBOUl1YUJCaFFxMTZ5aW9R?oc=5",
+    "source": "প্রথম আলো",
+    "date": "2026-08-23T18:13:00+00:00",
+    "summary": "বাংলাদেশি মেরিন ইঞ্জিনিয়ার মামুনের খোঁজ নেই, উৎকণ্ঠায় পরিবার প্রথম আলো"
+   },
+   {
+    "title": "বঙ্গোপসাগরের ওড়িশা উপকূলে জাহাজ ডুবিতে বাংলাদেশিসহ ২২ জন নিখোঁজ",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UZFp0U3NxRUE1WU5jZFNlb1VPM1FwRWlEdE12Umwzb1JpX0twMDlTazNRSmZhcVBVS19FTlVsanpKQUVzNVhGc2tuS2N5N2dRUFo4TXAtRmZTTnJoVkpEZ0Q0bTViN0tnWDZLVW1vVng?oc=5",
+    "source": "চ্যানেল এস",
+    "date": "2026-08-23T13:08:13+00:00",
+    "summary": "বঙ্গোপসাগরের ওড়িশা উপকূলে জাহাজ ডুবিতে বাংলাদেশিসহ ২২ জন নিখোঁজ চ্যানেল এস"
+   },
+   {
+    "title": "বাংলাদেশিসহ ২৪ ক্রু নিয়ে বঙ্গোপসাগরে ডুবলো কার্গো জাহাজ",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5FS0h2LWQwYkhXbk51cHlzZkh0LUxfVFliSzhSU2hhU1ltczJVM2RJWk1wTmlkNmJseFlYV3NvY0hpSXU3WjE0WTlXbGZSb3M3R0NhOA?oc=5",
+    "source": "RTV Online",
+    "date": "2026-08-23T12:44:00+00:00",
+    "summary": "বাংলাদেশিসহ ২৪ ক্রু নিয়ে বঙ্গোপসাগরে ডুবলো কার্গো জাহাজ RTV Online"
+   },
+   {
+    "title": "ভারতীয় উপকূলে ডুবল জাহাজ, বাংলাদেশিসহ নিখোঁজ ২২ জন",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaXl4OVpoeDBkRVJMWjNmZkFkOXUxS1F6N3BYZWo3OUNCT2luWVpZWlQweVBkTEkxQUJnS0JMXzdMN1pCRTFDbXozQTBJckU3aFJkWkxsRVN6NEVTSjgtQmtiY2RuazNtOU45MGN6cmFJSEt2eXZnU2ZoSGJsR2FaQm9kMXhkUVVJYXU5b1pzc0F1d1JhdEkxczhLd9IBmwFBVV95cUxPaXl4OVpoeDBkRVJMWjNmZkFkOXUxS1F6N3BYZWo3OUNCT2luWVpZWlQweVBkTEkxQUJnS0JMXzdMN1pCRTFDbXozQTBJckU3aFJkWkxsRVN6NEVTSjgtQmtiY2RuazNtOU45MGN6cmFJSEt2eXZnU2ZoSGJsR2FaQm9kMXhkUVVJYXU5b1pzc0F1d1JhdEkxczhLdw?oc=5",
+    "source": "itvbd",
+    "date": "2026-08-23T12:42:47+00:00",
+    "summary": "ভারতীয় উপকূলে ডুবল জাহাজ, বাংলাদেশিসহ নিখোঁজ ২২ জন itvbd"
+   },
+   {
+    "title": "বঙ্গোপসাগরে ২৪ জন যাত্রীসহ একটি পণ্যবাহী জাহাজ ডুবে গেছে।",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9KNXNGWXlUWGV2TjI2N3JRdlZ3LUVNQWE4Sl9IeVV2NVViWDkzWUhzS0VFbTY4UFFFREdyZlo5RjdyVVp4VmJrZGRRSjhHdjVmTkgzMjduQlkzc19TZ0hRUDBhUUV5X20ybTd6cjBESnpSMTRR?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-08-23T12:34:36+00:00",
+    "summary": "বঙ্গোপসাগরে ২৪ জন যাত্রীসহ একটি পণ্যবাহী জাহাজ ডুবে গেছে। Vietnam.vn"
+   },
+   {
+    "title": "বাংলাদেশিসহ ২৪ জন নাবিক নিয়ে জাহাজটি ডুবে গেছে, উদ্ধার ২",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ybzZZZnhhVGo3U1NlMDBRVjltT3hyRFBRYjRkOWJmYVFRTmlmVXFWVGdrbk1hb2pNMl9Va2RVY280YS1jSnVrS2dROUVMTjg0TjZF?oc=5",
+    "source": "crimebdonline.com",
+    "date": "2026-08-23T09:50:46+00:00",
+    "summary": "বাংলাদেশিসহ ২৪ জন নাবিক নিয়ে জাহাজটি ডুবে গেছে, উদ্ধার ২ crimebdonline.com"
+   }
+  ],
+  "de": [
+   {
+    "title": "Odyssee in Schleswig beendet: Das Schiffswrack „Simone“ ist endgültig Geschichte",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaWxSb3k1YzVCZEFBbklBRHZTNlRnaC1hTU9rSmlJRjQtSUtRWGtIVnNsMTFUQ1Rldno4SXpBM21WYUVoZ1o5elNrTmktQklPd3BxTk1SQXNRQnpNYzhXN0xtUVVZWTVMYWozOHktbEwzSUxIOU9zaE5kZmZDbmJjMFJ1NmNjMzlJakVsVGx2RFhuWTE0WUtraUFWbnhUQm5OTmJmZkdteUNYSjFQWS1HUlJvb3hVREU?oc=5",
+    "source": "shz.de",
+    "date": "2026-08-21T10:19:00+00:00",
+    "summary": "Odyssee in Schleswig beendet: Das Schiffswrack „Simone“ ist endgültig Geschichte shz.de"
+   },
+   {
+    "title": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack - LVZ",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdnhPbGYzN1lnSFJiYklSVXd4VTlOcWJnNG1pQXFhS25xcXhYNGkwQWJST3N6VVBUWUNheEZfcFFXaUtzd1Uyc3Vhdk53bGt6QnB6OEUzNWg4bzV3MGxSZnhndlJwa2QxMkFlT0RNdDdxSHdleHFrWFVkZ1VwTlBLdzRNU3RpQ1VmOVo5eG1vdnZLTzBLNnNYRnczUW8zQjZfUUh0ckdPU0l0c3Z0TGx1WjlPTERIWWVXU2ZPblFaSS1RTE9nVVptZzhobzFybkJvRkQ3dXpyUnJ0UHfSAfcBQVVfeXFMTzh4VTVlZi1nTVRiOWxOVzMzeHU0ajl4NEFqWXltUVBNTE1SYW1PZVBuRTV1MkN2TFRtQzZjaFhhY2NCXzI5OU5jSTEwTVdJdGs4V09QSU1vY3VURjQ2UDJDNkRDUzJ1aWVnRUx0cTU3RFlHWUY4ZVdvdEE5UENIMVJHUG8tY3FNOE5RMHV1emxBUVBLWkw5S0FjTzVxOTJBa1N1cWM0Zi1QTmR0S2ZrQzFnV0xPeDVuanJmR1Y4YWlzQ3VSZVpLVzFTdVF6Yy04RFJJT2xIRzcyclFEQ09ESlFzWjQ3aER1dVJZcWk2clpweGIxSjU4Zw?oc=5",
+    "source": "Leipziger Volkszeitung",
+    "date": "2026-08-21T05:05:38+00:00",
+    "summary": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack LVZ - Leipziger Volkszeitung"
+   },
+   {
+    "title": "1913 gebaut, 1945 gesunken: Niedrigwasser legt Schiffswrack in der Save frei",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSXdkb0dGQzBSZXZ4S25OX2tRcDlIN09mVmJVLTZtYkJYZnh2MkJzc1NtbFlGb0Z1OThqbkJwZkRiZ1Q4ODZRNDltOXVDSmJXRDVoWWR5Y2ZkQnZ6dVk0cmxWc2kxaXlvaThZT1YxQ214T0M1TERyOHVzT2dsMTVVU0NGMjhMLVh5bERqQnVLanZqSW5VMi0wdmI2cTZ1R1BaRE5yOW9zUjVYNG52bW9RajRfZzNEZW1xUXhnbndFS04?oc=5",
+    "source": "Berliner Zeitung",
+    "date": "2026-08-20T10:28:58+00:00",
+    "summary": "1913 gebaut, 1945 gesunken: Niedrigwasser legt Schiffswrack in der Save frei Berliner Zeitung"
+   },
+   {
+    "title": "Neue Spezies vermutet: Taucher finden unbekannten Meeresbewohner in Schiffswrack",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFRpQmtVdm9JMWhLNVdjZ1VRUlNlc3gzUmVaaEl0UUl6UGxLODBDYTZYVVROa3I0MGpvQ0hBaHRqOE9mb2l5ek5OU1ZvcGFnMVI2Z2t1c3VuQ3NjYjkxX0FHUWlPYzBxbW0xbnlIN3F1VkNRVkx2cnkycjFISzVqd1hWN05IdmY1S0ZWZS1tUEJsRlBwQ1VXMEt6cFZQNDUtOUhzYkdZQnNSdlBlSldYUS05QjdSZ3ZDTHpxc2pBdw?oc=5",
+    "source": "Nordisch.info",
+    "date": "2026-08-19T12:45:17+00:00",
+    "summary": "Neue Spezies vermutet: Taucher finden unbekannten Meeresbewohner in Schiffswrack Nordisch.info"
+   },
+   {
+    "title": "Piraten-Abenteuer im Seepark: Spektakulärer Spielplatz mit Schiffswrack lockt kleine Entdecker an",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVRycHdnOXpsNjNXTGVOWVRnNks0dVdYUlBUal9mU1IwZGlHVld1M2hNS3Z1TllORGdZbm94Y0pZVld2RmJ4X19BOThiOHQ2NXFxcjc1NDBlRGhyUXBIT05fc2RNNFVxSFR6c1k4bkN1bkNZeHVXejhhempGcTgyWUljbHdiZ0NteVFsSHhxMjdvNFczckFQMjBuaUs4eTRuS29XUlVGUkc0NWJIdHJqa1BGZHVTZExhblBRbmx3?oc=5",
+    "source": "Südkurier",
+    "date": "2026-08-18T02:41:00+00:00",
+    "summary": "Piraten-Abenteuer im Seepark: Spektakulärer Spielplatz mit Schiffswrack lockt kleine Entdecker an Südkurier"
+   },
+   {
+    "title": "Was eine Privatperson durch Zufall in Italien findet, war 2000 Jahre unter Wasser und ist eine Sensation",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMF9wb2hHNXVLdG84a0o3LUtnb2JIZ0xTazQ2a0ozZ1Ruek5WUDlLZm4zYkNNTkRXZmEyQWRxc2dPS1REV3pSclA0bkVjN3c4ZUdvVjhnVlBtX003TU9pNFQza3RscnM3TnBkcjB2a3U3aVpadUdTM0RacXpFeU9BY3BGamdFQnVzaDdPUDQ0MzBBNndtNGRpeVNR?oc=5",
+    "source": "Merkur",
+    "date": "2026-08-17T12:45:09+00:00",
+    "summary": "Was eine Privatperson durch Zufall in Italien findet, war 2000 Jahre unter Wasser und ist eine Sensation Merkur"
+   },
+   {
+    "title": "Italienische Behörden identifizieren römisches Schiffswrack mit Hunderten von Weinamphoren vor Sizilien",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX3FTTU1vS0htNWJ4cG9zd0xYNGcyandrN0dZc0tyS1FzelduZ24yemFpeWVaOVA0cFRMTktUN3JkV3hxdEUyWUNPYjl3SHQxWGpHVS1TR0pwSGJsT0UxMXU5LTRfV1lnZkNwU0JZREtDOHhhQUJCbHRNZzNhMW5ac0NqWDhtUFRTdjFGd3lpYjhFV0FFM3R5TVdZdFNER2Q5dHVDLV90c2Q1bVlVOWdpbnk3akRURlpIREFRQ2xfc2dsSU9FZDg0VjZVTkRuSXBLbmhr0gHYAUFVX3lxTE1HVUdGaDl2aExoQU5mbjN2WXgzeVhzbjZ3bzZ4UWhkRUhnQjFTaVpsSFZ3WDZ0ajg2cnlDRUVBQ0dCWVFPc1kxSF9QcDBpRm1SR0xXZEZFdFdGRmVVNXRpSllENmJqMFVXMldjb1pNS1hNSlBZSy1LcU9oTDA0VW1uR2dhNkRtcmhubnNvQkJhWXNkVXB4TGY4NGM5aGpHYkZxdHY4andEQjBEWHQ4ZTRTRHNScHNZQ0ZHbzlLbVVxdHRDd2dTY1hkVXpDaW5PVUptS191SlFkdg?oc=5",
+    "source": "Vinetur",
+    "date": "2026-08-15T02:32:59+00:00",
+    "summary": "Italienische Behörden identifizieren römisches Schiffswrack mit Hunderten von Weinamphoren vor Sizilien Vinetur"
+   },
+   {
+    "title": "Spektakulärer Fund vor Sizilien: Taucher entdecken 2.000 Jahre altes Römer-Schiffswrack",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2xiQ1NCcld5b0pZdzdUWVEyTkZyWS1xSzhlbEp4TkRkSkhDTWpGYlRQRlY3bDdhTFVfVEV2c2trTVNJeUpKNFV4UExTeFRlQ3d5bWpleThkLVIwZktMZU1rUWU1bnhkX0FEa2RYR1pzRUpEWUxCSVlVQTFkekJNM21FMk9pWTJYZ2hVM2lFSXhCcWFhRjFaVWhfajZFajNPUFRUOVBHc01BUjBzR1pwOUk0X05IV28wM0RzcFNFb25aSTVq?oc=5",
+    "source": "TZ",
+    "date": "2026-08-13T07:00:00+00:00",
+    "summary": "Spektakulärer Fund vor Sizilien: Taucher entdecken 2.000 Jahre altes Römer-Schiffswrack TZ"
+   },
+   {
+    "title": "Sensation im Mittelmeer: Taucher finden Tausende Jahre altes Schiffswrack",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLWR0UzA1bDVyTC1WcWpXeXNFeVd6OVZXNWU4NGZSRmFiUWVCS2U1T0JHZHNtT1lUWS1UcWt0NWMxV1p3UGlGaTFUN2tIZ1FfLVNidGJtQVk3c3d0N3BBdkxPZUNXNUpQbTJzSTY0X2hZMFhUeHJDYnBGb3czZzYwSkQwaE5DRnhhY2w2Q1JqNXJIWVVJQm9Fc0ZkNF9kdHFIWUE?oc=5",
+    "source": "Express",
+    "date": "2026-08-13T07:00:00+00:00",
+    "summary": "Sensation im Mittelmeer: Taucher finden Tausende Jahre altes Schiffswrack Express"
+   },
+   {
+    "title": "Vor der Küste der Insel Elba wurden ein römisches Dolium und ein mögliches Schiffswrack entdeckt",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaXhxQlp5RXJPVjI2WG5zRjVzV3AzNkZxZHlBNnVFbDlOVGRneFEwU2VTRUhDZmhIQ3VMWjNFZWZYZ0JfQjhqb0lUeWZkYUk3b2V4MUJtSXlUR0JQWEU4bEg5bGlqNXF2QnNpN2g2UklFVDFoOWhqOTFkeE1vaHFmVUFDd01iTjd1bG05MjZ5N053X0daeTA3em9XcDROWkRwSFpVN0ZYUmtmaF9sM0FSdElXcndIYmdMQ3I2WE9vLW95Z3NBdWtNSmppUnpzeGJyRkJ2OVZwX1Uyd0lTeGc?oc=5",
+    "source": "Finestre sull'Arte",
+    "date": "2026-08-12T20:21:27+00:00",
+    "summary": "Vor der Küste der Insel Elba wurden ein römisches Dolium und ein mögliches Schiffswrack entdeckt Finestre sull'Arte"
+   },
+   {
+    "title": "\"Mein Herz setzte aus\": Fischer entdecken antiken Schatz vor Italiens Küste",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPMzBrS3JfTmtyZWhlU1JMZm0xakg2Ym1QUW9ZTmc3dmFFT1NPZVFKZVNSckpnRHF5NlhGSm5IYVhkUVA4eVBweUg3ZWNPbHhQVXlfanIzeEVQQTJQUi1kN2NPT3NqTHE1TXFqUFRDZ0QxMS0zWFdyR3Q3V2hGc2paUFFyaU5xcXhFVlNZM1FjM1NpdGR1VUVmNDJmS3FiQ1JUWkxZSlNncHRIY1d3d1hmbnR1d2wwLWVWMHBYTmd3R3pSWUdJTnBjcVRTNUMwa3FWVnpiX2tha215QzhpVDVqUnZCQQ?oc=5",
+    "source": "T-Online",
+    "date": "2026-08-12T07:00:00+00:00",
+    "summary": "\"Mein Herz setzte aus\": Fischer entdecken antiken Schatz vor Italiens Küste T-Online"
+   },
+   {
+    "title": "Gut erhaltenes Schiffswrack aus Römerzeit entdeckt",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN0RRTDhZUzNqR09VMk1mdnFpb0RSak41SVFESUs2Z3N6RlRoX3NRSHE2X3lNUGJ5UE00N1JCNTdPXzVfcVNBbng0OG5iVUI2UUloQmwzUHl3TTVhY2JWOG9ETFFwV01GSVNjV3VzYnBzSm1VVk9ZbU91bmdpa2lSZ09LNjFQMUJfV1JsUElHdw?oc=5",
+    "source": "Südtirol News",
+    "date": "2026-08-12T07:00:00+00:00",
+    "summary": "Gut erhaltenes Schiffswrack aus Römerzeit entdeckt Südtirol News"
+   }
+  ],
+  "fr": [
+   {
+    "title": "Six épaves datant du Moyen Âge à la Renaissance découvertes en Suède",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMUFEVGFqc3poUHNWdEpoOXk5QlRhMkJkczNPcGFHdEpuTFY3NEFVeklDc3pycWU0dDQxWGIwVUlwcU5JZ2JZOFFLVFVjNlp0UGF2bTJjMUpYdlFkSkp1VGFfQTdLNjV3RnY2UldCT01sWnMxVS1hUFhqbm1POUZ5UlZ2dWg2OFRhSUF3NzNNZk44Sm5uZlY2TXBQSnFsdVZPSFVPV05QQjVfSVFNVGlETUNGVExST0xubUNPTHpmLWxlemhFNWhxZDBNZC1CZk9ZSjM2YVpPdTBDOXBVN0k1VTNKTFlkWkdNbVdHWTFYbFZvaGw2V0tN?oc=5",
+    "source": "Valeurs actuelles",
+    "date": "2026-05-04T07:00:00+00:00",
+    "summary": "Six épaves datant du Moyen Âge à la Renaissance découvertes en Suède Valeurs actuelles"
+   },
+   {
+    "title": "Le département des recherches archéologiques subaquatiques et sous-marines",
+    "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQU1JGQXFkVGRSTS1IeWNDNDhqLWdUVU5lb3BjeXN6ejQyelctcWdyaGV0VWZ0LWpCWTk1X2pVUlJDSGM0czkxd0NybHZ0MlFuZXpfVnp4N1FYWi1mOWVwVEhVWWQxZENIWlhPN2NsT1JENXBJdzdWVzF3NzhiT3F0Ym9zb1FZWWc0NlZ5X1lvcXVWOWVyTnIzcng0S3RoazNNS25wSE5aWTc5SVpnUm5oX0FvNHRnUWhPZVNnSUxDVVBXOUN3bVhIM05IeGNjN0I1bHQ1OWgySlZNcmNxdUIwNVBKM2VfZllJd3BqT1g1WWJVT0F3NEotb2JTR1FnQWNRaml0NlRqUXNlMGRWMlA5RW9FdDRIMWlFTUlic1dNT3Nac0NLTzRMVTdB?oc=5",
+    "source": "Ministère de la Culture",
+    "date": "2026-04-14T07:00:00+00:00",
+    "summary": "Le département des recherches archéologiques subaquatiques et sous-marines Ministère de la Culture"
+   },
+   {
+    "title": "Retrouvée à Copenhague, une épave vieille de 225 ans révèle l’enfer d’une bataille navale de l’époque napoléonienne",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWUI4RDE5RXRTOGFfYlpSWW5ZdEV6N01mOUxGZnpKMDlicGhIclc5ajZWbXpCc09hQ2RycFJaQWtha0IxM1NQLW51aGJvYzN0TXlBVk5zZGRWRW9RNFJvMzJxcUtTUWJCVU94bmlGa2JFUENEdlc5bDFUZlQzOGRLdFpVa2xQUEcxLUpIUnU1N0lzYXAxN3dXakQxNmJMSmZpNnNNVm1IdEV4Q3FjZk83ajlfR1R0ckdSSnlQck9mMnBGLWY5NjZfSlJDNTNWbTZ4VXMzWkVEUHZtSFhSaGkyUmdtcWEtRnVIYmx3M3NrcVRCUE1PREFad05aY3NVOTFiSWFJ?oc=5",
+    "source": "Science et vie",
+    "date": "2026-04-04T07:00:00+00:00",
+    "summary": "Retrouvée à Copenhague, une épave vieille de 225 ans révèle l’enfer d’une bataille navale de l’époque napoléonienne Science et vie"
+   },
+   {
+    "title": "Tempêtes en Angleterre : un navire marchand de 1631 ressurgit sur une plage du Dorset",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaDhKaXpLaGJubmhwUTh0VDJXUDI1VjNJMl9NRUQwZzY2dXFtb0xFcGJkVXFqbVpaS1I3cjUwTU55THpzeFhqLVZScVpNd1BwTU1aVmpvd3NWb1JKcHZGeTR1NmdIUXhvblZqRTdKRHVXNEpMRmZxb05JOWd6ZjJFX1dvU0Z4NkthUkc2UVM5amp5Y0RTdGNtSDRsWlFOYnVXM21wcEI1V0NXTERtNjZ5a0JFVFVYMXhzT3JUU0ZPNkdvTXFfem5WaTJ4TXNGaWhpdjBLekxHc3NpMVYydnc?oc=5",
+    "source": "Science et vie",
+    "date": "2026-03-03T08:00:00+00:00",
+    "summary": "Tempêtes en Angleterre : un navire marchand de 1631 ressurgit sur une plage du Dorset Science et vie"
+   },
+   {
+    "title": "Un navire médiéval géant retrouvé au Danemark : cette découverte change toute l'histoire maritime de l'Europe",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9ENVNidm94Q2ZrU1hGWWl5eXc4WEF2R09YS3ZDUGswdm9Kbkc3U2NCM2NDUVY5aDQzY0dXLXRfcmhGUi1JMjN4SzV6UHk?oc=5",
+    "source": "Daily Geek Show",
+    "date": "2026-01-30T08:00:00+00:00",
+    "summary": "Un navire médiéval géant retrouvé au Danemark : cette découverte change toute l'histoire maritime de l'Europe Daily Geek Show"
+   },
+   {
+    "title": "Une cuisine à bord, 300 tonnes de marchandise : ce navire englouti révèle l'incroyable logistique du Moyen Âge",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5wZkktLUVfeGxZbUViUnloa2VvemNmZ2xTdTc5TmJDc2dMSUcxQWhLQzVDRkxzbmhCUk9KdktpY21hSUlLT0l2X2tuYXE?oc=5",
+    "source": "Daily Geek Show",
+    "date": "2026-01-23T08:00:00+00:00",
+    "summary": "Une cuisine à bord, 300 tonnes de marchandise : ce navire englouti révèle l'incroyable logistique du Moyen Âge Daily Geek Show"
+   },
+   {
+    "title": "Le navire, sa construction et ses usages au Moyen Âge dans la France du Ponant, VIe-XVIe siècles - Université de Bretagne Occidentale (UBO, Brest)",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZEpDcGo1S05XZVJBZml0d2MyaHgwc2ttcTdrWGtTYzRvb0k0Q2lJa3NSZ09UMk1MS2UtRU1WTlplVG5aYUtHdnlZWjBjTll4eWxGd3ItbThub2pLZ1YzbWdLZWxJQ3MyMVZNZEVQWHFMejJPM25UOWJ5bjZNWWNDd1lEUWxhZHVpRDFpUTJOX0lRa3ZFV0Rodng5b2tab3hyRkNhckhyQjVDdmFxbVFhaDNqMTNYZkphbjJ2M1lrbmV4Ujc5QXVuanRR?oc=5",
+    "source": "Google News",
+    "date": "2026-01-21T23:16:07+00:00",
+    "summary": "Le navire, sa construction et ses usages au Moyen Âge dans la France du Ponant, VIe-XVIe siècles Université de Bretagne Occidentale (UBO, Brest)"
+   },
+   {
+    "title": "Dans l’Øresund, la plus grande cogue médiévale jamais découverte en Europe",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2F1dkwyQ3Q5WWpVUDV5ZWpoNHRKRXZRajQ2S1N5eUJXQjJiNXlaaUZteGJENXVwUlpuRmRRak5qLW8wc19QaDRfSXRvZ3JmanluakJGdE9XRndZMU5ZSjFfZTA3RGhkazJGdXJ4eUZiQ3JxQk4zTmdSQUs0b0h3dXB6M2FGeUhmeDJNREw1cHVkWVNtWWNlUXUwSUFrWkFIWUt0Q1pQZnplNkZVVXNyQjJEUXR4RGs2X2VZYQ?oc=5",
+    "source": "Mer et Marine",
+    "date": "2026-01-07T08:00:00+00:00",
+    "summary": "Dans l’Øresund, la plus grande cogue médiévale jamais découverte en Europe Mer et Marine"
+   },
+   {
+    "title": "Au large d'Alexandrie, des archéologues découvrent un navire pour les dieux qui révèle les secrets des rituels de l'Égypte antique",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMGo0RUVMQmtZcXJwX1BadnRySEhEX1JoY0VsTGRjVkRzdk9IdjZXRngxSFY3dFpiazl0MXNrNktZS04tSXFvLTNFLVFyaS1LNGtXeHlyQVBnaTYwSHY4VDRGeFZnQ1p3azVINzN3UVpEdzJmbFhFXzhNMmFvakZkamp2WmlYeGpUeEowY1FVNFllS3VPQVFuUjdmRjA5VEw5THJ5djgtTFFScDNyMkozTUJFOGRiSzdYbVphWU1PaU5FVmFzRHk2eGtRN2ZmekdZNGV2QnplX3JLVVFCTDI0SmI0dHBtWmVCRm1RS2VGVC15THdhVHc?oc=5",
+    "source": "Science et vie",
+    "date": "2025-12-10T08:00:00+00:00",
+    "summary": "Au large d'Alexandrie, des archéologues découvrent un navire pour les dieux qui révèle les secrets des rituels de l'Égypte antique Science et vie"
+   },
+   {
+    "title": "L’épave de Hôi An livre ses premiers secrets",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdFFaLTVsX1paY3hSMVRhaUc5WDA5SlBULVdyTFNVTU1MZzBaNmJZRnI3Qm1BQ2RMMXMzZTFUWlRUdEpmR2xOZmhZcXo4YWJtRjZOdEdyODFfellsaDJRNGpSUm54TEFqQUM4OTBBeFJxSFFqZERoVHhBTkR0MFphSlFEMW0?oc=5",
+    "source": "lecourrier.vn",
+    "date": "2025-11-22T08:00:00+00:00",
+    "summary": "L’épave de Hôi An livre ses premiers secrets lecourrier.vn"
+   },
+   {
+    "title": "Histoire : L'épave du cuirassé Danton retrouvée",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX2JiNzExeVQycXBXYXNSRUppVTNIRmhZUkdhNmVNQ1JCdlJidFZEb1YzdkswOVlBTF9wWFMxREY3Wi1iZEk0TkRkZV9Bdm90VDZ5N3FFdHBBbWJobUJtdVM4LTNTYmJYZk5uWHdzZy1jQ2ZuSzRRNlBuMnlNWHZLOHRKM2Z4TXBHMl9ZVG9GTW5xRWdvaUgw?oc=5",
+    "source": "Mer et Marine",
+    "date": "2025-11-02T06:18:29+00:00",
+    "summary": "Histoire : L'épave du cuirassé Danton retrouvée Mer et Marine"
+   },
+   {
+    "title": "Découverte de l'épave de l'U-670 en 3D: plongez au cœur de l'histoire navale de la Baltique",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNckJ3TTZURE9JOVVPNEluS0VsNmJaaGs0VTRpaEs3YVE4aHBrZFRBQ3pmNnRKNTFna1FVYTdCV2ppZmtEbmtfblVTTmtTZ2doWnFBSGRrRmMwVmhKZld2ZUZ0bkkyYzRYcGt6MkhiVzdnaHBsNTJtVnVDNnhjaU8tb3pfeklhbjlvMU0zSmZPbURUbGxkZWZsdk1IMW03cDFNaU1kVUlpOHJVek53UmdNUXVxZWFoU093Y2VlSWpWTjdkZw?oc=5",
+    "source": "Le magazine GEO",
+    "date": "2025-09-10T07:00:00+00:00",
+    "summary": "Découverte de l'épave de l'U-670 en 3D: plongez au cœur de l'histoire navale de la Baltique Le magazine GEO"
+   }
+  ],
+  "es": [
+   {
+    "title": "Susto en alta mar: siete personas son rescatadas tras averiarse su embarcación en Almería",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYi05cVoySElFekJNamVBczh1aUhDYTMwUlI3ejVuSXRxLVVydGNMTFFBTHhjQUhYeER5NTBQY3l4Zkdtei1HYkYxS1pGRmtyZTlsY2twT2tGV3A3WkFYRG1OcGpqaVdJTVJjZmlCSXZjb0NpWXc2U3Y5TGtCanNjazlHdHE0NlJiZzVWZy1tX3pRMEFHcjA0WXB30gGfAUFVX3lxTE9UMkttRUZfMEotREp5ODBCQ0MyYlM5R28yUE5SdVNMMjZKMURZcDlSQkp0bF9wS3F2NFRXLUVLTk94NDlHUWZwU0ZPRGE4aHAwNEp2cVFHTWcyMnoyNTVsUW0tQnBkdm1KdF9DYzFnMklIT3dqMTlVUHlNZk92eGRrUlZobmtmQ2preHI4Z1p1b2JucjgwM3lMLTNXVW1zdw?oc=5",
+    "source": "Diario de Almería",
+    "date": "2026-08-23T07:57:45+00:00",
+    "summary": "Susto en alta mar: siete personas son rescatadas tras averiarse su embarcación en Almería Diario de Almería"
+   },
+   {
+    "title": "Rescatan a 4 náufragos tras hundirse un barco en Ibiza",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUV0bmlkR0pJSU1rbzFVNi1vSG1KY3VlWEFUeGhwRG1zNzRKWUY1d1hEUzFXdjZoVk5xRlNhSGFoQ3REQmlvdVlqMVlPMTk0M0tBSFV1cU15aFQ0M3A0cEYzdHRBYmkxWFNlU3JpdTZRdGtSTFZGWThPbGU2eFc2c2lHUThJYVJ5MW1zQWVsRk1RQVdqZkE?oc=5",
+    "source": "La Voz de Ibiza",
+    "date": "2026-08-22T16:19:39+00:00",
+    "summary": "Rescatan a 4 náufragos tras hundirse un barco en Ibiza La Voz de Ibiza"
+   },
+   {
+    "title": "Salvamento Marítimo español rescata a 245 personas de tres barcazas en aguas de Canarias",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkY1QjJ1cFZyOHh4LUZMWWR1bFNNRHBvb3BUS1R2eXZFS1RveGpHeGE3TmZwbUlHY0VGUWEzeHRzckYtZmNTREtGa3pVTEVCVGoyUEtoaC1hX0RjUkhBR3lPUVl1OV9jaEhKU0dXd3YwSkU0WVdGS0ZpSzdKeVJpd0hmNU9wT211QTEwdmRUdXhxdUdESEd0elVhQXlnaFNIcjdKYzQwUU5jM2JOQmhydzBYQlRtb2EwZUNHM2VaUmtUblhvWUdHLXdyQXBmbEV3a29OMTdQOTDSAfMBQVVfeXFMTWdRNTFDSENqenpGYTIxcUtLLV9KLWNyZG95R0Q1b3FkVW5KQXhfbC03dHQ5QjRvZXRwZ3JaN0pud3hmQW5mRHlBQ1hVelQzejBWdjFYVFcyQlpuV3UxR0RrSWF2ZWZXdWoyMDFlZ212YTl2dHdyMTVQODZhOUJZRUFkT3BnMmJIeGdSdlVfbEI5bE5VSEdLeDBPam1wVk1UdUNjR3p4NE1PTVlpSFIteTF5aHNhRmRkQmxjUmlRSW5jazRxaHFkaUJsVVl5Z1RGay16QzZyUG1zMU9pcDQxbHBQRTNYd21tZFlyU3BFNFRsNFZZ?oc=5",
+    "source": "Infobae",
+    "date": "2026-08-20T11:12:24+00:00",
+    "summary": "Salvamento Marítimo español rescata a 245 personas de tres barcazas en aguas de Canarias Infobae"
+   },
+   {
+    "title": "Evacuada en barco desde la Illa de Ons tras sufrir una fractura en un brazo por una caída",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbE0zWWY5MjVMNUNrTXlPTlRPbDhZaktLdWtCanZsMUFLTU5TMGVhSk5MOFJYSThfN2xWSzRYcnJFd2ZCYUMzOTBUR0RlYklqMDNJZEZWQjJaZ043blRBUWx0WmJ0MUpWaEtONHVlMzhOMVdrcmNDRjR1OTBNQXlfMDZsLU02cFQyVWRqWlhvYWpWQkFPWmctSEphdDhDVXp5QTdKeUNRdGlqR1h6VjBGQ3plQm9RcFNqTWloRVVOYmEyOGQzbUFKUVZYVlFHdWhN0gHWAUFVX3lxTE5YR2E2elV2ZTNZaHlZeGw3OWZZTFVEMmNYNTRZVnBkX2E2RFR6RUdJZ19pZFB3R1JoNWN1RmZfOFltTGNxWEJkUHpwM2pJZE9GNTNkeEFDUGVQY0o0QVJOel9nZGdyMGRyeER6LVNDeFJ3N29LTmNoZXo2RF8zU2IyNXVrUEpQV2hFaGllak8tZmFDb3d6ZDZzbjBvTDZjTzFpMUpqc0dwZ2VCZWZrc1RmQ3o5Y2hFX21GcWxHOXJEaVFUNkxJVU5WVHNIcmpBb0gtTFZ4SXc?oc=5",
+    "source": "Diario de Pontevedra",
+    "date": "2026-08-17T19:11:22+00:00",
+    "summary": "Evacuada en barco desde la Illa de Ons tras sufrir una fractura en un brazo por una caída Diario de Pontevedra"
+   },
+   {
+    "title": "Dos pateras llegan a Baleares con 77 migrantes este domingo",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNb2VMTXhuUG9OMlJvdzZQYUpUQmJoRUgtSG9BOUU5alk0dVZBejRCc3VHZFVEVEJXTnZ3NDc0aW01UWVWN3hNeWR1MVFWWUU5dFpaOG9ORUpfa24tc1pWY09pa1lva1docUZPcm1NXzBiNHJJNG9iVm9IZENqQ3daYkEyUkF4OTZwS0toSV8yYnB3UU54OVdGdUFMOHJ5b2VQeVJEa2hGdmRwVENqR1FnZ0FSMERrMWJCTlJ1bHFlZm15V3J5TXl5SVdRS2Iza2_SAdQBQVVfeXFMTnp2VUVFZWlLRElPTVljUklVb2l2bWd2WWdTV2otamZKVlRNX0V2d3ROMzN3T1lOUmhsOEVmU2hxQkppZVhoMkdZckNpdlkyNVk5QUNjYUdYY24yS2pHQkNvcjF4c042QnJ2bHp2dHlPZU4yNUlhZE54U0o3Vk90NVBNOVp0c2ZJN01hUEtOZ0lZQ1pWdnBCOGNuQ2FxLUhmX0RNQjhrcmtmdl9xVEtfRzFyOTJKQWFvUmtSZ2JrWnNUR0Rjd2RDVW14dzdwYWVVRDhKWlE?oc=5",
+    "source": "Diario en Positivo",
+    "date": "2026-08-15T16:52:44+00:00",
+    "summary": "Dos pateras llegan a Baleares con 77 migrantes este domingo Diario en Positivo"
+   },
+   {
+    "title": "40 migrantes arriban a Baleares en dos pateras",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTlFGdlBQMXVaRkpVLWNuTkFDMWt5dlhjUU1lZ3NIc0h2a0lzNW40cGlhN2JGLW5GWTJvT1lDWTZ3bjJzSW51Wl93RTU4eFJGY1h4d0FSb3kwdXJKYXZCbTI2dm1ZZDlOR3g3RUhMTVJfOFJHNFNudlRBTVJwWFVLQTJkbGVoV2pCOXZaV05YSGRWWlZncnhvenBUMUU4ZkJnVEQ2NmJXdXM0dXF4WTJpYzlndU1VVVZWcURlNEN30gHDAUFVX3lxTE9jZkhRXzdzZy14eE41djk1ZHZlTEpqWjN6YzNJbkhxb3VsRDBkbWl4azBrOGJxVlVGb1lFaWVlaGFFSHFSTV9RSVFXUkhiME56d2ZuYVkyWlhrTTNFRE1vUTJBc1N3RG43YkZjREUzLUE0aFljbHZaRFdPRlB3RGV0Q1cwckJ2cnM2M1RGQld4ODNOUFppUUhiOVFGdFRUS0w0cWxqZXJYVEFGbXRaQmZ5bnp1Z3QyZzh3d2JzZ3FGMjl4SQ?oc=5",
+    "source": "Diario en Positivo",
+    "date": "2026-08-15T11:03:58+00:00",
+    "summary": "40 migrantes arriban a Baleares en dos pateras Diario en Positivo"
+   },
+   {
+    "title": "Salvamento Marítimo acude en ayuda del buque quimiquero “Shamal” en su viaje de estreno, a 14 millas al sureste de Gran Canaria",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQVmNiTHNTMjdNV2ZMS2NKUm8tN1p4aGh1X1BNT1JOZnh5cE5weWdKVGdBY2l0ZThLNzlyLTVyaHRXTHppbS13OFpUVGJhbVNKbThwVVNrNFd2bjFscXp5U1lETnBQSE41OFlDQUJPLXJZbnFKZFdFUFFUOXJFSUtPTlFzVjlrWFlfWEt2QmQ1aTdMYm1LQ0hEQ3VzenNma2stVlU1SUdoNjJybEE1VGJiaWVvdFpQd3FLMGJkaFY4WU5KYWFCMWdNMHVnU3dQYlkwbnVaTWx3em45Rm5vazU2a2MyQUhITW9rcnRN?oc=5",
+    "source": "Puente de Mando",
+    "date": "2026-08-13T06:13:11+00:00",
+    "summary": "Salvamento Marítimo acude en ayuda del buque quimiquero “Shamal” en su viaje de estreno, a 14 millas al sureste de Gran Canaria Puente de Mando"
+   },
+   {
+    "title": "Salvamento Marítimo remolca hasta el Puerto de Las Palmas un barco de productos químicos averiado",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOVlLMDJsSUVpbURhN21VazFnSVN4U3hZZUVzV29nRzdWcjJEaWV6SEYweU92aFk5aUlzNTNFMG5ITU9HbkJaTHRiRzFFdV9qbWk2X0g5dWZGbXZUT3FYZ3hGcTBpQ0xPZDllcjI1ekFUVE53ZHV5OTVVbEljUHlpeHNxb1VDT0FBbW1sV2ppTWZiMG9uZWZvbF9aYVIzVnI1dElUeVRGc3dDQzdlZUNWY2cwLWlUcFhpZ3BnWmx2c1JlVUlPdzZsSDYzQVlhaVljNkREUG9SZ0RDeFZ3QjVZSnpKcGdkd9IB6wFBVV95cUxPaXkxdXFQZFpNRHUyUVctSm9SYUhKTk81ZTlhR2FtTE05NkktVmZjR3dMMUxfbGN0b3VlU2hIX0dSZXlpSzlZbXVGbkgwSGtxZEZDa2RtOEZDeWdKOGtYYmJURV9keWw3S3VPcHlYRUN1aFpmSnR6OXRUTThqbko0ejFOcnZHbTFXZ3A1WGs5RS04QXFBbXozRDhzUF9uUkFNMEFPdHdkUl9wRklIQTRRUTZNTWJNUWk2V3d0TkpKOV9DeVEtckhQQnY1RW5SMmcxRjB3M0tjTWZFOFlpb0FPOUJkaHVjMUxwNmlz?oc=5",
+    "source": "La Provincia",
+    "date": "2026-08-12T07:00:00+00:00",
+    "summary": "Salvamento Marítimo remolca hasta el Puerto de Las Palmas un barco de productos químicos averiado La Provincia"
+   },
+   {
+    "title": "Denuncian falta de medios en Salvamento Marítimo en Baleares y exige más personal",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaDBKblc4c1Rvd0Q3RnpaS294RHZlckVBRlZiNzcwcGxtUEp5Y0hLUHB6cThLeE5kYnBMT1hBMzB3SXlVREctMHVGa1JDT3FVRmUwLTZTUFh6THhucWRoYnpkZURuZnNxY0xQelREQ1pZd1QtbGNBa05KVmxUTHd6cU00dGdYVWdzem5BeGRjeHN4ZWhUWFh3MVBNaWxXMlZQbUxJa2VWd0RWNU8zWDRsQjdrb2M0SnM5WEtRY1NPSktEMHptMVhCdU05UmprLUVCb2hkdWowQ3pqLWdm?oc=5",
+    "source": "Noudiari.es",
+    "date": "2026-08-10T07:00:00+00:00",
+    "summary": "Denuncian falta de medios en Salvamento Marítimo en Baleares y exige más personal Noudiari.es"
+   },
+   {
+    "title": "Dos menores rescatados tras ser arrastrados por la corriente en la playa de A Besteira",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTmpTZ0hkOXJ1eTdZcDg2REdoN2piazJzay11eVZIWFQ5RUtpVHJTXzROTkh2YlZlcnk0LWdCRENXcVNLX0dFQXB2elRobm8tOGpXUkJqZW01WUFZWFZRTDhYWXQxNUd2WElqc3c3MWVPaE00MkdEV0kxZ0EweHBOR0RYNHdneUxLb3lQM2dmNTJKdWwxdURtUmtzb3dKSzdXV3pvQjRiRFBxb014cGlmUDFaTXZKSmZSa0MxaA?oc=5",
+    "source": "La Región",
+    "date": "2026-08-09T07:00:00+00:00",
+    "summary": "Dos menores rescatados tras ser arrastrados por la corriente en la playa de A Besteira La Región"
+   },
+   {
+    "title": "Salvamento Marítimo refuerza el dispositivo en el mar con 70 profesionales para el día del eclipse",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONjRQSzMwR0JCNFlnVFRjeWlyWTlXdFZ0ZTRnVXRMaElkQ0JVVDc4YTJ3MjJNSmZjUGZ5SkhkbXNhd2ZaTzZwanNhUHJzVjJpQWFVeU90dk5oT2puYUtQcUNJWmhXSVZEcmVkZ0FjMHNJWGlKaGN5Sl9DTDZ4a2MwT2VtMEo3eWw0blVHWnU3WDBTUlFXcms2Y0RrY25pVks3UEtmTG51SHhaWEVob1p1bzc2Y0FjbzJNcUFGWjR5aURndmZmRDVOSHFqVHgxQy1fdlBRSnI0ZWZSaDh2UkpiV0pJckZEdHZOYU9lY9IBgAJBVV95cUxPZEkwajJqWVNteXdHYlJrR2c2M2JhTmxWSFNtNVduVHVHV3JEN0t4STdpTUdBa0U4Q3JpWnhBMUR0NVJ1Y05jRU9vMW9jTzlzcGQxYklmbVNTOGFKNHRWM1U2ZGk5Zll6b3oycGlLZUVMaTlUNURIM1E0eThSck1YNHdVR3VfZy1KT2wtY21vd21IbFNtN0ZNbkZGRWNFa2ZnWjFEOVRoSnNRWEdnaEZramI3SXBGOWZNNGxXN1RoZk5TZDVNTThocV8xbTlCczEwVEJMNmd4UVhqSDQxazlvT25mVF80UWhOOWgzbWJiZTNSY2szSHJGV0dnWUdBTngy?oc=5",
+    "source": "Cadena SER",
+    "date": "2026-08-06T07:00:00+00:00",
+    "summary": "Salvamento Marítimo refuerza el dispositivo en el mar con 70 profesionales para el día del eclipse Cadena SER"
+   },
+   {
+    "title": "Nuevo naufragio en aguas de Cabrera: hallan 2 cadáveres y buscan una decena de migrantes desaparecidos",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdGludUUtUWZGQXlBZEZTX3NqM0V1R1ZXR3laTTdOV0ROc1hDekozMTczaVdNQlFjUzVkNndZYmxqWEtVRlJpUDNKcGlOYmJIX1drMHdtVDFrNnVDcWY5ZjY3M0s3V0d5a2ViSGFBVS03X1pzTTdDTExuWUF0WjdPNDJRb2huaTJNcS1UMzg3VmNoVG9VUC1HZ05Uekt5cE9nbnNUZlZMeFHSAa4BQVVfeXFMTWc3cEFRZ29kQmVReGw2YmhxUThtaUNOcE1lQ2ZxNURaU3EwVDJyUFZBYWtKajgxcGVnUXYyRWQ1Yjd3S1hYTjVEc2N5MEgtYzVKcXcweTh6SEtFUFZ0YVN6eVdnWm1Jd3UxbmtRQ0pYZHpxc05xQXVINW1TVVd0QmNCcDhhOEhRUVNSdG1kNG1xbHlLOUpha3NPcUZ2Y0VFQWN3dmlyZ0lxbkx5d093?oc=5",
+    "source": "Diario de Mallorca",
+    "date": "2026-08-05T07:00:00+00:00",
+    "summary": "Nuevo naufragio en aguas de Cabrera: hallan 2 cadáveres y buscan una decena de migrantes desaparecidos Diario de Mallorca"
+   }
+  ]
+ }
 }

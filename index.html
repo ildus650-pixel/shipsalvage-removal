@@ -74,10 +74,16 @@
         <a href="#contacts" class="nav__link" data-i18n="nav-contacts">Contacts</a>
       </nav>
 
-      <div class="lang" role="group" aria-label="Language">
-        <button class="lang__btn" data-lang="en" type="button" aria-pressed="true">EN</button>
-        <button class="lang__btn" data-lang="ru" type="button" aria-pressed="false">RU</button>
-      </div>
+      <select id="lang-select" class="lang-select" aria-label="Language">
+        <option value="en">English</option>
+        <option value="ru">Русский</option>
+        <option value="cn">中文</option>
+        <option value="hi">हिन्दी</option>
+        <option value="bn">বাংলা</option>
+        <option value="de">Deutsch</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+      </select>
 
       <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" data-i18n-aria="aria-menu">
         <span></span><span></span><span></span>
@@ -434,6 +440,7 @@
   </footer>
 
   <script src="vendor/leaflet/leaflet.js" defer></script>
+  <script src="js/i18n.js" defer></script>
   <script src="js/tg-notify.js" defer></script>
   <script src="js/main.js" defer></script>
   <script src="js/news.js" defer></script>
