@@ -10,7 +10,8 @@ const newsUpdated = document.getElementById('news-updated');
 
 const TTS_LANG = {
   en: 'en-US', ru: 'ru-RU', cn: 'zh-CN', hi: 'hi-IN',
-  bn: 'bn-BD', de: 'de-DE', fr: 'fr-FR', es: 'es-ES'
+  bn: 'bn-BD', de: 'de-DE', fr: 'fr-FR', es: 'es-ES',
+  ar: 'ar-SA', pt: 'pt-BR'
 };
 
 function escapeHtml(s) {

@@ -21,7 +21,7 @@ OUT = os.path.join(ROOT, "news.json")
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36"
 MAX_TOTAL = 12
-SUMMARY_LEN = 220
+SUMMARY_LEN = 700  # озвучка читает выдержку статьи
 
 # Ключевые слова темы для английских лент
 TOPIC_KEYWORDS = [
@@ -51,6 +51,8 @@ FEEDS = {
     "de": [("Google News", gn("Schiffswrack OR Schiffsbergung OR Schiffsverschrottung", "de", "DE", "DE:de"), True)],
     "fr": [("Google News", gn("épave de navire OR sauvetage maritime OR démolition navale", "fr", "FR", "FR:fr"), True)],
     "es": [("Google News", gn("naufragio OR salvamento marítimo OR desguace de buques", "es", "ES", "ES:es"), True)],
+    "ar": [("Google News", gn("إنقاذ سفينة OR غرق سفينة OR حطام سفينة OR تفكيك سفينة", "ar", "AE", "AE:ar"), True)],
+    "pt": [("Google News", gn("naufrágio OR salvamento marítimo OR desmonte de navios", "pt-BR", "BR", "BR:pt-BR"), True)],
 }
 
 
@@ -173,7 +175,7 @@ def main():
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
-    for lang in ("en", "ru", "cn", "hi", "bn", "de", "fr", "es"):
+    for lang in ("en", "ru", "cn", "hi", "bn", "de", "fr", "es", "ar", "pt"):
         lst = out_items.get(lang, [])
         first = lst[0]["title"][:55] if lst else "—"
         print(f"  {lang}: {len(lst)} | {first}")

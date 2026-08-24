@@ -905,6 +905,17 @@ a.leaflet-popup-close-button { color: var(--muted); }
   filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9) saturate(0.5);
 }
 
+/* ---------- RTL (арабский) ---------- */
+[dir="rtl"] .logo { margin-right: 0; margin-left: auto; }
+[dir="rtl"] .hero__content {
+  margin-left: 24px;
+  margin-right: max(24px, calc((100% - 1160px) / 2 + 24px));
+}
+[dir="rtl"] .report__list li { padding-left: 0; padding-right: 26px; }
+[dir="rtl"] .report__list li::before { left: auto; right: 0; }
+[dir="rtl"] .news-item { padding: 16px 18px 16px 56px; }
+[dir="rtl"] .news-listen-btn { right: auto; left: 12px; }
+
 /* ---------- News column ---------- */
 .news {
   display: grid;

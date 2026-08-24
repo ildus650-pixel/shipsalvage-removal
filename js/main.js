@@ -20,7 +20,7 @@ const CONFIG = {
 // Словарь интерфейса (8 языков) вынесен в js/i18n.js — глобальный I18N
 
 const STORAGE_KEY = 'sswr-lang';
-const SUPPORTED_LANGS = ['en', 'ru', 'cn', 'hi', 'bn', 'de', 'fr', 'es'];
+const SUPPORTED_LANGS = ['en', 'ru', 'cn', 'hi', 'bn', 'de', 'fr', 'es', 'ar', 'pt'];
 let currentLang = 'en';
 
 function detectLang() {
@@ -34,6 +34,8 @@ function detectLang() {
   if (lang.startsWith('de')) return 'de';
   if (lang.startsWith('fr')) return 'fr';
   if (lang.startsWith('es')) return 'es';
+  if (lang.startsWith('ar')) return 'ar';
+  if (lang.startsWith('pt')) return 'pt';
   return 'en';
 }
 
@@ -42,6 +44,7 @@ function applyLang(lang) {
   if (!dict) return;
 
   document.documentElement.setAttribute('lang', lang);
+  document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
 
   document.querySelectorAll('[data-i18n]').forEach(function (el) {
     const key = el.getAttribute('data-i18n');
