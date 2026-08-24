@@ -238,6 +238,41 @@
       </div>
     </section>
 
+    <!-- ===== 3a. ENVIRONMENT ===== -->
+    <section class="section" id="eco">
+      <div class="container">
+        <p class="kicker reveal" data-i18n="eco-kicker">Environment</p>
+        <h2 class="section__title reveal" data-i18n="eco-title">Why Wreck Removal Matters</h2>
+        <p class="section__sub reveal" data-i18n="eco-sub">Sunken vessels slowly leak fuel, oil and cargo into the water for decades. Removing a wreck is environmental protection.</p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true"><img src="img/icons/droplet.png" alt=""></div>
+            <h3 class="card__title" data-i18n="eco-1-title">Oil &amp; Fuel Leaks</h3>
+            <p class="card__text" data-i18n="eco-1-desc">Corroded tanks keep leaking — a single wreck can poison the sea for decades.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true"><img src="img/icons/skullcrossbones.png" alt=""></div>
+            <h3 class="card__title" data-i18n="eco-2-title">Hazardous Cargo</h3>
+            <p class="card__text" data-i18n="eco-2-desc">Chemicals, batteries and munitions on board break down and contaminate the water.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true"><img src="img/icons/fish.png" alt=""></div>
+            <h3 class="card__title" data-i18n="eco-3-title">Habitat Destruction</h3>
+            <p class="card__text" data-i18n="eco-3-desc">A collapsing hull crushes reefs and bottom life, destroying fish habitats.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true"><img src="img/icons/trash.png" alt=""></div>
+            <h3 class="card__title" data-i18n="eco-4-title">Debris &amp; Microplastics</h3>
+            <p class="card__text" data-i18n="eco-4-desc">Hull and cargo fragments become marine litter and microplastics for centuries.</p>
+          </article>
+        </div>
+
+        <p class="eco__cta reveal"><span data-i18n="eco-cta">Removing a wreck is environmental protection.</span>
+          <a href="#contacts" class="btn btn--primary" data-i18n="eco-cta-btn">Talk to Us</a></p>
+      </div>
+    </section>
+
     <!-- ===== 3b. COVERAGE / MAP ===== -->
     <section class="section" id="coverage">
       <div class="container">
@@ -255,6 +290,51 @@
         <h2 class="cta__title" data-i18n="cta-title">Have a Vessel to Raise or Remove?</h2>
         <p class="cta__sub" data-i18n="cta-sub">Tell us about your project — we respond within 24 hours.</p>
         <a href="#contacts" class="btn btn--primary btn--lg" data-i18n="cta-btn">Get a Quote</a>
+      </div>
+    </section>
+
+    <!-- ===== 4a. REPORT ===== -->
+    <section class="section section--alt" id="report">
+      <div class="container report">
+        <div class="report__info reveal">
+          <p class="kicker" data-i18n="report-kicker">Report a Sunken Object</p>
+          <h2 class="section__title" data-i18n="report-title">Help Us Find Wrecks</h2>
+          <p class="section__sub" data-i18n="report-sub">Know a sunken vessel or object? Send us its location — we will assess and act.</p>
+          <ul class="report__list">
+            <li data-i18n="report-pt1">Coordinates, port or region</li>
+            <li data-i18n="report-pt2">Approximate size and type of the object</li>
+            <li data-i18n="report-pt3">Any details — photos welcome</li>
+          </ul>
+          <p class="report__note" data-i18n="report-note">Every report is reviewed. Anonymous reports are welcome too.</p>
+        </div>
+
+        <div class="contacts__form report__form reveal">
+          <h3 class="form__title" data-i18n="report-form-title">Send a Report</h3>
+          <form id="report-form" novalidate>
+            <div class="form__field">
+              <label for="r-name" data-i18n="report-name-label">Name (optional)</label>
+              <input type="text" id="r-name" name="name" autocomplete="name"
+                     data-i18n="report-name-ph" placeholder="Your name">
+            </div>
+            <div class="form__field">
+              <label for="r-contact" data-i18n="report-contact-label">Contact (email or phone)</label>
+              <input type="text" id="r-contact" name="contact" autocomplete="email" required
+                     data-i18n="report-contact-ph" placeholder="you@mail.com or phone">
+            </div>
+            <div class="form__field">
+              <label for="r-location" data-i18n="report-loc-label">Location of the object</label>
+              <textarea id="r-location" name="location" rows="3" required
+                        data-i18n="report-loc-ph" placeholder="Port, region, coordinates, landmarks…"></textarea>
+            </div>
+            <div class="form__field">
+              <label for="r-description" data-i18n="report-desc-label">Description of the object</label>
+              <textarea id="r-description" name="description" rows="3"
+                        data-i18n="report-desc-ph" placeholder="Vessel type, size, condition…"></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg" data-i18n="report-btn">Send Report</button>
+            <p class="form__status" id="report-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
       </div>
     </section>
 
@@ -336,7 +416,9 @@
         <a href="#services" class="footer__link" data-i18n="nav-services">Services</a>
         <a href="#about" class="footer__link" data-i18n="nav-about">About Us</a>
         <a href="#coverage" class="footer__link" data-i18n="nav-coverage">Coverage</a>
+        <a href="#eco" class="footer__link" data-i18n="nav-eco">Environment</a>
         <a href="#news" class="footer__link" data-i18n="nav-news">News</a>
+        <a href="#report" class="footer__link" data-i18n="nav-report">Report a Wreck</a>
         <a href="wrecks.html" class="footer__link" data-i18n="nav-wrecks">Wrecks</a>
         <a href="#contacts" class="footer__link" data-i18n="nav-contacts">Contacts</a>
       </div>

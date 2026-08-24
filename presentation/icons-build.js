@@ -5,7 +5,8 @@ const { iconPng } = require('./scripts/rasterize');
 
 const AZURE = '2fb7ff';
 const ICONS = ['anchor', 'scissors', 'droplet', 'recycle', 'phone', 'envelope',
-  'paperplane', 'bolt', 'award', 'shield', 'anchorcirclecheck', 'locationdot', 'clock'];
+  'paperplane', 'bolt', 'award', 'shield', 'anchorcirclecheck', 'locationdot', 'clock',
+  'skullcrossbones', 'fish', 'trash', 'leaf'];
 
 const FONT_AWESOME = {
   anchor: 'FaAnchor',
@@ -20,7 +21,11 @@ const FONT_AWESOME = {
   shield: 'FaShieldHalved',
   anchorcirclecheck: 'FaAnchorCircleCheck',
   locationdot: 'FaLocationDot',
-  clock: 'FaClock'
+  clock: 'FaClock',
+  skullcrossbones: 'FaSkullCrossbones',
+  fish: 'FaFish',
+  trash: 'FaTrash',
+  leaf: 'FaLeaf'
 };
 
 async function main() {

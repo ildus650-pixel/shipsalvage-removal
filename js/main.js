@@ -83,6 +83,40 @@ const I18N = {
     'news-updated-label': 'Updated',
     'news-empty': 'No news at the moment',
     'news-channel': 'News Channel',
+    'nav-eco': 'Environment',
+    'nav-report': 'Report a Wreck',
+    'eco-kicker': 'Environment',
+    'eco-title': 'Why Wreck Removal Matters',
+    'eco-sub': 'Sunken vessels slowly leak fuel, oil and cargo into the water for decades. Removing a wreck is environmental protection.',
+    'eco-1-title': 'Oil & Fuel Leaks',
+    'eco-1-desc': 'Corroded tanks keep leaking — a single wreck can poison the sea for decades.',
+    'eco-2-title': 'Hazardous Cargo',
+    'eco-2-desc': 'Chemicals, batteries and munitions on board break down and contaminate the water.',
+    'eco-3-title': 'Habitat Destruction',
+    'eco-3-desc': 'A collapsing hull crushes reefs and bottom life, destroying fish habitats.',
+    'eco-4-title': 'Debris & Microplastics',
+    'eco-4-desc': 'Hull and cargo fragments become marine litter and microplastics for centuries.',
+    'eco-cta': 'Removing a wreck is environmental protection.',
+    'eco-cta-btn': 'Talk to Us',
+    'report-kicker': 'Report a Sunken Object',
+    'report-title': 'Help Us Find Wrecks',
+    'report-sub': 'Know a sunken vessel or object? Send us its location — we will assess and act.',
+    'report-pt1': 'Coordinates, port or region',
+    'report-pt2': 'Approximate size and type of the object',
+    'report-pt3': 'Any details — photos welcome',
+    'report-note': 'Every report is reviewed. Anonymous reports are welcome too.',
+    'report-form-title': 'Send a Report',
+    'report-name-label': 'Name (optional)',
+    'report-name-ph': 'Your name',
+    'report-contact-label': 'Contact (email or phone)',
+    'report-contact-ph': 'you@mail.com or phone',
+    'report-loc-label': 'Location of the object',
+    'report-loc-ph': 'Port, region, coordinates, landmarks…',
+    'report-desc-label': 'Description of the object',
+    'report-desc-ph': 'Vessel type, size, condition…',
+    'report-btn': 'Send Report',
+    'report-success': 'Thank you! Your report has been sent. We will contact you shortly.',
+    'report-error': 'Please fill in the location and contact correctly.',
     'hero-kicker': 'Marine Salvage Contractor',
     'hero-title': 'Ship Salvage & Wreck Removal',
     'hero-sub': 'A global marine contractor with proven experience in the Russian Far East — lifting vessels up to 3,000 tonnes, underwater cutting, dewatering and full-cycle metal recycling.',
@@ -209,6 +243,40 @@ const I18N = {
     'news-updated-label': 'Обновлено',
     'news-empty': 'Новостей пока нет',
     'news-channel': 'Новостной канал',
+    'nav-eco': 'Экология',
+    'nav-report': 'Сообщить о крушении',
+    'eco-kicker': 'Экология',
+    'eco-title': 'Почему удаление крушений важно',
+    'eco-sub': 'Затонувшие суда десятилетиями отравляют воду топливом, маслом и грузом. Удаление крушения — это защита окружающей среды.',
+    'eco-1-title': 'Утечки топлива и масла',
+    'eco-1-desc': 'Проржавевшие танки продолжают течь — одно крушение может отравлять море десятилетиями.',
+    'eco-2-title': 'Опасный груз',
+    'eco-2-desc': 'Химикаты, батареи и боеприпасы на борту разлагаются и загрязняют воду.',
+    'eco-3-title': 'Уничтожение экосистем',
+    'eco-3-desc': 'Разрушающийся корпус давит рифы и донную жизнь, уничтожая места обитания рыб.',
+    'eco-4-title': 'Мусор и микропластик',
+    'eco-4-desc': 'Обломки корпуса и груза на века становятся морским мусором и микропластиком.',
+    'eco-cta': 'Удаление крушения — это защита природы.',
+    'eco-cta-btn': 'Связаться с нами',
+    'report-kicker': 'Сообщить о затонувшем объекте',
+    'report-title': 'Помогите нам найти крушения',
+    'report-sub': 'Знаете о затонувшем судне или объекте? Пришлите его местоположение — мы оценим и примем меры.',
+    'report-pt1': 'Координаты, порт или район',
+    'report-pt2': 'Примерный размер и тип объекта',
+    'report-pt3': 'Любые детали — фото приветствуются',
+    'report-note': 'Каждое сообщение проверяется. Анонимные сообщения тоже принимаются.',
+    'report-form-title': 'Отправить сообщение',
+    'report-name-label': 'Имя (необязательно)',
+    'report-name-ph': 'Ваше имя',
+    'report-contact-label': 'Контакт (email или телефон)',
+    'report-contact-ph': 'you@mail.com или телефон',
+    'report-loc-label': 'Местоположение объекта',
+    'report-loc-ph': 'Порт, район, координаты, ориентиры…',
+    'report-desc-label': 'Описание объекта',
+    'report-desc-ph': 'Тип судна, размер, состояние…',
+    'report-btn': 'Отправить сообщение',
+    'report-success': 'Спасибо! Сообщение отправлено. Мы свяжемся с вами в ближайшее время.',
+    'report-error': 'Пожалуйста, заполните местоположение и контакт корректно.',
     'hero-kicker': 'Морской подрядчик по подъёму судов',
     'hero-title': 'Подъём и утилизация затонувших судов',
     'hero-sub': 'Международный морской подрядчик с опытом на Дальнем Востоке России — подъём судов до 3 000 тонн, подводная резка, откачка воды и утилизация металла полного цикла.',
@@ -381,11 +449,11 @@ const statusEl = document.getElementById('form-status');
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function showStatus(msg, type) {
-  statusEl.textContent = msg;
-  statusEl.classList.toggle('is-success', type === 'success');
-  statusEl.classList.toggle('is-error', type === 'error');
-  statusEl.hidden = false;
+function showStatus(el, msg, type) {
+  el.textContent = msg;
+  el.classList.toggle('is-success', type === 'success');
+  el.classList.toggle('is-error', type === 'error');
+  el.hidden = false;
 }
 
 function clearFieldErrors() {
@@ -427,7 +495,7 @@ if (form) {
 
     const data = validate();
     if (!data) {
-      showStatus(I18N[currentLang]['form-error'], 'error');
+      showStatus(statusEl, I18N[currentLang]['form-error'], 'error');
       return;
     }
 
@@ -452,7 +520,7 @@ if (form) {
       })
       .then(function (res) {
         if (res.success === 'true' || res.success === true) {
-          showStatus(I18N[currentLang]['form-success'], 'success');
+          showStatus(statusEl, I18N[currentLang]['form-success'], 'success');
           form.reset();
         } else {
           throw new Error('FormSubmit error');
@@ -460,6 +528,91 @@ if (form) {
       })
       .catch(function () {
         mailtoFallback(data);
+      })
+      .finally(function () {
+        btn.disabled = false;
+        btn.style.opacity = '';
+      });
+  });
+}
+
+/* --------------------------------------------------------------------------
+   Report form — сообщить о затонувшем объекте
+   -------------------------------------------------------------------------- */
+const reportForm = document.getElementById('report-form');
+const reportStatus = document.getElementById('report-status');
+
+if (reportForm) {
+  reportForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    reportStatus.hidden = true;
+
+    const rName = document.getElementById('r-name');
+    const rContact = document.getElementById('r-contact');
+    const rLocation = document.getElementById('r-location');
+    const rDesc = document.getElementById('r-description');
+
+    const clearErr = function () {
+      reportForm.querySelectorAll('.form__field--error').forEach(function (f) {
+        f.classList.remove('form__field--error');
+      });
+    };
+    const markErr = function (input) {
+      const f = input.closest('.form__field');
+      if (f) f.classList.add('form__field--error');
+    };
+
+    clearErr();
+    const contactVal = (rContact.value || '').trim();
+    const locationVal = (rLocation.value || '').trim();
+    const isEmail = EMAIL_RE.test(contactVal);
+    const isPhone = /^[+\d][\d\s\-()]{6,17}$/.test(contactVal);
+    let ok = true;
+
+    if (!locationVal) { markErr(rLocation); ok = false; }
+    if (!isEmail && !isPhone) { markErr(rContact); ok = false; }
+
+    if (!ok) {
+      showStatus(reportStatus, I18N[currentLang]['report-error'], 'error');
+      return;
+    }
+
+    const btn = reportForm.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.style.opacity = '0.6';
+
+    fetch('https://formsubmit.co/ajax/' + CONFIG.CONTACT_EMAIL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({
+        name: (rName.value || '').trim(),
+        contact: contactVal,
+        location: locationVal,
+        description: (rDesc.value || '').trim(),
+        _subject: 'Заявка: затонувший объект (location report)',
+        _captcha: 'false'
+      })
+    })
+      .then(function (resp) {
+        if (!resp.ok) throw new Error('HTTP ' + resp.status);
+        return resp.json();
+      })
+      .then(function (res) {
+        if (res.success === 'true' || res.success === true) {
+          showStatus(reportStatus, I18N[currentLang]['report-success'], 'success');
+          reportForm.reset();
+        } else {
+          throw new Error('FormSubmit error');
+        }
+      })
+      .catch(function () {
+        const subject = encodeURIComponent('Затонувший объект: ' + locationVal);
+        const body = encodeURIComponent(
+          'Местоположение: ' + locationVal +
+          '\nОбъект: ' + (rDesc.value || '').trim() +
+          '\nКонтакт: ' + contactVal +
+          '\nИмя: ' + (rName.value || '').trim());
+        window.location.href = 'mailto:' + CONFIG.CONTACT_EMAIL + '?subject=' + subject + '&body=' + body;
       })
       .finally(function () {
         btn.disabled = false;
