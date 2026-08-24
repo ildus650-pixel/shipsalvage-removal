@@ -12,7 +12,9 @@
 'use strict';
 
 const TG_NOTIFY = {
-  token: '7835106186:AAEhqlpCBnTzIg2sg9DG3jeTEWk69vBKOoQ',
+  // Отдельный бот только для заявок (создан через @BotFather).
+  // Основной бот @Sudopodembot в коде сайта не используется.
+  token: '8682524108:AAG9mNYds6QfSoyoFwvNsu-tRMkFqK-eDTE',
   chatId: '8188225611'
 };
 
