@@ -357,10 +357,33 @@ function addDarkTiles(targetMap) {
   return carto;
 }
 
+function addBaseLayers(targetMap, darkLayer) {
+  // Переключатель подложек: тёмный океан / Яндекс / Яндекс-гибрид / Луна (Google)
+  const yandex = L.tileLayer('https://core-renderer-tiles.maps.yandex.net/tiles?l=map&x={x}&y={y}&z={z}&scale=1&lang=ru_RU', {
+    attribution: '&copy; <a href="https://yandex.ru/legal/maps_termsofuse/">Яндекс Карты</a>',
+    maxZoom: 19
+  });
+  const yandexHybrid = L.tileLayer('https://core-renderer-tiles.maps.yandex.net/tiles?l=skl&x={x}&y={y}&z={z}&scale=1&lang=ru_RU', {
+    attribution: '&copy; <a href="https://yandex.ru/legal/maps_termsofuse/">Яндекс Карты</a>',
+    maxZoom: 19
+  });
+  const moon = L.tileLayer('https://mw1.google.com/mw-planetary/lunar/lunarmaps_v1/clem_bw/{z}/{x}/{y}.jpg', {
+    attribution: 'Imagery &copy; Google Moon',
+    minZoom: 2,
+    maxZoom: 10
+  });
+  L.control.layers({
+    'Ocean (dark)': darkLayer,
+    'Yandex': yandex,
+    'Yandex hybrid': yandexHybrid,
+    'Moon': moon
+  }, null, { position: 'topright' }).addTo(targetMap);
+}
+
 function initMap() {
   if (!mapEl || typeof L === 'undefined') return;
   map = L.map(mapEl, { scrollWheelZoom: false }).setView([43, 100], 3);
-  addDarkTiles(map);
+  addBaseLayers(map, addDarkTiles(map));
   mapPoints.forEach(function (p) {
     const m = L.marker([p.lat, p.lng]).addTo(map);
     m.bindPopup(popupContent(p));

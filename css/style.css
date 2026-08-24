@@ -736,6 +736,27 @@ a.leaflet-popup-close-button { color: var(--muted); }
 
 .leaflet-control-zoom a:hover { background: var(--navy-600); }
 
+/* Переключатель подложек — тёмная тема */
+.leaflet-control-layers {
+  background: #0f1f3d;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--white);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 12px;
+}
+
+.leaflet-control-layers-expanded { padding: 10px 12px; }
+
+.leaflet-control-layers a.leaflet-control-layers-toggle {
+  background-color: #0f1f3d;
+  background-image: url(../vendor/leaflet/images/layers.png);
+  background-size: 20px 20px;
+}
+
+.leaflet-control-layers label span { color: var(--white); }
+.leaflet-control-layers input { accent-color: var(--azure); }
+
 /* ---------- Wrecks page ---------- */
 .coverage-cta { margin-top: 24px; }
 

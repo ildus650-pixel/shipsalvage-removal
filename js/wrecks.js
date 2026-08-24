@@ -121,7 +121,7 @@ function initWrecks() {
       const features = data.features || [];
 
       wreckMap = L.map(wrecksMapEl, { scrollWheelZoom: false }).setView([45, 10], 3);
-      addDarkTiles(wreckMap);
+      addBaseLayers(wreckMap, addDarkTiles(wreckMap));
 
       cluster = (typeof L.markerClusterGroup === 'function')
         ? L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 55 })
