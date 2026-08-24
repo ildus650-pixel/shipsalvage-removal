@@ -521,6 +521,8 @@ if (form) {
       .then(function (res) {
         if (res.success === 'true' || res.success === true) {
           showStatus(statusEl, I18N[currentLang]['form-success'], 'success');
+          tgNotify('Заявка с сайта\nИмя: ' + data.name + '\nEmail: ' + data.email +
+                   '\n\n' + data.message);
           form.reset();
         } else {
           throw new Error('FormSubmit error');
@@ -600,6 +602,10 @@ if (reportForm) {
       .then(function (res) {
         if (res.success === 'true' || res.success === true) {
           showStatus(reportStatus, I18N[currentLang]['report-success'], 'success');
+          tgNotify('Сообщение о затонувшем объекте\nМестоположение: ' + locationVal +
+                   '\nОбъект: ' + (rDesc.value || '').trim() +
+                   '\nКонтакт: ' + contactVal +
+                   '\nИмя: ' + (rName.value || '').trim());
           reportForm.reset();
         } else {
           throw new Error('FormSubmit error');
