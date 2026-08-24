@@ -29,8 +29,11 @@ function speakNews(text) {
   window.speechSynthesis.speak(u);
 }
 
+let renderToken = 0;
+
 function renderNews() {
   if (!newsList) return;
+  const token = ++renderToken; // защита от гонки параллельных рендеров
   newsList.innerHTML = '';
 
   fetch('news.json')
@@ -39,6 +42,7 @@ function renderNews() {
       return r.json();
     })
     .then(function (data) {
+      if (token !== renderToken) return;
       const byLang = data.items || {};
       // Новости на языке гостя; если пусто — английская лента
       const items = byLang[currentLang] || byLang.en || [];
@@ -61,13 +65,27 @@ function renderNews() {
         a.href = it.link;
         a.target = '_blank';
         a.rel = 'noopener';
-        a.innerHTML = '<span class="news-title"></span>' +
+
+        if (it.image) {
+          const img = document.createElement('img');
+          img.className = 'news-img';
+          img.alt = '';
+          img.loading = 'lazy';
+          img.src = it.image;
+          img.addEventListener('error', function () { img.style.display = 'none'; });
+          a.appendChild(img);
+        }
+
+        const body = document.createElement('span');
+        body.className = 'news-body';
+        body.innerHTML = '<span class="news-title"></span>' +
           '<span class="news-meta"><span class="news-source"></span><span class="news-date"></span></span>' +
           (it.summary ? '<span class="news-summary"></span>' : '');
-        a.querySelector('.news-title').textContent = it.title;
-        a.querySelector('.news-source').textContent = it.source || '';
-        a.querySelector('.news-date').textContent = (it.date || '').slice(0, 10);
-        if (it.summary) a.querySelector('.news-summary').textContent = it.summary;
+        body.querySelector('.news-title').textContent = it.title;
+        body.querySelector('.news-source').textContent = it.source || '';
+        body.querySelector('.news-date').textContent = (it.date || '').slice(0, 10);
+        if (it.summary) body.querySelector('.news-summary').textContent = it.summary;
+        a.appendChild(body);
         li.appendChild(a);
 
         // Кнопка «слушать» — озвучка заголовка и описания
@@ -87,6 +105,7 @@ function renderNews() {
       });
     })
     .catch(function (err) {
+      if (token !== renderToken) return;
       newsList.innerHTML = '<li class="news-item"><span class="news-title">' +
         escapeHtml(err.message) + '</span></li>';
     });

@@ -54,7 +54,11 @@ def main():
         text = f"<b>{it['title']}</b>\n\n{date_part} · {it.get('source', '')}\n\n{it['link']}"
         text = text[:1024]
         try:
-            send(token, channel, text)
+            if it.get("image"):
+                api(token, "sendPhoto", chat_id=channel, photo=it["image"],
+                    caption=text[:1024], parse_mode="HTML")
+            else:
+                send(token, channel, text)
             posted += 1
             print("posted:", it["title"][:70])
         except Exception as exc:

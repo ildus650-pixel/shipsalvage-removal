@@ -1041,12 +1041,30 @@ a.leaflet-popup-close-button { color: var(--muted); }
 }
 
 .news-item {
-  display: block;
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: rgba(16, 31, 61, 0.45);
-  padding: 16px 56px 16px 18px;
+  padding: 14px 56px 14px 14px;
   transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.news-img {
+  flex: none;
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--navy-700);
+}
+
+.news-body {
+  display: block;
+  min-width: 0;
+  flex: 1;
 }
 
 .news-item:hover {

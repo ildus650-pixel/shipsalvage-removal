@@ -106,12 +106,32 @@ def parse_feed(source, raw, strip_suffix=False):
             title, out_source = clean_google_title(title)
             out_source = out_source or source
         dt = parse_date(child("pubDate") or child("dc:date"))
+
+        # Картинка: enclosure → media:thumbnail/content → <img> в описании
+        raw_desc = child("description")
+        image = None
+        enc = item.find("enclosure")
+        if enc is not None and enc.get("url"):
+            image = enc.get("url")
+        if not image:
+            for tag in ("{http://search.yahoo.com/mrss/}thumbnail",
+                        "{http://search.yahoo.com/mrss/}content"):
+                el = item.find(tag)
+                if el is not None and el.get("url"):
+                    image = el.get("url")
+                    break
+        if not image and raw_desc:
+            m_img = re.search(r'<img[^>]+src="([^"]+)"', raw_desc)
+            if m_img:
+                image = m_img.group(1)
+
         items.append({
             "title": title,
             "link": link,
             "source": out_source,
             "date": dt.isoformat() if dt else None,
-            "summary": strip_html(child("description"))[:SUMMARY_LEN],
+            "summary": strip_html(raw_desc)[:SUMMARY_LEN],
+            "image": image,
         })
     # Atom fallback
     if not items:
@@ -126,14 +146,36 @@ def parse_feed(source, raw, strip_suffix=False):
             if not title or not link:
                 continue
             dt = parse_date(child("updated"))
+            raw_sum = child("summary")
+            image = None
+            th = entry.find("a:thumbnail", ns)
+            if th is not None and th.get("url"):
+                image = th.get("url")
+            if not image and raw_sum:
+                m_img = re.search(r'<img[^>]+src="([^"]+)"', raw_sum)
+                if m_img:
+                    image = m_img.group(1)
             items.append({
                 "title": title,
                 "link": link,
                 "source": source,
                 "date": dt.isoformat() if dt else None,
-                "summary": strip_html(child("summary"))[:SUMMARY_LEN],
+                "summary": strip_html(raw_sum)[:SUMMARY_LEN],
+                "image": image,
             })
     return items
+
+
+def fetch_og_image(url, timeout=15):
+    """Картинка статьи из og:image на странице."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        html = urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
+        m = re.search(r'property=["\']og:image["\'][^>]*content=["\']([^"\']+)', html) or \
+            re.search(r'content=["\']([^"\']+)["\'][^>]*property=["\']og:image["\']', html)
+        return html_mod.unescape(m.group(1)) if m else None
+    except Exception:
+        return None
 
 
 def relevance_en(text):
@@ -167,6 +209,28 @@ def main():
 
         out_items[lang] = unique[:MAX_TOTAL]
         print(f"{lang}: {len(unique[:MAX_TOTAL])} items")
+
+        # Картинки: og:image со страниц статей (до 6 на язык)
+        filled = 0
+        for it in out_items[lang]:
+            if it.get("image") or filled >= 6:
+                continue
+            img = fetch_og_image(it["link"])
+            if img:
+                it["image"] = img
+                filled += 1
+            print(f"  og {lang}: {it['title'][:32]} -> {(img or '—')[:70]}")
+
+        # Google News отдаёт одинаковую og:image-заглушку для всех статей —
+        # убираем повторяющиеся «обложки», оставляем только уникальные фото
+        from collections import Counter
+        imgs = [it["image"] for it in out_items[lang] if it.get("image")]
+        if imgs:
+            most_common = Counter(imgs).most_common(1)[0]
+            if most_common[1] > 1:
+                for it in out_items[lang]:
+                    if it.get("image") == most_common[0]:
+                        it["image"] = None
 
     data = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
