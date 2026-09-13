@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T08:44:59+00:00",
+ "updated": "2026-09-13T09:39:49+00:00",
  "items": {
   "en": [
    {
@@ -101,11 +101,19 @@
   ],
   "ru": [
    {
-    "title": "Лам Донг: Два рыболовецких судна затонули, восемь рыбаков благополучно доплыли до берега.",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNExsZGQycE5VRk9GT3dTcWx3TEdjd1R1REhvamIwTU1tY1Y5bmI3Q2ZiMFBEMnhmNkwtX2hobmpKaUVaS2RLRGYtaVpkVVAydmFBOXBUejU2SFAxSkRWcGpsSGIwVWN5TmRsV0RNekY2ZnppTElNek5zdW5Ub194SW5ZTU9WRk0?oc=5",
+    "title": "Буксировка грузового судна весом более 24 000 тонн, севшего на мель в заливе Чан Май.",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZl9XRTZfWnJmVDV1VHpMYjFHRy0ybnRGbFhEV0RIaVlKU1J3aW9tUXNhQVVEZmtndThKTVJ4STRzMUZ4c2dIVEtXN2JtaEpyenpHV05qLWVQSE0wcTJwaWM2ZFlyZWd4RTVZQTVLeEFQT296SjhGUzFfUWRKSXc4WXhUZWZRalJiZUlZ?oc=5",
     "source": "Vietnam.vn",
-    "date": "2026-09-04T09:44:17+00:00",
-    "summary": "Лам Донг: Два рыболовецких судна затонули, восемь рыбаков благополучно доплыли до берега. Vietnam.vn",
+    "date": "2026-09-13T07:05:45+00:00",
+    "summary": "Буксировка грузового судна весом более 24 000 тонн, севшего на мель в заливе Чан Май. Vietnam.vn",
+    "image": null
+   },
+   {
+    "title": "Хюэ: Сильные дожди вызывают оползни, топят рыболовецкие суда и оставляют грузовые корабли на мели.",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSEFnaE1kM25Kem1HaDRWSkxqZU9FSk1HWnpIZGJQYmNqTmgtN0ZzS1Q1cERBcXdfS2hRS19VV2dOeW55dUtyZkJwNi1IMHBuZ0xaQ1dmemNtX2tvdFg3Rmdfc3pxVkh1UFlfemUyTXVrREVzY3hkZUpvNGZONHFHUjFHTQ?oc=5",
+    "source": "Vietnam.vn",
+    "date": "2026-09-13T03:16:45+00:00",
+    "summary": "Хюэ: Сильные дожди вызывают оползни, топят рыболовецкие суда и оставляют грузовые корабли на мели. Vietnam.vn",
     "image": null
    },
    {
@@ -127,17 +135,9 @@
    {
     "title": "Акваторию Томаринского района очищают от затонувших судов: подрядчик уже удалил три объекта",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaVdRWnhGZHpoZFd5cHB6Z0NiVHBWZWUtLVJGQWtxYy1wV19oeTVEMXlwOEhwRlJaYTdnbmNyRzIwWnAyM2FjaGNabTh3RHhjUFB2cXhWZFQ4ZEVfTXpsLTZDMEpWeHRvQXdnUWxtczJ4Q213MFRnTzcxcFE3LTdGOV9iNTViZ0ZwYUVpai1JblB3Y2tkNFI5SDNCLTdXd2VuekpkcXBaZGhwLWpsUzhZaGVHbk9sUm5SZzVyU0lyc0lBVE95NG1MZUtuVG1US2Q1U0ljaFJ5ckg3WHdoa1E?oc=5",
-    "source": "Sakh.online",
+    "source": "Сахалин-Курилы",
     "date": "2026-07-10T07:00:00+00:00",
-    "summary": "Акваторию Томаринского района очищают от затонувших судов: подрядчик уже удалил три объекта Sakh.online",
-    "image": null
-   },
-   {
-    "title": "Сел на мель и смолчал: на Камчатке капитан скрыл аварию судна",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTktYamxlNTFNakZ2VFFEMjRfb2pTWjJzOE42S1BLNVVRZ3lrTVdqaS1USWkxWHJmaUIyNTloWWFxRzJyTUNIVWFyalFxQW0ySDFXYnhGb3ZrN29xUy05engtckNqdWIxS3JINnY1c185UnFVOUk2NDB5eG8wb3ptUXg1WElQUnR1a3RnUk9yUjZXVXFOT2g1M2JrWHJWa1E?oc=5",
-    "source": "kamtoday.ru",
-    "date": "2026-05-26T07:00:00+00:00",
-    "summary": "Сел на мель и смолчал: на Камчатке капитан скрыл аварию судна kamtoday.ru",
+    "summary": "Акваторию Томаринского района очищают от затонувших судов: подрядчик уже удалил три объекта Сахалин-Курилы",
     "image": null
    },
    {
@@ -157,11 +157,11 @@
     "image": null
    },
    {
-    "title": "Движение судов в Дарданеллах остановлено из-за операции по снятию сухогруза с мели",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDFsTDEzazZSQjZMRlZSSTZ1V0tfTkduU05CbkpyNG5RWEUtT0FVT1Myb1pNcWNZODlwcVloaktPUG5oaW1mamtTaXVxUHduMl9MMGdhNUV3WVhJSVFCYmUtYXBYdTVYTTE1N1Mzdnl5eXFtUFVkNjBUZFhSRlBtZW1teWw5Z1lobXdPaWRfTFZjUlRxODN2N2ZkbTJvVVd4ZlhFcUhIN3VOSHR4cDhaQzBVaEVILTc1NWRfckNFbnZETVY3eFlsWUJ5WQ?oc=5",
-    "source": "MK-Turkey.ru",
-    "date": "2026-03-12T07:00:00+00:00",
-    "summary": "Движение судов в Дарданеллах остановлено из-за операции по снятию сухогруза с мели MK-Turkey.ru",
+    "title": "В Усть-Луге сел на мель нефтяной танкер",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9RUkdTV1k1MkxHaU1CWDZGTTlLT1JKVUFRNTN3VG1rSEJsMGtCYzMycjN5SThRVmJYN1dLamx3MDNWOXRsWnZmSU9zTnJVcUlwWi1IUHF5cw?oc=5",
+    "source": "ФОНТАНКА.ру",
+    "date": "2026-03-04T08:00:00+00:00",
+    "summary": "В Усть-Луге сел на мель нефтяной танкер ФОНТАНКА.ру",
     "image": null
    },
    {
@@ -175,17 +175,17 @@
    {
     "title": "В Невельске эвакуируют экипаж севшего на мель судна An Yang 2",
     "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFA3Uldhd29lbmJzX0x1ZkVZWEZZXzlJb2F6aHlUOHlZR2NmZHRGeDJmQnVYeEl1S2t0V0paLS1ic21WSDdTLWxz?oc=5",
-    "source": "paluba.media",
+    "source": "Медиапалуба",
     "date": "2025-12-01T08:00:00+00:00",
-    "summary": "В Невельске эвакуируют экипаж севшего на мель судна An Yang 2 paluba.media",
+    "summary": "В Невельске эвакуируют экипаж севшего на мель судна An Yang 2 Медиапалуба",
     "image": null
    },
    {
     "title": "Спасение экипажа An Yang 2 на Сахалине: судно обесточено, идет эвакуация",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1l3VXVFa1Y2QVFRU0ZYaG1UdzlaNGdzb0FoV3MzWUZSME1CMmJPZXV4X2oxV3pXcU9SaU5RUGFrQlFKZDRtck44Q0pVNG5BZmpZMmg3OTZGWkJ6a0dLd25WUUUyX0pHYmhOaVc4ZkV6elhkWDI4cURJc2FuWW1WVnJBb1BDQlRYQUliLUZIbVg4cDF0WnhkUlFGaWpSYnZnNk9CNFFOSDJzNno4cmVTOWRoTFBNRG8?oc=5",
-    "source": "Sakh.online",
+    "source": "Сахалин-Курилы",
     "date": "2025-12-01T08:00:00+00:00",
-    "summary": "Спасение экипажа An Yang 2 на Сахалине: судно обесточено, идет эвакуация Sakh.online",
+    "summary": "Спасение экипажа An Yang 2 на Сахалине: судно обесточено, идет эвакуация Сахалин-Курилы",
     "image": null
    },
    {
@@ -297,6 +297,30 @@
   ],
   "hi": [
    {
+    "title": "जावा सागर में इंडोनेशियाई यात्री जहाज़ डूबा: 103 लोगों को बचाया गया, 140 लापता",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdnYtLUEzQUhoMHFXMUFlekxvLTZ6LU5MNER2aFJNdk9pUDVuTFY2M2gtOHNUaG94V0M1OVpLeTl4dkRGTWxIbjRXRzU2eTlzOTBJV2ktaUJFWnNIY3IzcElLWXdWalVKRUlkN1FUYmZ0VDNJdmFEYkVoUGNFbkdyM1VBejFIVzhVcU1VRnhn0gGTAUFVX3lxTFA1ZkMzUURVUXk0bG91VHJzbTlna255MTdpUllycDdQQlFmU2Z0czNZaHgtQjd6eXZUT3A0bVRNRzlfbWczSjFmMTI0dHRFTzJtX2NvTEtDd0dyR2R6MVRBQW1NQ0ZJNnM3eGxfZDJaTjFZUWtNM21HOFVCYzJfa0hyY2hGcUUxRkV2ei1mVmJSZWFzQQ?oc=5",
+    "source": "ThePrint Hindi",
+    "date": "2026-09-13T08:09:06+00:00",
+    "summary": "जावा सागर में इंडोनेशियाई यात्री जहाज़ डूबा: 103 लोगों को बचाया गया, 140 लापता ThePrint Hindi",
+    "image": null
+   },
+   {
+    "title": "Indonesia: समुद्र में समाया जहाज? 243 यात्रियों से भरा समुद्री जहाज इंडोनेशिया में लापता, रेस्क्यू ऑपरेशन जारी",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0lES0Zqck9GdmxHWjdkM0ROc01FZ01TNDB2TjdJd1N3eW41MzNxamdHN3BNb3ctenludHhuUFNURmJEUGJuSlQxeEpIUGtoYWpvVkpIRk13YjNoYlR3VjRSZTFoT2lxS0xwRktHbUtGcWVLNF9HbkZDNU52NUllZmk1M1RReDN4WFgwZnRSRmdqVGxBZlpleUdIaVRxc0xnMzZudmpFdGJHVVJBSTM4aWhwa0Q5NXpGazVJTHJoMnZ6clBE0gHKAUFVX3lxTE5oZVY2RkVSSlNSemIyQ1Rrc1d1SkU0b211RzVGMFV0QlRGUXE4blZLNTBsZTFPQl9XcGc3Tzhacld3U2RzYmxXd0FQajVFZWVMSnNwUlFudi1hZmhlZ29GMmNzaXlzTFcxR29mVnc5cFlyWFlmRWsxUFVDRzNrVmVKQjlPWnhaYWZhUGU1U09WbFp4QnprOV9qRVNrRkY5Q3pZUEthaWZETjlWdWhvakNtNTRfYkZyUkpNTFVtV2JianY5VGJuSHFUTFE?oc=5",
+    "source": "Lokmat News Hindi",
+    "date": "2026-09-13T06:04:00+00:00",
+    "summary": "Indonesia: समुद्र में समाया जहाज? 243 यात्रियों से भरा समुद्री जहाज इंडोनेशिया में लापता, रेस्क्यू ऑपरेशन जारी Lokmat News Hindi",
+    "image": null
+   },
+   {
+    "title": "भारत से 3800 किमी दूर इंडोनेशिया का शिप समंदर में लापता, 240 लोग हैं सवार, कहां है जावा सागर?",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeGpWZUNra0FyVkg2cU5MUFdMMTd2bG5BSkdldTF1dXlUMTRyUVF5RHpyVWt2ZjMxWXdHNkRFdDBKNFRtZ3ZvNERUNVRsZDhCc05jMldxMEgyUWJWNWJZREtrUEtWcl9TQW84Y3M1bklzWkVvZ2RnT2RFRlkzSGcxb2NsMEFPcWVCZDR4OG9SUEdQS0xTQTdPX1EzaFBEemRqaEVLQkszY0NidVAzOVFNb0F1eEpjQml0QnZnX0FibVNCY1o0ODZna3hEOXhtMEFr0gHQAUFVX3lxTFB4alZlQ2trQXJWSDZxTkxQV0wxN3ZsbkFKR2V1MXV1eVQxNHJRUXlEenJVa3ZmMzFZd0c2REV0MEo0VG1ndm80RFQ1VGxkOEJzTmMyV3EwSDJRYlY1YllES2tQS1ZyX1NBbzhjczVuSXNaRW9nZGdPZEVGWTNIZzFvY2wwQU9xZUJkNHg4b1JQR1BLTFNBN09fUTNoUER6ZGpoRUtCSzNjQ2J1UDM5UU1vQXV4SmNCaXRCdmdfQWJtU0JjWjQ4NmdreEQ5eG0wQWs?oc=5",
+    "source": "India.com",
+    "date": "2026-09-13T04:56:00+00:00",
+    "summary": "भारत से 3800 किमी दूर इंडोनेशिया का शिप समंदर में लापता, 240 लोग हैं सवार, कहां है जावा सागर? India.com",
+    "image": null
+   },
+   {
     "title": "गुजरात तट के पास दो मर्चेंट जहाजों की टक्कर! 21 लोगों को बचाया, Coast Guard ने चलाया रेस्क्यू ऑपरेशन",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQXNweDAwVF9kUXRTY0pXVEhyejBubnRYRkh4XzZ6T0ktVzhpUzNQS1pSbC1UbXNVOU9qdk1sVlpJQTBSdWY5OGJYTXlPSUxuemZXMjNHc29LLUtBR2ozTHNNS3VpZWFjbGdKeVlxMEFoLXI4RTl4MGdITWFLMTJGUjNlWFBIelZ5emV4amE3ODBxWE9pY3l6YWlUdEpaYS0waW9xZjJpdGNtOHoyYVJfMmd1RFhla2lmd1pha2laZnhVdGRJQ09fZFpQZTVvZ0HSAdQBQVVfeXFMUDk3elNXOG10OWcxRDUtemVRRlFseEl5WkVGMzdrb3pFaG1mTkZ3eUxIWTRnMWI1Sm1QNll4XzhTcnNxWWJhQW5PbWhScFZMUmkwS1dCOXdxREIxcTIwRHUzaWd3eDBaWFROUG9iR21hSUVFb192b0NKdzdWODg3Y0dNNW4xMlVXYThjck5NUFQ0MjZweVI1M2kwZ0RQT0oxcW40ZmRfOU4tdkFTOEZQUXVzbTZGX3RiTGdWMHNlcmxBTjhjUHA5bFJjR2xmb0lmUHhnUXA?oc=5",
     "source": "Times Now Navbharat",
@@ -329,19 +353,11 @@
     "image": null
    },
    {
-    "title": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTzdNZXFhcFNqS1hDTW8xVVpmNmNWTUFlX1F6bEx6T0Rma3FaQV9UOVoweXZETmoxY2hLdDZDeUxvS0h3Z3RETnd3TlpRVTV1SzhKMlZ4cXU0Z2dEQmFXSjFNbGlEX2V2V0hZR196Y3g2UlJxeFBScDExY3YtZXNpS25vcW95MDZRUUdJOS13bVR2QjZWSEpreExpdXVxMWMzTkZZMmlrLUwzY2lZNGpQUnotMnR4VXNiY2fSAb8BQVVfeXFMTVBHdHJqS05aelF5VDQ2aXlMcEhROVZTOUZ5bDBvS21ad0pDam8xbFJ2TGNQOHh1OGttVmJ2TEJkZWpKZ0hLM2lkYW5xZThab2s3dTJhM0VaTXpNN2Q2a2VqUUszVm5LRHBzdG53NDgyOUFQZ1ZIemtTVVNYdXRKcU83ejB0NFZFUXJOenY5S2xIeEloT0ExZEJPalZLTWFUWmdnb3JaWEJMSkthQWhVUllIdS15VEpEdzhRWVQxTE0?oc=5",
-    "source": "ThePrint Hindi",
-    "date": "2026-08-23T07:00:00+00:00",
-    "summary": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान ThePrint Hindi",
-    "image": null
-   },
-   {
     "title": "कैसे पारादीप में डूबा ओडिशा से सिंगापुर जा रहा पनामा का कार्गो जहाज? 24 चीन, म्यांमार और बांग्लादेशी डूबे",
     "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOZ2pabzBNcUpxNVkwbkpEeC1WSlVLeHhhNlE2bjNsVUpWMkJiM2UwZGgwQ19tOFVKS2xUbUhCNmduRUtqbVVsbnFrRVV5cHpuMVJVMEtFeGh1cXZjZDZteE9hWmVZWDVnRHBGdXdSUjVya0tkX2xMSEh6VkVOMXc0VlFlQ0wzdVpfRTl3RnhjaXBjd095VEZfdXpicXhCVnZPaTZ1UVpnSmZudEhxcHktRUZ3eEJNX0lYUjluelZSbjBvWk5WYWZGUE4wWVdrcHZOSDc3eUZzbFBjbkthYjZqaTd4MjgwZjB4d3BPaDNmdGtpMm5fWW5TWkdubE8zeGY1Yy02N1FWZUNSX1Y3anI0WXFaWUlvdXJXMWZZRlZSV1ZHQdIBpwJBVV95cUxPNmJ5ZDMzc2JqTWdHZHJOczA1UUZFSXh2RWhJUkpkZmVnd3ROUUs4Q2VjRVhoZEJNX1pQV0xPeUg5Vy1RRGhCU1lMOVJKYlEyYWozbmNKc1JlMEdOTDFXRDBnLVAwMDhjUnRSNmdqMUo3RFRxc1Q0MFR4Tl9weEQ0NTNjU0V2T1Myay1Zd2VscWZ4OFI0RVZZWDN6LVYtSDNFVHNJR2VDaEdGVldqeERENWExWktNTmNNTEJLdWpJSi1YV3Fla0traDRRVnZPaXBEZXlFcHprT21BVzlUeWd6UTR2N3NOc3hXSG9yRFd2SmFWRE5PMGFvSGROS1JpaHdOUWEwMGU2bkRseEt1ZExRTUdGbHJ5VDlOTGNaNlBzRDNobmdfcnhJ?oc=5",
-    "source": "Navbharat Times",
+    "source": "navbharattimes.indiatimes.com",
     "date": "2026-08-23T07:00:00+00:00",
-    "summary": "कैसे पारादीप में डूबा ओडिशा से सिंगापुर जा रहा पनामा का कार्गो जहाज? 24 चीन, म्यांमार और बांग्लादेशी डूबे Navbharat Times",
+    "summary": "कैसे पारादीप में डूबा ओडिशा से सिंगापुर जा रहा पनामा का कार्गो जहाज? 24 चीन, म्यांमार और बांग्लादेशी डूबे navbharattimes.indiatimes.com",
     "image": null
    },
    {
@@ -350,6 +366,14 @@
     "source": "Amar Ujala",
     "date": "2026-08-23T07:00:00+00:00",
     "summary": "Ocean Winner Vessel: मालवाहक जहाज ओशन विनर बंगाल की खाड़ी में डूबा, चालक दल में 24 लोग; ICG-नौसेना क्या बोली? Amar Ujala",
+    "image": null
+   },
+   {
+    "title": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTzdNZXFhcFNqS1hDTW8xVVpmNmNWTUFlX1F6bEx6T0Rma3FaQV9UOVoweXZETmoxY2hLdDZDeUxvS0h3Z3RETnd3TlpRVTV1SzhKMlZ4cXU0Z2dEQmFXSjFNbGlEX2V2V0hZR196Y3g2UlJxeFBScDExY3YtZXNpS25vcW95MDZRUUdJOS13bVR2QjZWSEpreExpdXVxMWMzTkZZMmlrLUwzY2lZNGpQUnotMnR4VXNiY2fSAb8BQVVfeXFMTVBHdHJqS05aelF5VDQ2aXlMcEhROVZTOUZ5bDBvS21ad0pDam8xbFJ2TGNQOHh1OGttVmJ2TEJkZWpKZ0hLM2lkYW5xZThab2s3dTJhM0VaTXpNN2Q2a2VqUUszVm5LRHBzdG53NDgyOUFQZ1ZIemtTVVNYdXRKcU83ejB0NFZFUXJOenY5S2xIeEloT0ExZEJPalZLTWFUWmdnb3JaWEJMSkthQWhVUllIdS15VEpEdzhRWVQxTE0?oc=5",
+    "source": "ThePrint Hindi",
+    "date": "2026-08-23T07:00:00+00:00",
+    "summary": "पनामा का जहाज डूबा, भारतीय तटरक्षक बल ने शुरू किया खोज और बचाव अभियान ThePrint Hindi",
     "image": null
    },
    {
@@ -367,131 +391,115 @@
     "date": "2026-08-12T07:00:00+00:00",
     "summary": "भारत में जहाज़़ों की रीसाइक्लिंग Drishti IAS",
     "image": null
-   },
-   {
-    "title": "यमन का दावा लाल सागर के बाब अल-मंदेब जलडमरूमध्य में एक जहाज़ पर हूथी के हमले में 6 लोगों मौत",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNZTJHY0QtMEIwYjhRTFh4VHNSWkktT21GWVBPYXNDa3hUWC1keTZ3MmdYZU1OTHZGZ1ZscGhFNG9TMlNnSFlpN2tEMUJsa3V3QzNqZDIzeE15bDJ3TGY2ZXdDY2t2RjBYVVlaTDRPeklvYndrZ3BuZlBTMndUczZfSEwwSFR4Vl9fNWcwR2lqMHo1WmEzbFNTRWNhRGhnUUdwZlFEa2F6Ym5kbnpxMUlWNFVCeDdaR0dnQm5CeWhYWjVteDROUGhEU1R2cllsSEE3Sl9qY3ZTUnBHaHRTeEQ3SC1DaFJlVkdQSlJYVGxn0gH2AUFVX3lxTFBvNFozOVQ2TDBVZ0JqaDhVTjdvQlozSUJQaF8xMFFncGM3OXNCbTN3aGVUbDhtWTNhYVNZWUJSVG1yM3BrYWM5WnhTaElVb01qT3lBM2ZQZWJjU2hyVWE2RG8tcXVobVdBZkh2ZmZ3TUJVZDhfbHFRNFhxd3ZHX2p2cTZpNlNyUks0cElXaDE3dUg5S2NnMXczalFwYnh5LXR2czRCT0c5ZDUtNVVPZ3lvTEQwdGRGR1VSeUZYa2dJUTBpNkVlLXRwYnlzZTdsdzl5RjA3TGZwRTBxZ2xYOExNVFFQbUZ2UWlzN09VM1VNbjJMb2JSdw?oc=5",
-    "source": "dainiksaveratimes.com",
-    "date": "2026-08-12T07:00:00+00:00",
-    "summary": "यमन का दावा लाल सागर के बाब अल-मंदेब जलडमरूमध्य में एक जहाज़ पर हूथी के हमले में 6 लोगों मौत dainiksaveratimes.com",
-    "image": null
-   },
-   {
-    "title": "हवाई जहाज़ में ‘इथेनॉल’ की जंग, केजरीवाल और मालवीय के बीच पॉलिटिकल 'टर्बुलेंस'",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU3FySUVPQUh6S09pc09kSkRrZ2t1dXhZd2U1dFhoamVUSDNFMHJXRzJ1d3lEUXFjdFFPbUVYQnhpT3Z6Nk5aU3VWa3N6TXBKUm5PMHFXendhY25pbUpBb1VHOXo1dzdRY29adGhpNkc4UnlIbVRVQk9hM0xQTTVUX1paZ3RxWFh1azBSUWo2dGlnbU9HR1dSLXotdUhMajZNcDdudVd3bENqMDNucDBRTXFQVUxnNVppS3FZQjNRVi1zYmNpdndHeHo5WUJiS3NGWEZEWTZCR2JVRlNRa0NPcTVJWDVUUzRLZkQ2LUc5V244bTDSAfgBQVVfeXFMUGtrUFFwYmVZcUVRd09HNXBYQ1d0a2Q4d0U3LU95b0dpVjhWdkhYZ1ZLUExoUXF4OTVCRjR1N2lWYVFUcVBETU5oY3lPa3dJajl1REhlUXFkQmN3aTdJb2MyNjUwTnF5ZGdMX2I0QmZpemxsOWlPdnQ4M09MS1RFNXVLUXQ1dHdYaWVPR2NiMGxYSHRoTDFiSDd0X21Jdi1ZZjhKd0VhRlZJVldtZC1JbmZfa1Vmck5XXzQ3VmJDcW9YR0pZYUgtREFNZV9SZDRJY1BWZ0tmZ3pGcDdMNXQ4QkJVdWNMV2FnTjl2U1pmT2YxZmFGX3JXbnE?oc=5",
-    "source": "aajtak.in",
-    "date": "2026-08-07T07:00:00+00:00",
-    "summary": "हवाई जहाज़ में ‘इथेनॉल’ की जंग, केजरीवाल और मालवीय के बीच पॉलिटिकल 'टर्बुलेंस' aajtak.in",
-    "image": null
-   },
-   {
-    "title": "लाल सागर में भारतीय जहाज पर हमला, बचाए गए सभी नाविक; भारत ने जताया विरोध",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZUZuUXEzOUt1cTltVS00UHpqc0pKYm52T0dmb1N3QlRvVUc3bjFrR0YwU3Z6c1psMHVvZVRfVm1yUUFQMm1XVTNWNHdkdWtrOGdPSFJoZ0tocHpKT2NOdmNQX29YcmVXdGtWU1lORDRxVTB4dW5UMlBhTkRJWmtOUm5aOUh4WXpvUHlSZGlHYkVwZ1FrMEpxd25BX3FKV2xBd0tjbzY4aXBfOXB0elJzemdGc2NaRWcteEJ4MzFSS1RQUTc1bElF0gHMAUFVX3lxTE43MXFEa1hEOUREYllCcC1saEl3VldiMlpHTFp5czYzcGJ5QkZIUS1qSHc5RDc0S24xLTFWVFhSc2tjQnlWSE90WWdIUGJvU3EyYzhRLWRFOGRhN1JERzdTTFRNMDljWGRBT004OGh0Q0hHTnF3YmRFc0xZSXpGMV81b1Y2dTZsMFowUENQTW1ObVpadWRsMU5GUk1KOUhDSDNXYzYyUEhfSXBKNVduSy1sVldESjlqa1lyMllqT3dydktudTNCOF9CWjBKUw?oc=5",
-    "source": "Hindustan",
-    "date": "2026-08-05T07:00:00+00:00",
-    "summary": "लाल सागर में भारतीय जहाज पर हमला, बचाए गए सभी नाविक; भारत ने जताया विरोध Hindustan",
-    "image": null
    }
   ],
   "bn": [
    {
-    "title": "নৌ অঞ্চল ৫ নিখোঁজ হওয়া নি কুয়ান ১৯ জাহাজের দুই নাবিকের সন্ধানে তল্লাশি অভিযান সমন্বয় করছে।",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWmhXRUhWSzEyblFJam9qcVlfaHR0S0RJMGJTbkZ2Qk02NG1PTzVjY0tYeTNLZExPSi11UGxQWVlSMEhrdVdZUUN4cWducnhSdXozZFBVc2h2QmY4cFlxSlFhRUwxS0lmOTZxejdfYURrbWpKQldFVm5hbXdocV9pQ19yTVVfN1RtVzcyb1JfODRUVFhrUW93QTNoZzd3dw?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-12T05:27:24+00:00",
-    "summary": "নৌ অঞ্চল ৫ নিখোঁজ হওয়া নি কুয়ান ১৯ জাহাজের দুই নাবিকের সন্ধানে তল্লাশি অভিযান সমন্বয় করছে। Vietnam.vn",
+    "title": "Indonesia | জাভা সমুদ্রে নিখোঁজ জাহাজের ১০৩ যাত্রী উদ্ধার, ১৪০ জনের খোঁজে চলছে তল্লাশি",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX1FCa19rd3pFZ0V6SUswc2U3OTR4ZFhHZmtMbXItcnIwMzNMeDBPYW9Ta3phaGh6NnliSHFtR0VodVRWbk1OUk5ueERLdzR3aWpVbW54SllpQ09WdDYyQVdiQ3NzamZQQnRVQnVCeGxRTG1nNWlBYnVUbEFqdGJKTjkxMzlucUhq?oc=5",
+    "source": "uttarbangasambad.com",
+    "date": "2026-09-13T09:13:13+00:00",
+    "summary": "Indonesia | জাভা সমুদ্রে নিখোঁজ জাহাজের ১০৩ যাত্রী উদ্ধার, ১৪০ জনের খোঁজে চলছে তল্লাশি uttarbangasambad.com",
     "image": null
    },
    {
-    "title": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ | আন্তর্জাতিক | বাংলা এডিশন",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5scTlxQjhFbzZSVXhqc0hMZlNlWElIOGdiMWRDajNVYWluLV9kenVRVTVHbGlmU3RnY3Fwa0IxTl81Y0N5OUk4aF81a3FWTFZTdTA5UmY5ZmFkMllwS1pLQ2x5VQ?oc=5",
-    "source": "Bangla Edition",
-    "date": "2026-09-10T14:27:00+00:00",
-    "summary": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ | আন্তর্জাতিক | বাংলা এডিশন Bangla Edition",
-    "image": null
-   },
-   {
-    "title": "চীনে পণ্যবাহী জাহাজে আগুন লেগে ২০ জন নিহত।",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZG5mYTRkUGQ3R1pHaFM0TXlfQVNnRExFVzJUNHZHQjcwT0RCTkZZbDNmVUJCTkRPbnh2cURpV2o3TmwtaExyaHpaOUhFSWV0R0xjWjRFOVF6Y3ZzWkVrMXUxNk1mZF9HOVVUcTZfRE5UOEpoeTJXZVRuZTNVU3E0MXFEVzQ?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-10T13:58:10+00:00",
-    "summary": "চীনে পণ্যবাহী জাহাজে আগুন লেগে ২০ জন নিহত। Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "চীনে পণ্যবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xdjdOMEhkSkhtOVhSbS1WVXNzOVpETlJuYWtOeXhzRXBYSmpvUzRDOFNncXN3T21ZT3lSQ0hYVUxqdmtuXzRSbWVaSnI5eDB6dXc?oc=5",
-    "source": "Janobani",
-    "date": "2026-09-10T13:02:00+00:00",
-    "summary": "চীনে পণ্যবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ Janobani",
-    "image": null
-   },
-   {
-    "title": "চীনে পণ্যবাহী জাহাজে আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BbnhIaHdlLXdfMDI0amFvLS1fdjlTODUwOFNBQzdBSDlQM3FsdlR3SUEwS19YVjB4UkF6NXV6NXc3Yk9LWkFFTWt3cGpQUGh5LUdsSWJmMVBDYW81UDhOOHlJa9IBT0FVX3lxTFBJOHoxOVN2a28yRmI2THBmcG5ESEl3NmxwYTV6amdtWVppYlBtTVZ5WHZKSlVoOU1lWGFmM3NvVGpqMjNXaE9yeHZCTDJ0Mk0?oc=5",
-    "source": "Jagonews24.com",
-    "date": "2026-09-10T12:41:00+00:00",
-    "summary": "চীনে পণ্যবাহী জাহাজে আগুন, নিহত ২০ Jagonews24.com",
-    "image": null
-   },
-   {
-    "title": "চীনের বন্দরে জাহাজে আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2bWlQM1ktTVE4VUx5ZUkxYlFDWWE5RndEcW9MZ3E4ZW1fMVhtcE8xMXNEZHQ0VGhTWXdheGRlSWIwT1NmZFc3LUZFTk9UTW1lVlBlLUNGSV9DNzI0V2VQZFJkN0s5Zw?oc=5",
-    "source": "thedhakaxpress.com",
-    "date": "2026-09-10T12:31:00+00:00",
-    "summary": "চীনের বন্দরে জাহাজে আগুন, নিহত ২০ thedhakaxpress.com",
-    "image": null
-   },
-   {
-    "title": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FeXdmSTMxcnNtWVlld3hVNFlENXBESUdCY1NVdFByUGdROFFldjRIeS0xZTNuNWI1Mm9SRXlTcXd1VWpkRnpkcEQtSHJNV0pTME1lemlkZnVnRWs?oc=5",
-    "source": "RTV News",
-    "date": "2026-09-10T12:22:16+00:00",
-    "summary": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ RTV News",
-    "image": null
-   },
-   {
-    "title": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56azVHTmxpVWdtRDVRV3VrbGJTLVlDRlhjaUYyVDZVTDJjMW1ucnNZa2U2MVp1clJBd0ZHY3EzR0hIb2tSeWlLTzVFeHd0a2cxMzNvZnJSd0pHbVpxOG8w?oc=5",
-    "source": "The News 24",
-    "date": "2026-09-10T12:19:00+00:00",
-    "summary": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ The News 24",
-    "image": null
-   },
-   {
-    "title": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tUWJTbjRMQkNTZFVuTnpmVkFLd0s3ZVpTZGxoSHAtRDJvUEt4cmVfV2UtYm1KTE1Vdmt2eGt0RFFCR2h0dktNZUVIRTlMVVZsMXZjaFNwRG9JZw?oc=5",
+    "title": "ইন্দোনেশিয়ায় নিখোঁজ হওয়া জাহাজটি উল্টে গেছে, নিখোঁজ ১৪০ যাত্রী",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BaFdhX0hfVVFlQUtjZV9SUWR4cFYxWE96QXNQYlpvb1FMTk5aRnFmQk04Y0dPTHY1eW02MUpvTU1tWFYzdmxMWGM2a1c0VUFoMHVXSFV3bjg2QQ?oc=5",
     "source": "dhakapost.com",
-    "date": "2026-09-10T12:10:45+00:00",
-    "summary": "চীনে বিদেশি পতাকাবাহী জাহাজে ভয়াবহ আগুন, নিহত ২০ dhakapost.com",
+    "date": "2026-09-13T08:43:00+00:00",
+    "summary": "ইন্দোনেশিয়ায় নিখোঁজ হওয়া জাহাজটি উল্টে গেছে, নিখোঁজ ১৪০ যাত্রী dhakapost.com",
     "image": null
    },
    {
-    "title": "মেরামত চলার সময় চীনের ডকইয়ার্ডে জাহাজে আগুন, নিহত অন্তত ২০",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kdEc3SnBfMTlyMEhta2JRV2ZmWUFTdzhLSklwSk5WTUxrNTFhVGZSd0lWaGZFbmU5LW9tb3BpcDVyRnZoa1BvSlY4Qm1RNEw2bEVrdTJWeFZQNm9RSzRHV3JhN1hfdw?oc=5",
-    "source": "ekhon.tv",
-    "date": "2026-09-10T11:58:41+00:00",
-    "summary": "মেরামত চলার সময় চীনের ডকইয়ার্ডে জাহাজে আগুন, নিহত অন্তত ২০ ekhon.tv",
+    "title": "ইন্দোনেশিয়ায় ২৪৩ যাত্রী নিয়ে জাহাজডুবি: একজনের মৃত্যু, নিখোঁজ ১৪০",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPQVRzUU1tR3I0bXRCcVloWWxUTWE5VFpodVZjLWZSbW5Lcml2NEhzUVNsWjU5cExLVUN3RE9qNWF0TWFCSXY1eW5YN3Rqc0dQTkJQTTBSQ1AzYldM0gFqQVVfeXFMUGZsbTV2X0JMLXhvdHcwcmJCNk9ROW96dmVFcmV5YmdNOGVuOFllUnZFOTZETHQzQklqZmJjWkJtRndRZktLMVBuY2Fob3VlMnRqbDNGeHNxMWljbDJRTHNmTnhjd0VZMDhrQQ?oc=5",
+    "source": "প্রথম আলো",
+    "date": "2026-09-13T08:36:21+00:00",
+    "summary": "ইন্দোনেশিয়ায় ২৪৩ যাত্রী নিয়ে জাহাজডুবি: একজনের মৃত্যু, নিখোঁজ ১৪০ প্রথম আলো",
     "image": null
    },
    {
-    "title": "চীনের বন্দরে কার্গো জাহাজে ভয়াবহ আগুন, ২০ জনের মৃত্যু",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90eEZEUHBXcEx2X0xtbWZZc3pGTER1UnlVbjc5V0M0TnhBMGtQUmxtbm5IdTFBaDU1VzI0aDlhVDM5eGlFLXpIaWZNaEt5bXZKWlczV3JXNTVmcS1iMkFJ?oc=5",
-    "source": "ক্যাম্পাস টাইমস",
-    "date": "2026-09-10T11:32:00+00:00",
-    "summary": "চীনের বন্দরে কার্গো জাহাজে ভয়াবহ আগুন, ২০ জনের মৃত্যু ক্যাম্পাস টাইমস",
+    "title": "জাভা সাগরে নিখোঁজ ইন্দোনেশীয় জাহাজ থেকে উদ্ধার ১০২ জন: বিবিসি",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43MnRwNDJmZFNsOVNKVHdQNTlod2ZxRDJ2VXV1aGtUYkJHeHU4WU1rcTlpc2k4Tk9aSVBxekZRRzN0TklZRzRBZ0Jub2swT1ZFaWpuZFMzRWR0a0xrNm5mUTFfV0U?oc=5",
+    "source": "citynewsdhaka.com",
+    "date": "2026-09-13T07:35:00+00:00",
+    "summary": "জাভা সাগরে নিখোঁজ ইন্দোনেশীয় জাহাজ থেকে উদ্ধার ১০২ জন: বিবিসি citynewsdhaka.com",
     "image": null
    },
    {
-    "title": "ফিলিপিন্সে ফেরিতে অগ্নিকাণ্ডে মৃত অন্তত ৫, নিখোঁজ ৮০ জনেরও বেশি",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVm1NSk1QOFprUGF6ZFFXTVVvbENZbVRKVnI2TS05WGJKRC1PU0sxRW1JUUgyVF9lR2gyRHJ5azdqNm4teUJvS0dEdlk1MklORzV5OFhvb1BUdmZOQm5yQVFMMDlPaWdVdmV6Z1ZSbXlNWEM3NTl3SnhiV3VQZHdZdk5XLVRtanJicG9UMWQ0eUZsaUF1NHJCdVZ5b19hUWZ0NkhsYXBLQm4tVW800gG6AUFVX3lxTE40TGk2aVJPeUM3bzU2ZmVNZnpmemJhakltWmh4SkxsUW44RzFzWEZPbDdUQW9wbU4tdTBXM3ktcjdVQVQ2MVdveFJfaDhFT1FxX2lqcm90azhZcFgtWTlqMm5MaDV1SVA1UUozSDJPSkhyWG1ob0FaYnBnRmU1VWkzWkY3a2R0S3MyVWpzaGEyTVI5TEY1YWs5bHRPSG44VWJCN2dETlBMSzlMZVE1N240dlpXVmdJMWdodw?oc=5",
-    "source": "Ei Samay",
-    "date": "2026-09-10T01:00:52+00:00",
-    "summary": "ফিলিপিন্সে ফেরিতে অগ্নিকাণ্ডে মৃত অন্তত ৫, নিখোঁজ ৮০ জনেরও বেশি Ei Samay",
+    "title": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০৩ যাত্রী উদ্ধার",
+    "link": "https://news.google.com/rss/articles/CBMixgRBVV95cUxOZUVYQ2JJSTZ1OWs1aFFRTlBuZXNVNkJzY0EtYlZwWjctN2NPYXJac3VDSXBHMmxTcDZhNGlscDcxdUR4MHJ1akV0NnBfMGFXVVladFRyVE96LWY0RkIzU2Rtc1ZMWk9SNkZfdWV2Q2swZHNHRzFQdGw5OEZJT0lFYkduNHlyS0VrQXBWQ1liaXJxV2NTYjhTcVJ4WGhiWHdLZUtEUF9GQlpwdEQxT2FOeU9oV2FKSm51OUxQbm1ibzlPNi1RY3VYY1VtdWNXVUhTRGNxb0FQNUh5dFNtejhTWldUeHdaaEdPRmRaN0hTbEpkZjBqS1g1UFUwamZnT2JyMTZ2ZWxfbWhrR2N3M0tEdDdibDhhZTFLZE1zaHp0NlhMNDA3Z3Y1a0xuel9taHhjeEV3XzNUeHFtSTg3eUlzQ0J1dlc0R0daVVp1V0tYRXdJdnJJS29TTGVXRDNMMnA1TEF3Q0U1R2h1cHhnUTFGT2RUUlM3V0JiTERRb1R1UHlIczRXbHZ2a2dYcG85Z0xUeGVxYWVVVndneUdiQm8ydTIxaXRPbldQUTJKYzctaDNHd3oxTVhCOXVFbjdfRGxYeEtreEdKcFdBeFN6cDlhbHduN1dOMjdyUkVBeDBzSTJHV1NsSzVMY1dyZGtGMFRPandjZ2Rqa2xHU0hzOEc5M29vWXA4Tm5Gc3NUZnBPN3BmLXY4WlU4WEZ1blhwcGZZc21lT19FS1BTek1COUdFbXI5YzVCWnQ4a2hWOVk4aDF6SGVveFE?oc=5",
+    "source": "News Bangla 24",
+    "date": "2026-09-13T07:34:00+00:00",
+    "summary": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০৩ যাত্রী উদ্ধার News Bangla 24",
+    "image": null
+   },
+   {
+    "title": "ইন্দোনেশিয়ায় জাভা সাগরে জাহাজ নিখোঁজ, উদ্ধার ১০২",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yWTVRdzNaWGRyYmhrSloyWmkyMi1NZnozeEc3czdkRlA1VDVQbWwtOXFEaVdyX1hvQjNsckNfQUtobDVXMDlaOHdnajN0ZjNLLU5LUkNNbUo3Rm5udzBNaURB?oc=5",
+    "source": "এইমাত্র",
+    "date": "2026-09-13T07:33:26+00:00",
+    "summary": "ইন্দোনেশিয়ায় জাভা সাগরে জাহাজ নিখোঁজ, উদ্ধার ১০২ এইমাত্র",
+    "image": null
+   },
+   {
+    "title": "ইন্দোনেশিয়ায় ২৪৩ আরোহী নিয়ে যাত্রীবাহী জাহাজ নিখোঁজ",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oZFYtVy1SNk5kQk96QzU1N3JQQ1RVRnFMN01LVkR0Z2xTcGtlSjlBSHFadFNGTTdmSGtFTGNpSHVoRm1GVmVfR2VYOXBKVWxVM1ROeXFCU1R6UWZG?oc=5",
+    "source": "Gramer Kagoj News",
+    "date": "2026-09-13T07:20:00+00:00",
+    "summary": "ইন্দোনেশিয়ায় ২৪৩ আরোহী নিয়ে যাত্রীবাহী জাহাজ নিখোঁজ Gramer Kagoj News",
+    "image": null
+   },
+   {
+    "title": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০২ যাত্রী উদ্ধার",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oSjVodnVSY3RZVm9HQXd1bEctbks2WVZVWnFMdEN0Rlk0OWFocXc4eTBHUmlxX1FnWFhxNVl3UHlfdlc3d3doOXZlN25Ta0FnTkNB?oc=5",
+    "source": "দৈনিক এদিন",
+    "date": "2026-09-13T07:03:00+00:00",
+    "summary": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০২ যাত্রী উদ্ধার দৈনিক এদিন",
+    "image": null
+   },
+   {
+    "title": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০২ যাত্রী উদ্ধার",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE96ampILWJVbzNybkdaMjVfd0xHUFBubDdNQ2JlN3ZEYWpManVKZm16RnNTZ1NrNEZKQzUxVXpZWWI0QzVUaHdDVUJPX1VCaDZfaEpNddIBWkFVX3lxTFBpc1NiOGtUelN5Vkt1SXdYVDJCcnkxNldjbWtYdjF1T2hNLTdDZnh5cWhVVzhIWlpvd19nemZCeDdtTkV3aGx1bmF2OFJRM1E5MGNBZ19UN28ydw?oc=5",
+    "source": "Dhaka Mail",
+    "date": "2026-09-13T06:50:36+00:00",
+    "summary": "ইন্দোনেশিয়ায় নিখোঁজ জাহাজের ১০২ যাত্রী উদ্ধার Dhaka Mail",
+    "image": null
+   },
+   {
+    "title": "জাভা সাগরে ২৪০ যাত্রীসহ জাহাজ নিখোঁজ, চলছে উদ্ধার অভিযান",
+    "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNRzJFQjM2cTFoMm1yQW9Bd1NrUXhfUG1rN2VGN3dzLXFkYXhkRVBtdDNLV1NUdEtscXM4TGtZOHRma01iT1Qyc3FkUTJ5alEwSDVoWlhHUDFGRXJwS3NjSmZuU2pxemkzcFJzcWNxWE9jb2EyM01oamZwRDhVWVFSREVZd3lqb2FQaVRkYXFOeGxlSS04RWREMVlpWUtNRVM4ZjVzM19iWDhSakVaZ2YtaUpscEtTYWVpa1VkOHhQemx3ZmhteHdYVG40UXRwa1doZlFNWHJ0dFhsUlpwVnlxWE1MQUJpVy1EbXd6TTdIOEkyTk0tTTR1N2tPbG1tV3dDMGc2b2wxdG1SUVBkaXVHcTRRVVV3dVBaRWo1Rm9IdXpWSVJBWjUtTGJlTG5lQ1VTZVpqekpwSEtvcXVlZ0J2Yl96bGxyM19rX3hCM2pza9IBzwJBVV95cUxNRzJFQjM2cTFoMm1yQW9Bd1NrUXhfUG1rN2VGN3dzLXFkYXhkRVBtdDNLV1NUdEtscXM4TGtZOHRma01iT1Qyc3FkUTJ5alEwSDVoWlhHUDFGRXJwS3NjSmZuU2pxemkzcFJzcWNxWE9jb2EyM01oamZwRDhVWVFSREVZd3lqb2FQaVRkYXFOeGxlSS04RWREMVlpWUtNRVM4ZjVzM19iWDhSakVaZ2YtaUpscEtTYWVpa1VkOHhQemx3ZmhteHdYVG40UXRwa1doZlFNWHJ0dFhsUlpwVnlxWE1MQUJpVy1EbXd6TTdIOEkyTk0tTTR1N2tPbG1tV3dDMGc2b2wxdG1SUVBkaXVHcTRRVVV3dVBaRWo1Rm9IdXpWSVJBWjUtTGJlTG5lQ1VTZVpqekpwSEtvcXVlZ0J2Yl96bGxyM19rX3hCM2pzaw?oc=5",
+    "source": "Orthosongbad",
+    "date": "2026-09-13T06:46:10+00:00",
+    "summary": "জাভা সাগরে ২৪০ যাত্রীসহ জাহাজ নিখোঁজ, চলছে উদ্ধার অভিযান Orthosongbad",
+    "image": null
+   },
+   {
+    "title": "১০৩ জন উদ্ধার, ১৪০ জনের খোঁজে চলছে অভিযান",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcE5PQU90dHFicUF6UVV6VDNscEVlU1JwWDlNeVdycGNXVlZPaFgtRlF0N0lkNUxVRmtPakdvWFgzMVlnZ2djOHJ1by1QM0t3UWFzWDF0R3dUS2JrOFNydmZiaEYtaWZmd3pEUHdoWXJvNzdLVzl5U3JsNE5MdXo2UUR5X3c1c25mbGtsUQ?oc=5",
+    "source": "STAR NEWS TV",
+    "date": "2026-09-13T06:28:43+00:00",
+    "summary": "১০৩ জন উদ্ধার, ১৪০ জনের খোঁজে চলছে অভিযান STAR NEWS TV",
+    "image": null
+   },
+   {
+    "title": "ইন্দোনেশিয়ার নিখোঁজ জাহাজের ১০২ যাত্রীকে জীবিত উদ্ধার",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lYmVXT2t5ak1EMVNOOE9zX3Vyc0M1eGlJd1FDU0NjNWJVUjVZSlpjMXJHM21uMUZCNHhtdmI3WGo2czBLTVRXYlpmS2pWSV9JbDJVbE8zODhmcURjeC1hTXhoOVl3MFFubmNtZjZLNnFoVnVt?oc=5",
+    "source": "Banglanews24",
+    "date": "2026-09-13T06:24:52+00:00",
+    "summary": "ইন্দোনেশিয়ার নিখোঁজ জাহাজের ১০২ যাত্রীকে জীবিত উদ্ধার Banglanews24",
     "image": null
    }
   ],
   "de": [
+   {
+    "title": "Taucher orten antikes Schiffswrack mit hunderten Amphoren",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTW94RHFmeTU3MVBMdWE4Qno2bzFXekdMUWVYdEltUmQ2UjJzTXJocGtIY2doZHh1RURSRTVYZGZlcGJjTkRlVGhTTm5XVm1zcEctSjRfQ2NpQURiamRtTzNKeHk0cmNSUXU0M0pvMFVfREpRUzZOczdrUkZZYWthb0xvYmpNSXdON3JoMFNCcXU3NmpNS3lKUVc2aHBXRFdZbE1oV1QyLVZQLVhESEdCNEluNWNHcHhPN1ZPU09TQ0NTOWp6UjdV?oc=5",
+    "source": "Forschung und Wissen",
+    "date": "2026-09-12T11:02:00+00:00",
+    "summary": "Taucher orten antikes Schiffswrack mit hunderten Amphoren Forschung und Wissen",
+    "image": null
+   },
    {
     "title": "Zwei Leichen von Besatzungsmitgliedern wurden im Schiffswrack der Nghi Quan 19 gefunden.",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU2xXS21TTmV5ZHJkMXpPS3ozZGZJN0pISDl0MEZLcDRLQklNcEFKWWVodDJJNm9wbFJBX1B5QlVpejdmNC1oSldJN2hQUjhkYW41WU1FS0xYTk9JdW0tT1p2ZmhSVkNUT3Z3MFVwYmlfa3dHSFRvZUlHanhoTk9vUHkxLVA2bzdqbTQ1aEhuOVQ?oc=5",
@@ -509,11 +517,11 @@
     "image": null
    },
    {
-    "title": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack",
+    "title": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack - LVZ",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdnhPbGYzN1lnSFJiYklSVXd4VTlOcWJnNG1pQXFhS25xcXhYNGkwQWJST3N6VVBUWUNheEZfcFFXaUtzd1Uyc3Vhdk53bGt6QnB6OEUzNWg4bzV3MGxSZnhndlJwa2QxMkFlT0RNdDdxSHdleHFrWFVkZ1VwTlBLdzRNU3RpQ1VmOVo5eG1vdnZLTzBLNnNYRnczUW8zQjZfUUh0ckdPU0l0c3Z0TGx1WjlPTERIWWVXU2ZPblFaSS1RTE9nVVptZzhobzFybkJvRkQ3dXpyUnJ0UHfSAfcBQVVfeXFMTzh4VTVlZi1nTVRiOWxOVzMzeHU0ajl4NEFqWXltUVBNTE1SYW1PZVBuRTV1MkN2TFRtQzZjaFhhY2NCXzI5OU5jSTEwTVdJdGs4V09QSU1vY3VURjQ2UDJDNkRDUzJ1aWVnRUx0cTU3RFlHWUY4ZVdvdEE5UENIMVJHUG8tY3FNOE5RMHV1emxBUVBLWkw5S0FjTzVxOTJBa1N1cWM0Zi1QTmR0S2ZrQzFnV0xPeDVuanJmR1Y4YWlzQ3VSZVpLVzFTdVF6Yy04RFJJT2xIRzcyclFEQ09ESlFzWjQ3aER1dVJZcWk2clpweGIxSjU4Zw?oc=5",
-    "source": "lvz.de",
+    "source": "Leipziger Volkszeitung",
     "date": "2026-09-01T07:00:00+00:00",
-    "summary": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack lvz.de",
+    "summary": "Leipziger Zoo eröffnet „Feuerland\" am 1. September – mit begehbarem Schiffswrack LVZ - Leipziger Volkszeitung",
     "image": null
    },
    {
@@ -527,17 +535,17 @@
    {
     "title": "Kopenhagen: Schiffswrack „In Stücke geschossen“ – was das Wrack über den harten Krieg verrät",
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWXVuQmxhaGtnWkNhTllsQjdRSVpWRWxvbUw4Y1BwMGZ0SmdNNmdSRGlBeFFjdk5EV2dzclhEcmZXaG1pbzdJV1pvUXM1MU1CeDd4QkFRaV81YmZTQXB6OGV6b21CQm5zZ3dGbnFRUDI5S3RmWWpNcVh3NWtrTU41TFlGTTBKelZDdmJtQnVuczlrS3JhQ293M3FrRDluUm43TFdDbWFHN2lxMmpmVWxYNm5Pck5SeFA1Zi1UMWdBRW1hd3d6cTNUeFkwSG55cTNlZW1Kdml6YnFnX05EejBKdHJNSGd4dFY1Z1pqbTdqOA?oc=5",
-    "source": "welt.de",
+    "source": "WELT",
     "date": "2026-08-29T07:00:00+00:00",
-    "summary": "Kopenhagen: Schiffswrack „In Stücke geschossen“ – was das Wrack über den harten Krieg verrät welt.de",
+    "summary": "Kopenhagen: Schiffswrack „In Stücke geschossen“ – was das Wrack über den harten Krieg verrät WELT",
     "image": null
    },
    {
     "title": "Schiffswrack aus dem Zweiten Weltkrieg: Dürre legt „Titanic der Save“ frei",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNzVrOHJQVTVvUHZpcUw5Y3U2UkEwTVZDRmVqVjF0cXdmUEFYTGJKQy1IR0k1QldRMVNnaUdGSVNyMlprdkpBSWNuLW9VYms3Q3VMZUxmczVvclBHUXB0SzJiU1ZvMjh6V3ZDaG85cmQ4Q0ZSUDFfdFFfZzdFRzZVa0VFTVRqZXZMSWNQelk2b200UC15NXU1V0dCYmVqcnNQMUFMbGJHSi1LZThLWThyZnZialpOcWlHSnpnVU9SVQ?oc=5",
-    "source": "bild.de",
+    "source": "BILD",
     "date": "2026-08-25T07:00:00+00:00",
-    "summary": "Schiffswrack aus dem Zweiten Weltkrieg: Dürre legt „Titanic der Save“ frei bild.de",
+    "summary": "Schiffswrack aus dem Zweiten Weltkrieg: Dürre legt „Titanic der Save“ frei BILD",
     "image": null
    },
    {
@@ -551,9 +559,9 @@
    {
     "title": "Schiffswrack vor Palma für National-Geographic-Preis nominiert",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZVN1LW9hZ0ZCNDlHSmhTMGx1NEx4SUMxWjBiQUN0UlVBcVlIdzhSYmNCSzZDSUowWnc5MFc2S0drdE1DajNYUmplUUlFM3BINDRqLUxMZkROQnM0dm5JeEdzMTlPaDVlY19aV2ZsR0hSbHctV3ZEb1pZTE5GQjQ0amxCcW1OTFZFVXJneUMyaElBX2FwbDBCemVNaG9EYkoydEQyejVpNmFZd1B2LVVWSmkzRE1fRE5OdVFB?oc=5",
-    "source": "Das Inselradio Mallorca",
+    "source": "inselradio.com",
     "date": "2026-08-24T07:00:00+00:00",
-    "summary": "Schiffswrack vor Palma für National-Geographic-Preis nominiert Das Inselradio Mallorca",
+    "summary": "Schiffswrack vor Palma für National-Geographic-Preis nominiert inselradio.com",
     "image": null
    },
    {
@@ -579,23 +587,15 @@
     "date": "2026-08-17T07:00:00+00:00",
     "summary": "Was eine Privatperson durch Zufall in Italien findet, war 2000 Jahre unter Wasser und ist eine Sensation Merkur",
     "image": null
-   },
-   {
-    "title": "Spektakulärer Fund vor Sizilien: Taucher entdecken 2.000 Jahre altes Römer-Schiffswrack",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ2xiQ1NCcld5b0pZdzdUWVEyTkZyWS1xSzhlbEp4TkRkSkhDTWpGYlRQRlY3bDdhTFVfVEV2c2trTVNJeUpKNFV4UExTeFRlQ3d5bWpleThkLVIwZktMZU1rUWU1bnhkX0FEa2RYR1pzRUpEWUxCSVlVQTFkekJNM21FMk9pWTJYZ2hVM2lFSXhCcWFhRjFaVWhfajZFajNPUFRUOVBHc01BUjBzR1pwOUk0X05IV28wM0RzcFNFb25aSTVq?oc=5",
-    "source": "TZ",
-    "date": "2026-08-13T07:00:00+00:00",
-    "summary": "Spektakulärer Fund vor Sizilien: Taucher entdecken 2.000 Jahre altes Römer-Schiffswrack TZ",
-    "image": null
    }
   ],
   "fr": [
    {
     "title": "Le sauvetage marin du Starship 40 prendra plusieurs mois",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNnd6S1BHVFhwc2drOUkzYUlKTDJ4amJ1R0VXZDZxMWJSaTZEc3RVRVJuTFBpaFJaNUdJeEZxODNMakdXdlRfaGVLSmIwQkZFc0ZYZ2c4WXlodHpGV2p4bG94WGxRSzM5dzhnQlFmQ2ZMLVdrVWtFTmJFSmY1cm44SDNWdFc0cTA10gGOAUFVX3lxTE00WC1PV0Y2SjRWSVZ2ZmlzRWdoQU94dWV3dEZRcXBiV1gwUngyWWgzZDczNXRJTVhzb2FxaGFFSmxnZmZTT2FBeExVdEZXUGZDbkdmYmlpbFdlR2o0RXd1R0Z4dTJCNnRWYy03SWVVYlVXQjg2ZHBoWHNYM2tGM2NKT1RDZEI3RzdjcmJ3LUE?oc=5",
-    "source": "Génération NT",
+    "source": "generation-nt.com",
     "date": "2026-09-10T13:45:01+00:00",
-    "summary": "Le sauvetage marin du Starship 40 prendra plusieurs mois Génération NT",
+    "summary": "Le sauvetage marin du Starship 40 prendra plusieurs mois generation-nt.com",
     "image": null
    },
    {
@@ -617,17 +617,17 @@
    {
     "title": "Retrouvée à Copenhague, une épave vieille de 225 ans révèle l’enfer d’une bataille navale de l’époque napoléonienne",
     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPWUI4RDE5RXRTOGFfYlpSWW5ZdEV6N01mOUxGZnpKMDlicGhIclc5ajZWbXpCc09hQ2RycFJaQWtha0IxM1NQLW51aGJvYzN0TXlBVk5zZGRWRW9RNFJvMzJxcUtTUWJCVU94bmlGa2JFUENEdlc5bDFUZlQzOGRLdFpVa2xQUEcxLUpIUnU1N0lzYXAxN3dXakQxNmJMSmZpNnNNVm1IdEV4Q3FjZk83ajlfR1R0ckdSSnlQck9mMnBGLWY5NjZfSlJDNTNWbTZ4VXMzWkVEUHZtSFhSaGkyUmdtcWEtRnVIYmx3M3NrcVRCUE1PREFad05aY3NVOTFiSWFJ?oc=5",
-    "source": "Science et vie",
+    "source": "science-et-vie.com",
     "date": "2026-04-04T07:00:00+00:00",
-    "summary": "Retrouvée à Copenhague, une épave vieille de 225 ans révèle l’enfer d’une bataille navale de l’époque napoléonienne Science et vie",
+    "summary": "Retrouvée à Copenhague, une épave vieille de 225 ans révèle l’enfer d’une bataille navale de l’époque napoléonienne science-et-vie.com",
     "image": null
    },
    {
     "title": "Tempêtes en Angleterre : un navire marchand de 1631 ressurgit sur une plage du Dorset",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaDhKaXpLaGJubmhwUTh0VDJXUDI1VjNJMl9NRUQwZzY2dXFtb0xFcGJkVXFqbVpaS1I3cjUwTU55THpzeFhqLVZScVpNd1BwTU1aVmpvd3NWb1JKcHZGeTR1NmdIUXhvblZqRTdKRHVXNEpMRmZxb05JOWd6ZjJFX1dvU0Z4NkthUkc2UVM5amp5Y0RTdGNtSDRsWlFOYnVXM21wcEI1V0NXTERtNjZ5a0JFVFVYMXhzT3JUU0ZPNkdvTXFfem5WaTJ4TXNGaWhpdjBLekxHc3NpMVYydnc?oc=5",
-    "source": "Science et vie",
+    "source": "science-et-vie.com",
     "date": "2026-03-03T08:00:00+00:00",
-    "summary": "Tempêtes en Angleterre : un navire marchand de 1631 ressurgit sur une plage du Dorset Science et vie",
+    "summary": "Tempêtes en Angleterre : un navire marchand de 1631 ressurgit sur une plage du Dorset science-et-vie.com",
     "image": null
    },
    {
@@ -657,9 +657,9 @@
    {
     "title": "Au large d'Alexandrie, des archéologues découvrent un navire pour les dieux qui révèle les secrets des rituels de l'Égypte antique",
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMGo0RUVMQmtZcXJwX1BadnRySEhEX1JoY0VsTGRjVkRzdk9IdjZXRngxSFY3dFpiazl0MXNrNktZS04tSXFvLTNFLVFyaS1LNGtXeHlyQVBnaTYwSHY4VDRGeFZnQ1p3azVINzN3UVpEdzJmbFhFXzhNMmFvakZkamp2WmlYeGpUeEowY1FVNFllS3VPQVFuUjdmRjA5VEw5THJ5djgtTFFScDNyMkozTUJFOGRiSzdYbVphWU1PaU5FVmFzRHk2eGtRN2ZmekdZNGV2QnplX3JLVVFCTDI0SmI0dHBtWmVCRm1RS2VGVC15THdhVHc?oc=5",
-    "source": "Science et vie",
+    "source": "science-et-vie.com",
     "date": "2025-12-10T08:00:00+00:00",
-    "summary": "Au large d'Alexandrie, des archéologues découvrent un navire pour les dieux qui révèle les secrets des rituels de l'Égypte antique Science et vie",
+    "summary": "Au large d'Alexandrie, des archéologues découvrent un navire pour les dieux qui révèle les secrets des rituels de l'Égypte antique science-et-vie.com",
     "image": null
    },
    {
@@ -673,43 +673,43 @@
    {
     "title": "Découverte de l'épave de l'U-670 en 3D: plongez au cœur de l'histoire navale de la Baltique",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNckJ3TTZURE9JOVVPNEluS0VsNmJaaGs0VTRpaEs3YVE4aHBrZFRBQ3pmNnRKNTFna1FVYTdCV2ppZmtEbmtfblVTTmtTZ2doWnFBSGRrRmMwVmhKZld2ZUZ0bkkyYzRYcGt6MkhiVzdnaHBsNTJtVnVDNnhjaU8tb3pfeklhbjlvMU0zSmZPbURUbGxkZWZsdk1IMW03cDFNaU1kVUlpOHJVek53UmdNUXVxZWFoU093Y2VlSWpWTjdkZw?oc=5",
-    "source": "Geo.fr",
+    "source": "magazine GEO",
     "date": "2025-09-10T07:00:00+00:00",
-    "summary": "Découverte de l'épave de l'U-670 en 3D: plongez au cœur de l'histoire navale de la Baltique Geo.fr",
+    "summary": "Découverte de l'épave de l'U-670 en 3D: plongez au cœur de l'histoire navale de la Baltique magazine GEO",
     "image": null
    },
    {
     "title": "Une épave vieille de 2500 ans découverte au large des côtes siciliennes, témoin directe et très importante de l’histoire maritime locale",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVmtEX2syOGJQb0pOcVBRTXVFWmF3WXBtZ1NvMG9GSmRPTjAwbVFqYkZtczEwaTh0c05KQzJiQzNrR19UVHcxbjRvOVh0UVh2Z213WC1femcteXFfVWRRb0lLalhUeGFkUTFYNkttelpqb2Y0Z2ZVVjUzczNuaGtwSnVrblBuajFrZW1BajNkY3o3YUtDdGo3aXN6Wlh5Qjh6RnA4Rk5qd2xHNlNBTGk2TEJmdWloMzBUd2hzckh4T3JDRFNPcjVGaENxTzc2a1E4VDJzTnc2YTFuTU40aG9maDlPVUpIU2kxUXZ3?oc=5",
-    "source": "Science et vie",
+    "source": "science-et-vie.com",
     "date": "2025-08-09T07:00:00+00:00",
-    "summary": "Une épave vieille de 2500 ans découverte au large des côtes siciliennes, témoin directe et très importante de l’histoire maritime locale Science et vie",
+    "summary": "Une épave vieille de 2500 ans découverte au large des côtes siciliennes, témoin directe et très importante de l’histoire maritime locale science-et-vie.com",
     "image": null
    }
   ],
   "es": [
    {
     "title": "Salvamento Marítimo rescata a 19 inmigrantes en una embarcación a la deriva en Cabo de Palos",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNTF0OHdhelhlRVhNUGg4eHdOU2EtOVFUOGo3ZTYybkxCT3BmR2VHeUExRjZrRk4tR1ZkVkRoVDc2eG5SaVNBTmc1d29FcVNkRVI1MGEtYW5Za19Ldk56SzhVcGNKV0o0Zk11SGVPejdJNkI0amowSTgtT2xLSXptaXhfVmZMelpCRnhXb04waXBNNDJCOWRiclM1UndJZUswX2gtMzFTeHE2am5pdTBXSDJ1MUlqUXppSlprcS1sSHpTYVJEWTAyM1pHLWZFb2xMalE?oc=5",
-    "source": "Notimérica",
-    "date": "2026-09-03T19:27:38+00:00",
-    "summary": "Salvamento Marítimo rescata a 19 inmigrantes en una embarcación a la deriva en Cabo de Palos Notimérica",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdnFSS2pSV3dTVGJEekZJYWl6NzdFSUF0eHJtRnF3TUlmc0RLTk1YYWF3b2hRaEVCX2NtQ3VSSkZ6MWZsMkg4bEQ4d19qTVNsck1JTHMyX25jR3NDcWt2ZHNjNGNyVDNxTENtRDkyUU9YUkNxZnhoeEYxeXQ5N3FLOWVZZHZJNEdfRnpyZ2JlTXVGZWhaX3FCbmxLMjZSSHBkWV9adi1adUtmeHhsenpBbU1BODI2M0tjaVNnN2YtQWh0Y1FGTUtSUzZ3bmhZbFVId2NSS1hTRktDUlkzYlHSAfgBQVVfeXFMTkFmaFFPeG1oc21QS3BPUUNudHZ2NEdpTlZJOHFVaTJ1OVZGTjRtN3lFdmpNd1BUamFMWGpTcnVBVks1dGZZWkJ6b3lhY3ZiYlhrZk5UeWtYcnhyRHhVRjBUWGpVdkMtTVQySW5qVnhXTTFLWGhDTy0za1ZwR1lfQUFmYndXUmxCZ1ZYUnFMZng0VnpUZUFsME9VMTVMc3NNSThCM3BvY2VSTlh3U2VTMFVqRGtIZkh2Yjl3V0E1dGlZSElGUGFVeWcwTm5EUkJYb2c3Qk0ybjJya2tnVURyeWpvX2hVT25YSURrcUYtMElpd21KT3AzQTQ?oc=5",
+    "source": "Infobae",
+    "date": "2026-09-03T07:00:00+00:00",
+    "summary": "Salvamento Marítimo rescata a 19 inmigrantes en una embarcación a la deriva en Cabo de Palos Infobae",
     "image": null
    },
    {
     "title": "Chipre sufre el peor accidente marítimo de su historia: hay 8 muertos y 17 desaparecidos por el hundimiento de un ferry",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWkZuRE9nODJwUmtkdVcxMVY2ZkhMQ3hoM1B0U0RSUWR3T09QdHpkeFNaOWlwT2U1a01RX2VrMzd4U1p2d2VhTUp4U3hZU1RiMHByVEVVN2RuX3Y1bTlXSUxaU2JwMnhxcHVHaERYVzlFdkVYX2huQ3NzNk1kRTdmRXhfZmRFMHNxOHNWSUhjSWlDd2hfVmVXN1drT1prLTh3NHc?oc=5",
-    "source": "clarin.com",
+    "source": "Clarin.com",
     "date": "2026-08-30T07:00:00+00:00",
-    "summary": "Chipre sufre el peor accidente marítimo de su historia: hay 8 muertos y 17 desaparecidos por el hundimiento de un ferry clarin.com",
+    "summary": "Chipre sufre el peor accidente marítimo de su historia: hay 8 muertos y 17 desaparecidos por el hundimiento de un ferry Clarin.com",
     "image": null
    },
    {
-    "title": "Transportes activa un dispositivo especial para facilitar la movilidad durante el eclipse total de Sol del 12 de agosto - Ministerio de Transportes y Movilidad Sostenible",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb0RsVEEwUTJ0eUNqQXFIVXFPaThYSUJ6eXpTYzJaUnR0eTExeE5zLUZCNWR3N0JtSUdEWlk1RzZQYUdXZlBpVW5IUFB0QnU5Sl81Z2g3akhTSFlLY0xicHk4NFR2cVhTVExoV3BleEE4NE05VmQtRjkxU3BmYUU1ZzFNNHJRYUFzOFpBQw?oc=5",
-    "source": "Google News",
-    "date": "2026-08-07T07:00:00+00:00",
-    "summary": "Transportes activa un dispositivo especial para facilitar la movilidad durante el eclipse total de Sol del 12 de agosto Ministerio de Transportes y Movilidad Sostenible",
+    "title": "Salvamento Marítimo español rescata a 245 personas de tres barcazas en aguas de Canarias",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYkY1QjJ1cFZyOHh4LUZMWWR1bFNNRHBvb3BUS1R2eXZFS1RveGpHeGE3TmZwbUlHY0VGUWEzeHRzckYtZmNTREtGa3pVTEVCVGoyUEtoaC1hX0RjUkhBR3lPUVl1OV9jaEhKU0dXd3YwSkU0WVdGS0ZpSzdKeVJpd0hmNU9wT211QTEwdmRUdXhxdUdESEd0elVhQXlnaFNIcjdKYzQwUU5jM2JOQmhydzBYQlRtb2EwZUNHM2VaUmtUblhvWUdHLXdyQXBmbEV3a29OMTdQOTDSAfMBQVVfeXFMTWdRNTFDSENqenpGYTIxcUtLLV9KLWNyZG95R0Q1b3FkVW5KQXhfbC03dHQ5QjRvZXRwZ3JaN0pud3hmQW5mRHlBQ1hVelQzejBWdjFYVFcyQlpuV3UxR0RrSWF2ZWZXdWoyMDFlZ212YTl2dHdyMTVQODZhOUJZRUFkT3BnMmJIeGdSdlVfbEI5bE5VSEdLeDBPam1wVk1UdUNjR3p4NE1PTVlpSFIteTF5aHNhRmRkQmxjUmlRSW5jazRxaHFkaUJsVVl5Z1RGay16QzZyUG1zMU9pcDQxbHBQRTNYd21tZFlyU3BFNFRsNFZZ?oc=5",
+    "source": "Infobae",
+    "date": "2026-08-20T07:00:00+00:00",
+    "summary": "Salvamento Marítimo español rescata a 245 personas de tres barcazas en aguas de Canarias Infobae",
     "image": null
    },
    {
@@ -739,9 +739,9 @@
    {
     "title": "Salvamento Marítimo busca un cayuco a 360 km de El Hierro",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNzgyUHF2ZTQzbDU2RHhJVmVBekdUSmIxSkdRZGg3Q1RFb0VVLWFkU2FLdGJBNlY1UUQ2Wnl2U0FDanAwX0hsMVU0QnZUQzNQLXp0b2VPQXpERU5BNENJX0Jxemcwb0lDTHg4Q1lSeFNvSTZPRGJJVWFicDQ0MGZuNUFLSENsemtiamZLSEdSWDRwbnZBdFVoZmIwcjRqM3pNRGc?oc=5",
-    "source": "La Voz Canaria",
+    "source": "lavozcanaria.com",
     "date": "2026-08-03T07:00:00+00:00",
-    "summary": "Salvamento Marítimo busca un cayuco a 360 km de El Hierro La Voz Canaria",
+    "summary": "Salvamento Marítimo busca un cayuco a 360 km de El Hierro lavozcanaria.com",
     "image": null
    },
    {
@@ -763,17 +763,9 @@
    {
     "title": "Tres inmigrantes mueren en una patera que se dirigía hacia Mallorca con otras 23 personas a bordo",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZFlPZDlsbDJNVnQ4WVBxN29PTmZ5TklGSmgzdkJUbXhoRG5GMTdfcy13enUyNE9rVWFGSnVUV0R6VDVCaHhPYTlvcHg0VjhQX3daZGt4M2FhUGFHOTJFMUNrQkNpYmpqVXBONkZsclRfRW5hQnhBT25iMlAzTlFXQXdhdUViWndTN21mU21sRjlnMWZwTW5xZXFNRGdkNUNBeFpVTFVsanFLbGtzUE53Z1kwNXlqcVc5bFFYYVpSYUplSmZ0U2QyeE1hQlg1eHZwUkJzRFNPTdIB1wFBVV95cUxNbklrakx1RkFaSmtJZnJPYXNkczBqV1Axc2dCcE5iYVVnNU9fYlN1NWxscklzeVJiRFg0U3dZLXpfYTBLTW5pUDE1bzJzY2piMFpGR3FlMksyMzZ0Vk1xWHg4a0lFWHFrRFhFMEw1M2kwbXpTU2FiWDBnaWVNUkV3MHE0N2J1dDRWNTlQaVZwVzZndDJlSnRYYU9jS1JXTC02aU5VdmZod0dxeDFPQmhQbjVodTBoX3pGZGVJdlhZd0x4WHI3UWtGSnJEZGxsT19VTTRFSWR5UQ?oc=5",
-    "source": "Ultima Hora",
+    "source": "ultimahora.es",
     "date": "2026-07-16T07:00:00+00:00",
-    "summary": "Tres inmigrantes mueren en una patera que se dirigía hacia Mallorca con otras 23 personas a bordo Ultima Hora",
-    "image": null
-   },
-   {
-    "title": "Avalancha migratoria en las islas: Salvamento Marítimo localiza un cayuco con 135 subsaharianos al sur de...",
-    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYmtlX3JOb2oxSVVuamhaQ3d1SGszcmFPQWpfOHdadTB2YnB5MzcyeWRNc05faDJGMndDYldQNEhlXzRBYW4zdDZNVG9kNi1NN2d0cV9ZamFONUpialZOaktHaUNJbk8tTi1rcWR0UWhyNXBXMTBMU2ZYMDJBZU9tNUt5MlZNMXowV1QtaFNzV2FlRTM1OXJpdnpRTmJuSXltbUVmeWtyT08tNUg2d0JqZnRBbzlVNmxYQUlIc3VQaDVUWEhPZlRHV2RTUVA0MkVjeFVFMFZHODh3YjliVFYyUTVSZkNkZGpTTmdDWjN5d01wNGtHZ3RacVhWb3EwNW5MLXfSAYcCQVVfeXFMUEZnUnhuZTZlYXNrWTlfWlpYUVJ1U28tOG82R1NPWDZpdVFDZzBvR0pXR1AyRlNOSkhqTUtqT1hDOXl5WWpYc2Y5ZUZMcFBWSlR1LVpXRHk0eDdEc2h1VFpBV01HT0pTV3BJR3NVQmwtRkxPeGQtbko1ZkFzbkNXT3liZWVRdE11YWdBNkpxd1U4Y1U0NWVIYUlmNWtMb3hhcExDcXFwTUd1RVh3VjFhWGw0WDBHVDJ6MTBOSDdycEV6eWpGUWFlODRKakVqM2E3Z19mRWZ2c0sybndVcTFRNGM0elBJQ1FfTHdWU29vV3JjZW9qSnlaMGE2dnp1dGJneE9RcFE3ZDg?oc=5",
-    "source": "gaceta.es",
-    "date": "2026-07-12T07:00:00+00:00",
-    "summary": "Avalancha migratoria en las islas: Salvamento Marítimo localiza un cayuco con 135 subsaharianos al sur de... gaceta.es",
+    "summary": "Tres inmigrantes mueren en una patera que se dirigía hacia Mallorca con otras 23 personas a bordo ultimahora.es",
     "image": null
    },
    {
@@ -783,103 +775,111 @@
     "date": "2026-07-10T07:00:00+00:00",
     "summary": "El Gobierno Vasco toma como referencia a Gardacostas de Galicia para gestionar su nuevo salvamento marítimo Puente de Mando",
     "image": null
+   },
+   {
+    "title": "Salvamento rescata a once personas de un pesquero a la deriva a 100 kilómetros de Lanzarote",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYnBiRFJPRC1LdVlOQ0xkRUpVa1VQdmdiWGJLZTE4c2pvSjYyYlpVQzJNQllJY241c2xMcFdlbjVpaDkyRGxtc0VVYnJ0THB2WWRack8wRG9DdWM4Q1EzWVdJdnRpTngyTVdpd3RmcTdCZGVQbWJfZWpYX1ZFNGpGOTV1d3JTbGhydTJXdFhvNEMyNWlyTGgxLXUwN1RWeGYtbVRrY0NZNFFCZnVkTjhWaWNpQjlwNzQ5bkVFM1kyQVNncHN1OGdGRk9lT0VvOGxSR2fSAdcBQVVfeXFMTlpNdlpZWUlpb3hwdE9DOElOUzlxQk1oX3VHR0NNeUN6cUhiZWd2UG1rbkF3YjkxSUhIcU5TMGVzd0o5QThuMVdpNlFqU19WMS1mZHRPVnhKZGJ5clJLSnhhVkRNUEt3eFJvQmppVDZXcEVLVzBDdGVlUjZTNnYyUl9sSTdmblBxMDlyZ21TLUZmbFRaVHpYQXhZRU5hOFNHd24ydGEwQmVtMDY2NU4xN204OHhweTlPQjdQakM3RDFKV3Z5M2RScEZrbzdGempzVHNENlRfb0E?oc=5",
+    "source": "elDiario.es",
+    "date": "2026-06-28T07:00:00+00:00",
+    "summary": "Salvamento rescata a once personas de un pesquero a la deriva a 100 kilómetros de Lanzarote elDiario.es",
+    "image": null
    }
   ],
   "ar": [
    {
-    "title": "ستدخل قيود المرور على نهر لاش تراي حيز التنفيذ اعتبارًا من 11 سبتمبر.",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRW9QeVlsdXBZeVhtVVMxbmotSlRlbTVIVE1wNWFNNTBpNElkSGRaTUN4eFVncm9MWHRjcGRBeWtzSXZyTGtWS1Raa2g4UGtXeF81ZWJzWGdjVHRmUmNvbDh4N0ZibnNDQW9yX3VPelEycjQtY0kwVFFjOFRibmN5VGUxWQ?oc=5",
+    "title": "فرق الإنقاذ الإندونيسية تبحث عن 140 شخصاً بعد غرق عبَّارة في بحر جاوة",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1TXBobDE4ME5aUGFIR0xmX3d0Z0wxZUl3VzNSdm04dzJjd0tDejVtbDZWdEpjaEl3U1NSTlRlQVpDaVRiYUFZUzBBaVhhb3ZiYTFENnVzY3E3RDIxdmd1VA?oc=5",
+    "source": "بوابة الوسط",
+    "date": "2026-09-13T09:20:23+00:00",
+    "summary": "فرق الإنقاذ الإندونيسية تبحث عن 140 شخصاً بعد غرق عبَّارة في بحر جاوة بوابة الوسط",
+    "image": null
+   },
+   {
+    "title": "إندونيسيا تبحث عن سفينة تقل 243 شخصاً بعد فقدان الاتصال بها في بحر جاوة",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1tSnFqS0piWmlCR3UyT3pGMWRoZ3dHOFpFRmszVk1JVFo0X2pJQlFoLXlRVnJGS3hIdXprZVRQd0xOQWZ1T2xF?oc=5",
+    "source": "جريدة الرياض",
+    "date": "2026-09-13T09:14:34+00:00",
+    "summary": "إندونيسيا تبحث عن سفينة تقل 243 شخصاً بعد فقدان الاتصال بها في بحر جاوة جريدة الرياض",
+    "image": null
+   },
+   {
+    "title": "البحث عن 140 شخصا بعد غرق سفينة ركاب إندونيسية",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBZd09SWTZ2Rzd3WmcyMlM3Q2l3SXRrV2dPRGZiY1FNaTNfbVh1RVdubU1RbXVjcEg1X2tjNVBEWjZLTjMyN05rNDlxTnljQlVKRzVnOVVNUU5lT0Mz?oc=5",
+    "source": "مشاهد 24",
+    "date": "2026-09-13T09:11:09+00:00",
+    "summary": "البحث عن 140 شخصا بعد غرق سفينة ركاب إندونيسية مشاهد 24",
+    "image": null
+   },
+   {
+    "title": "إندونيسيا تبدأ عمليات البحث عن سفينة مفقودة تقل 241 شخصاً قبالة جاوة",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoZ2VXUXJzdXVtLWxIekVLaC13eGk3cmU5MWQ2N3FVd1pSamdZTmhDbUpFbUc1N0ltNUw1M3JxcGRGZjZQcGJXMGpiV2N2eTJoNEVGRzlmTnNfZw?oc=5",
+    "source": "alsaudi.news",
+    "date": "2026-09-13T09:05:05+00:00",
+    "summary": "إندونيسيا تبدأ عمليات البحث عن سفينة مفقودة تقل 241 شخصاً قبالة جاوة alsaudi.news",
+    "image": null
+   },
+   {
+    "title": "مسؤول: البحث عن 140 شخصا كانوا على متن سفينة ركاب إندونيسية",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrREw0STJvcEp6SUg5THk0aktTQ3c2Vml6MHhlTmN3a2wxNWY3WENEc3pkNGVYdl9PalNid3dLY0ZCaFlFdmh1SWRWYlpRN0JmYmJOTEY2TFNyMXh2X0NaUk5UMA?oc=5",
+    "source": "alawalnews.com",
+    "date": "2026-09-13T08:58:02+00:00",
+    "summary": "مسؤول: البحث عن 140 شخصا كانوا على متن سفينة ركاب إندونيسية alawalnews.com",
+    "image": null
+   },
+   {
+    "title": "فقدان سفينة ركاب تقلّ 240 شخصاً",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNN3kwSkFyWmFDRWg4LW5NWGhZV2JLMmVJWTZGZmlicXdkWjZjcDJncXdzVVktNWRLbHhUb0pSamtwemJXd0ZEaTViYkhmMzUwTUZlTHlfdzZObGVuZ0cxdjFlUmg3TU5YekJwX0lPczZyaXd4UFNYZTNKRS1Qd3VSbENILVo1TFFJTkhxWklKNHJ3OUJOelBWekV2QURpU1FSQ1ZnX0lrM2wyVTJZdUxSWnJhcDdqUWZfYmdMbm5ZVndLb000WUp3aEJzb2RMcmNBZjFFdUJRR1E4YjZWcDRlRVduWWZISm9uZklNQTJkQU8xRmZxVlFqOVBsTGxWaWlRaXlpWTFDZVc?oc=5",
+    "source": "اسلام تايمز",
+    "date": "2026-09-13T08:39:56+00:00",
+    "summary": "فقدان سفينة ركاب تقلّ 240 شخصاً اسلام تايمز",
+    "image": null
+   },
+   {
+    "title": "مأساة سفينة ركاب في إندونيسيا.. قتيل و130 مفقودًا وإنقاذ 115 شخصًا",
+    "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQdUdPVG1lc2RMbkFWWHljWGFpVU5sVEg5aHhQTEhLQy14d0tVZXZEdlRoOUN4ZWxwckZMSG1hM2h6Tm5RdUVFVkpULWZTcE1tdUlPMkVITVg5MlBKRFZSckkwTXl0YXlPUVBCS0ltUklUVER5NHdMVURDX1Jhb29qOWczLVdZVWxYREFhMGZtQmRDS0FRRGFsb181cWVxZy1iMlVxRk9OdlRxbTdHeFlOMDlOS0VHZG84clVUdjV0dC1CT2FJbHp1el9fR3RNeW5CWVFTaFlwMzlhMV9mbno4QVN3amY0R04yVjZBQkpydFNEZ0J3RkRwYzlzTzZhVHJVUWs5TkNhM2FSc19MYVRfUWFhOVRQYTVFWnFEb1hIRDJCeVRyeGRsandfTnBHVk82d1FxZm5XalpOMTVoT3JsRkFPUnc?oc=5",
+    "source": "عين ليبيا",
+    "date": "2026-09-13T08:37:41+00:00",
+    "summary": "مأساة سفينة ركاب في إندونيسيا.. قتيل و130 مفقودًا وإنقاذ 115 شخصًا عين ليبيا",
+    "image": null
+   },
+   {
+    "title": "إندونيسيا: إطلاق عملية بحث عن سفينة تقل 240 شخصًا",
+    "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNUF9SZFR1dFpDUnIzbFJIV0hBbkcyMVlnVDJjYkJIdEhvY1RiMTZPUEZiM00zOGpIOTJOT0JJc3FqNTJNczBLbV9tTHU4NEwzQWN4WUllRG5NZzQ2T2JBZVQ4OXkzVkVLU0FlOHMzeW82ekZmY2xWQ0xFNDNMeHVWeGZVNW8yTXh3Z2liODVvaHNxNWc0am1sZGhHYlRjMEc1M0VtdTgzV2xrTXdXUm9TQnVIamRITmtDMmNLaWRXMnlvS1pIdV8xWWJ6dGVmbWxDZV9WbWZoaXVUcF91QXpGWVhZRnFrRS03OFhnUDdHekdvWk9RaEZhd1Iwa3RVX3VBVUpkaVBQbVB0aE15dFhidFh6aExrX01tZ2twUmVXczIzcmk1MHNiZ094Ny1YVGJXQzg2aXlRN3Y0TW9xWEhrQ3FKWm1tUW8?oc=5",
+    "source": "سبق برس",
+    "date": "2026-09-13T08:15:36+00:00",
+    "summary": "إندونيسيا: إطلاق عملية بحث عن سفينة تقل 240 شخصًا سبق برس",
+    "image": null
+   },
+   {
+    "title": "إندونيسيا.. البحث عن سفينة تقل 241 شخصًا بعد فقدان الاتصال بها في بحر جاوة",
+    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPYkQ3cGFfaGoxbTlWQWt3SnRpLUVzdEtfdlFycmtwVnNtS0RJaHRxcVJ2SlFtNXVsSk1IZzFuUzNYSk1obExqXzZZYkowdDFwTkphOHY2MUFteUV6NWM5T1FpQzVPYkQ4M3dwV2NtSlNPTmtmeXdMWVBCc3FtV09qYUlTUUF0QU9qSnYxVFUxRHFtWHhhUzlpdUFqZ3piUHRSZW0zemJNbTZJdlVtNm16a2dURGlSQkhaXzFrNWN1TUFQZlNDOERYbUJPcG92TUVDbml0a2g0bGEyRUVscUcyNldldmkyTEM4dVJrbUNIeURsQmdYV214amJTdUJGWUg1emJwOUJTU2JOSmVKeThXeGhNa0VoV0ZYTENpbjU2ZkptNlNfWGJPUmVFVUgxdjBIZTNVZGFSOEstOF9hTGgtM19vVW1fdHBHVXU3WXBUOEtqZw?oc=5",
+    "source": "المهرية نت",
+    "date": "2026-09-13T07:47:39+00:00",
+    "summary": "إندونيسيا.. البحث عن سفينة تقل 241 شخصًا بعد فقدان الاتصال بها في بحر جاوة المهرية نت",
+    "image": null
+   },
+   {
+    "title": "مفقودون في بحر جاوة.. 130 شخصاً على متن سفينة ركاب مجهولة المصير",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTcWtva3Ntenp0MHpTLS1HYU5kam16MndYX2lWSUQ3RDA4M3dMOEF4aVlsYXJEOHZxOXNzVUM0RnhnLWx0ekFZSElyYmlsZGdYRVBR?oc=5",
+    "source": "وكالة بغداد اليوم الاخبارية",
+    "date": "2026-09-13T07:47:12+00:00",
+    "summary": "مفقودون في بحر جاوة.. 130 شخصاً على متن سفينة ركاب مجهولة المصير وكالة بغداد اليوم الاخبارية",
+    "image": null
+   },
+   {
+    "title": "غرق سفينة إندونيسية تقل 243 شخصًا.. مقتل شخص وإنقاذ 102",
+    "link": "https://news.google.com/rss/articles/CBMivANBVV95cUxPdFFlV2lOdnR2TFVZejJWUFpCS3ljWDhEQXdrR3l2Znc0VmdHczJXWnlkTUQzRVBqRzZwUnZtcjJadkNTdk5ZWUlTcW5ORFkydWRFYVlWQ0s3dmozYU8yTzU1WjFlQ1ZoejJpZ0hwa3lRYjdRZVFUUTFxQVU1VGhBVFRHVVQ0eW94NUdZTXFwMjZtWmh6Z2FQYW1pa2tSUzVCak5veHIzcVN6dVA1UHNuMEJETDRZMlBXcTBIUmd1d0tVSUZXLUliczVBTWtkeW8yOXFKam5sWFA2TGtVQkRYVkRCS2NjU2dQNm9NU1BZUmZBdGNrbnRubGw0UE8tODdIcWl1Q1ZPZm9EV2l5X3VTSVk3RllUcHYxRkVPaE56WHRzY011a3hNU2pWMWpKclE5VlhhWTdCcWs3Y1RqcUExc3JlcmdYVWV6Q3R2OUV1YVNyaERvNi1sQlZMS2lfVXZOVlh6RWt6Y2VkckdoTmZlOUJJeVJKYm5MdW51VTk0QW41eE5fOWNZSU9ZajVVMFZPNm5vaFlKSFR6TGV2STN4QmUyX1duRDlST0dOdGpuM2Q0WlBrQ0dNYUl0cELSAcIDQVVfeXFMT1Jnc2hJSXFXYjFmU2M5MVdxUXdhVHVwYXJlY0lHVk1sa1pkWEY5TkktN01iUkh2SXl1Y253dTRIa0x1MTYyY29hSW1lXzVsaU1ZRTlvM2pKWEdxZnM3X1FrelJ6SEZoeF8xTVdwVEttZUxhRS01YzBkOXNmeWdxZTdPTmF0RFZVanlNNVJEb3BTZmJOY3gyZXh3YlI3cXVmTnZhNGprdkdYU1pqNnE2NG9ybWpzSUExVkx3YzBhX19WUGlYNlR1TDV0bGl1NENrcmxaUWFFRVczc0kzVF83eWZtTUZpQ01YWmJpRDFjMWFVZm9JWFpjcU9iXzFhWUY1ZENRMWh0UHgwUEZ2d0FVV2dxZU1sMWZSd3Y2cm9RQWltTWd4c0FHMGZVd1MtdkdHbzVLNlFsUWJUck1UMUxxRUc4Nm1SZzlGUkpsQzA5enBIM3Zkem5jUE1GOG9JTVNFNDJ0dWxDanN2cHg5RUVmTHR0dTN0akFDM2hMbDUzM1AxTEtPWHF2Tjc0U3g0UGhoOFVlUUxPdmllYS1mblNJTzVQWUZYakhUMktVMFlPdFcxSGpQUzdMVlI0c2gtUFBNUTNR?oc=5",
+    "source": "Masrawy",
+    "date": "2026-09-13T07:45:00+00:00",
+    "summary": "غرق سفينة إندونيسية تقل 243 شخصًا.. مقتل شخص وإنقاذ 102 Masrawy",
+    "image": null
+   },
+   {
+    "title": "تنسق قيادة حرس الحدود في ثانه هوا الجهود المبذولة لإنقاذ قارب الصيد الغارق.",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EVVJEdWNLaGp4SmJBaWdIUmpEN0R5azFLc0p4QzZENGNQM2FQc1lJR2UtR2txcDBBMFVwa251QUM0NF9yT0NEVk9CbE1qQU00QzVtWWVtOTAtdTVYV1VtTTk2N1J4YlR1dDlpTHBIcmc1R0Z3cVRfb25zWFp6UQ?oc=5",
     "source": "Vietnam.vn",
-    "date": "2026-09-12T07:57:01+00:00",
-    "summary": "ستدخل قيود المرور على نهر لاش تراي حيز التنفيذ اعتبارًا من 11 سبتمبر. Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "تم العثور على جثتين لأفراد الطاقم في حطام سفينة نغي كوان 19.",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPODJ5RnNONUxCVUdmc1VmMERwVUpyQkNYb3BWNkRjRkZ0cEtJcEFraWxhNXpoZGViRmtyUFdTOUUxR2JVVUplejlyb09QWHBqTW1nNjhhMklJai1PUTdoWVZEcFVXdnB2TTVTVzhEcVliUVItWXBYQnd6dFFKa01nMExKVGctN0p4aHJKb3BYQms?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-12T07:03:45+00:00",
-    "summary": "تم العثور على جثتين لأفراد الطاقم في حطام سفينة نغي كوان 19. Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "تتولى المنطقة البحرية الخامسة تنسيق عملية البحث عن اثنين من أفراد طاقم سفينة نغي كوان 19 التي فُقدت.",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMWFTaV8yLUNFM2VSRG0tZTVWMGRhalZpX3hUWmw0VERMblpLTDBDNldYc1ZyVS1PQWhhSEloQWFwTkN2cUptY2djaXp1VjlkOHVSbjZpTnl3V09LOWFpTllRZFhuWi0yMjdFMVpCdFBvbWl0R2s5M2llNUJPSm43bGtNU2RZd2hBR1RBbWhXaXk0VUpSRUhlMDJlblhuQQ?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-12T05:54:48+00:00",
-    "summary": "تتولى المنطقة البحرية الخامسة تنسيق عملية البحث عن اثنين من أفراد طاقم سفينة نغي كوان 19 التي فُقدت. Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "مصرع 25 شخصاً في حريق سفينة شحن داخل حوض صيانة بمدينة تشينغداو الصينية",
-    "link": "https://news.google.com/rss/articles/CBMilwRBVV95cUxNMUQ4SWFhdG9ZQVowbGFMLWZfNHZ3OGxTSEp5anFRVDd3NmVaY3dCY0tXaUluSHpIZGdnRVdKTDV3NlNBc1pYWWhvR25zQkNmZ3JBNEVRa1dkc1htZThZaFlDTlJ5Uk95RGZ4dGR2OGlRUGlYd2dwT2tuM2RDZEVZendlSzJNZDhQN2ZPdjNuXzJwVXpWejV2cWUwQlM2ZW5JaFpyV2cxTlY1OWVWcHRxNmFrQm9VcTVVRmphUHFOSUt2OFBYVTBuTnhaX3o2a1RZWWw1TG9uRnFpamVQZkNoT0sxZGw4T3FNTXRuVzhtcFpKQkRKSDJrQ0w1Y3VQY1RZVGF1ZG10VFJBVC03WGxORkVaVXVIUE9xUEYyZ1k2enFuVEl3MXRfN0dPQ280dGZSYUdxbFZQTEFGa1JSZGhfRjhheVdCWkJBaEg1YkdEbFhFdmhIVXZDeXBOcTd1bEgwc3lmUzZlenZBWWctUWpJSGZRX1NHQTBiSHBzQklfVkl0VDFId1dMaGp2YmNGTy0yQkhjU0liSnhUSjdlT1h6SldHbVVaemI4Q0c0YmczdzZnM3NDNDl5V29zZm05bGZuYjB5OVBhcEdNVloxWUo5Q2wtNGNTQ0pGR2NnSXNtaHpPMjZuc19Qak55cjZoR0ZkRDRQdjE1Y1VuR242M3BYaGY2QU5jQ21sRnROZzBVUkF1SzZtS2Q0?oc=5",
-    "source": "newturkpost.com",
-    "date": "2026-09-12T01:36:10+00:00",
-    "summary": "مصرع 25 شخصاً في حريق سفينة شحن داخل حوض صيانة بمدينة تشينغداو الصينية newturkpost.com",
-    "image": null
-   },
-   {
-    "title": "مصرع 25 شخصًا في حريق سفينة شحن أثناء صيانتها بالصين",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zcHltYkM5TXdLVkotSXhNMVBtYjdZb1VnVXVfRkJ6T3U5YVViXzREemVLOFMtWklJQi1lY244WHJuRjNlajBvb1BCMi03V2pXX1lKeUduUWZLTWJxTTFmWVNLd2N2THZlVVE?oc=5",
-    "source": "زاد الاردن",
-    "date": "2026-09-12T01:01:00+00:00",
-    "summary": "مصرع 25 شخصًا في حريق سفينة شحن أثناء صيانتها بالصين زاد الاردن",
-    "image": null
-   },
-   {
-    "title": "سفينتا \"أوشن فايكنغ\" و\"أويفون\" تنقذان أكثر من 100 مهاجر في البحر الأبيض المتوسط",
-    "link": "https://news.google.com/rss/articles/CBMiygRBVV95cUxNaFA4M1hzLVdJR1gtWm1oSE9SbTdhZU9CVVVVeWg0T1FUaWJ4Ry1jZzBwV0JLcTMwemozWjAtS0RMcjJ3Y2xWQTVaRWFON19tTXpfcVdYWW83RHNEZ1BJUXVnUXgxLWJBb1gxZjJuYkZSa1B3MzYzYk1PTTdMNHVnd3VEbncyVXZmQm1Hanl6bkhnWTlVMHZ3MXVVaUdQNUstRHNCZFZCX09uN2U3OFkzVkUzc2hsTnJGLXlhZ3pUcUt3YzJfRkIzVTJ2U1I5NXZMU1c5RjVxUFRyOWZlNkVvd1N5aWY5cVZGREhqakV0cVhVU1pLanU4VV83LUNGVzk4MUl1VW1DMkcwUmowa0hhdzJPNDVYYkVNVDA5bVlVdXhsYUtkOTlDZzN4ZW1VNkxQRnU1ZEhUbE51amVzeHFDcThHNG0wcURfVGkxMW1vSFJzaUcxa05taWs3cnFpRUNuaVFKaWNIWGI2dGdmOGdtTDJrb1dWZmkxSklvU200eHIzT2ljTGpvMFp4NDl5YmRHRjNBREoyYkRLMHBHQWZCNVRBYjNVdVJtODNGeVEzUGVQU1JSWnZNUGFZSEVRV2FIVjdRdllWVUZKaXZTVkpBcjZPQkZxRnR3YU9IMVNtb3YzaWJCSjhtR1NWcm9vZEZua2k1NHczMnpVWWgwM1JmbUZhOWZLaUI3MGxaVXlGUkFCRU01bjcyOVFUOTkwTHFkNjJQWjg1Q3VfY2hubExIUkt4Y1U2QVhXX1lGSEtkanZndDIzMWgtQmln?oc=5",
-    "source": "InfoMigrants",
-    "date": "2026-09-11T13:59:39+00:00",
-    "summary": "سفينتا \"أوشن فايكنغ\" و\"أويفون\" تنقذان أكثر من 100 مهاجر في البحر الأبيض المتوسط InfoMigrants",
-    "image": null
-   },
-   {
-    "title": "تقوم السرب البحري 129 (البحرية) بإصلاح قوارب الصيد لمساعدة الصيادين.",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMW5Wdmp5RGRvUmx3Z1FUcGJFbTlPT2Rva1dWNHR5VTQ4Ri11bE8zdUxmZFpNRmRfdFRVTDIzMjZET0FhV3RaU2RJSF9RX0pxbFNFUHVMQ0lPako5TTJBbnprVHRBT1N2cFRJU09zOUN4UC1GTHRHLXRUS25nR1I4MlNsRjVyaGFScGM0QnBVcE0?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-11T12:25:20+00:00",
-    "summary": "تقوم السرب البحري 129 (البحرية) بإصلاح قوارب الصيد لمساعدة الصيادين. Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "ارتفاع حصيلة حريق سفينة في الصين إلى 25 قتيلاً",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVl8tX0gyb2ZvV2NTNDVuVHBCLVhtaDM2eEJuSUNsSnVjWFZyaE5WdnNkbmNIMXItMG5uY0YzeUllMDhBX0NYM3gzMTdtcHktbW1KVkdXQzlFNGJGNXhwa0k2V0VmWlNSNUxoVWpQRGd1X0lTY3hPT3ZIU3pCU1RBelA3TkNsRzltN1l0UkdoOA?oc=5",
-    "source": "newturkpost.com",
-    "date": "2026-09-11T00:03:06+00:00",
-    "summary": "ارتفاع حصيلة حريق سفينة في الصين إلى 25 قتيلاً newturkpost.com",
-    "image": null
-   },
-   {
-    "title": "ارتفاع حصيلة قتلى حريق سفينة شحن شرقي الصين إلى 25",
-    "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNZy1mbUpGX05vX0FSZnZZQmtGMHAwMlFYdGhhV2h1YlRoaWltWlBKUEhiSmRrVmtySWtvUVJqVjMxM2JpaTNyN0RGSUZ4cFhrdS1rbjZjR0d0eTRoNXo0b2Z1VFBrcGtZd29BRkttSkdaUEU2dVc1dmItNkl6NjNsVGZxdTFuRWJZSnRMVElrVEEtZkxYYmRoSGdwV1luS2x1TTIxNHNIMzF5UUs5M3lzVGU4QXVGc1dyek81ZlN2ZGx1aEFFcF81RFlONC1uWWtrRVZIajZDOXRwdkRRcUZEUk85VlN0MndNRUd6bmRZOEpTZmpxMy1Xcl8tU1kyNEhmRW4xa25kVVZ3TjlqdmVuVzNUODRPU3luUHRyVHpXMFpZNnM3V2VTTDhSTGNqUDVTemJWdWtZc2R1a1BlQl9raHBNVXQ1LWZGZXBzUGF3WHFIWERreEU4SXoxaVFsT0drWTBWbmhuSVdfRjVQMTBrNmc5amFhTnRHeTJCUFFETHQ3dlZITEc4R1ZQeGZVQ3N3S0pIVkNXU1RXVDBxX2xkbjhyd3ZGRTBhNHhLY3ZR?oc=5",
-    "source": "الهيئة الوطنية للإعلام",
-    "date": "2026-09-10T21:56:00+00:00",
-    "summary": "ارتفاع حصيلة قتلى حريق سفينة شحن شرقي الصين إلى 25 الهيئة الوطنية للإعلام",
-    "image": null
-   },
-   {
-    "title": "اشتعلت النيران في سفينة شحن أجنبية في الصين، ما أسفر عن مقتل 25 شخصاً.",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ3p4OVYyYXUyRkllR0hJT3dGODhVSWZHajY1UmFhMjU3UFUxZUU3WDRHbXRkaTAxa0JZdkdDallRVHRwZndwMzlrTjVsYmlVblhMM21XSkZ4V1hXREM3Zi1xd0NEUHhVSUpDbkdTT0lKLXNSaUUzN3NHNDViSy0zSlhyckwwbjIxMGJv?oc=5",
-    "source": "Vietnam.vn",
-    "date": "2026-09-10T21:34:22+00:00",
-    "summary": "اشتعلت النيران في سفينة شحن أجنبية في الصين، ما أسفر عن مقتل 25 شخصاً. Vietnam.vn",
-    "image": null
-   },
-   {
-    "title": "حريق مروع داخل سفينة صيانة في الصين.. مصرع 25 شخصًا وإصابة آخرين",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9YX25hdE9TakxMeWFRbHRmekNpWC1YMXlQWWZUTnktZmV6c2t1WnVjYmxvQXNmUk9QY210Q3lXdUt1WHYyOXhSTmhGaGlwdmd4VERCc3VTQ3JWeWlO?oc=5",
-    "source": "العين الإخبارية",
-    "date": "2026-09-10T17:26:49+00:00",
-    "summary": "حريق مروع داخل سفينة صيانة في الصين.. مصرع 25 شخصًا وإصابة آخرين العين الإخبارية",
-    "image": null
-   },
-   {
-    "title": "السفينة في القاع ولا أثر للبحارة.. سباق مع الوقت في بحر مرمرة",
-    "link": "https://news.google.com/rss/articles/CBMi5wNBVV95cUxPRzNZTFYwUmhDdzFMTkVoM0ZiOTF0U1RTcmVaT1NyV2FPWmNYXzdjb2Z5TnlRQXhzOTRvNUt4UF9SVzJocjZJaG5RTi1abnd2S1FEVkRSWU50X3Q4X1g5TldHcW1rcDZVQ3J4UHB1UEI1NHdxXzVqRWZQUGd3S2FxekdLd3pFT01TWHlnVmpnTjNpbTR1RGp4SnZyNTR5X2wwQUNEODg5bE1Zb3hYelIyMVVZUWZrR1owT0hncUhmTFhGeDFxOWpWVC11SWc4a19zaWhIYTkxMG1ZaUItNk44QVJwRDR2LTNLaTZwWFZaaktDdktObkM5M091X212U2FpZUVQWW9zVVpQMXVNVGcxVGdGMnJpVndDUnMxbHlySU55Qk1aelZjN09nNDJVVXVBTEZGT1FKLXl5Z1loRHVBOWozM09naXZIT3BPdHpwWEF1ZjNMTzAxSlJpU0J3bW5NVnkwVlJYbHVZTGxBRGNMSnZCdjJqNElxbUJiWHVrUjRrcE42RjhHLU1abF9xNHl3YlZicGQta3JKSE4yd01ObTcwa1ZQbThXQ2pJa2wzZ3RZaVotbjdHR0hhRFZNSjdMQ1hlYjZmckNVdFEwWDQ5UkZOZjJWSlVoTHFuVUJtb2d1Ml9rVTE4?oc=5",
-    "source": "اخبارك نت",
-    "date": "2026-09-10T15:42:41+00:00",
-    "summary": "السفينة في القاع ولا أثر للبحارة.. سباق مع الوقت في بحر مرمرة اخبارك نت",
+    "date": "2026-09-13T07:42:38+00:00",
+    "summary": "تنسق قيادة حرس الحدود في ثانه هوا الجهود المبذولة لإنقاذ قارب الصيد الغارق. Vietnam.vn",
     "image": null
    }
   ],
@@ -925,6 +925,14 @@
     "image": null
    },
    {
+    "title": "Dezessete migrantes morreram após 15 dias à deriva em um pequeno barco, tentando chegar às Ilhas Baleares - Instituto Humanitas Unisinos",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSGRjNkdaWS1GZE9qZ3VyMlBxTWJKR1E5RUl1QlRiNHhyNUplZXNYNkFhZkV0UllsRU1QZW02SmhZRm0xUDhRYS1PdUJzdTFfTEFCQ1M5VGpiYzIwdG9fSGgxdDdjcWJXeWx4Q1FmUEV6TjJQQWxueV9uREQ0TWdYcmRBWTJxR1dPRU44ZWxPbkpKYWt0T1ZLa2dBcEVFNDllbUU4UDVrMDRJbXd0elg2X21CRWRVVlpVUHUteXRyb216alc4NTlNeHZsOHdfNVZGLU5hSHFR?oc=5",
+    "source": "IHU",
+    "date": "2026-08-04T07:00:00+00:00",
+    "summary": "Dezessete migrantes morreram após 15 dias à deriva em um pequeno barco, tentando chegar às Ilhas Baleares Instituto Humanitas Unisinos - IHU",
+    "image": null
+   },
+   {
     "title": "Marinha conclui inquérito sobre naufrágio de lancha no Encontro das Águas no AM; caso vai ao Tribunal Marítimo",
     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQU3V0UXZBSGowVi13Vkg5cDhMRWU2NXZxSjk2c2JrTURMeHhrM28zUXNuNWFPekVMUUdVX25kMWZCLUVzQXVfTVY0ZGJCd2tOVGhsaXRvM0FWSThjLTFJbnRWT1RpRzZOWEhZWE1WNFdqLVFNZ1puOWxqZjlxaGpDaFpuMXlEWks5XzM2N20wb3FCaFF3RVZrd0FRNUU4ZXBiV1pNa25ZaVhYVlQxZk9Uc3ZHaW1POU1lTmdrUzNmSU5IQnQtTlFjZTl4c3hqTlZSRzdERnhpN1RFbndkSzlYWW5CNVhfMWd2LUJJSmFrNjFiR3JJSi1wNXdwTdIBigJBVV95cUxPVjRzWHYxeWE3Rm9ZZ2N0MkhWMzVjd3RONEExUHBFcHpFM2NpNXFHZ2ZrcndsSFZQNlNEMEliUVRCRldJT3l0YmttTHE0MV9jRy13b1ZOYUNYc1pHZWNaYzNZUm9WTk1FQXk3MXZTZm9HOW1zRWZ2b3lNamdPc2tYanUxR0dOYW10SXNXS2FfUTZfU3hCbjZSWW5rd1lIMnBRTmpPOHhEY203RXBiSWpTYnBsSTd0MkdKUlNzTGhiNW9NSEVkeFplSGJWZm9rZGNHZlNJRjZCdEQwLWRURWlsU0ZXU3lrZHBxLTV6clh0dHdMM3pRQUllTWdOX2RrYXpvaG5selY3Ym5oQQ?oc=5",
     "source": "G1",
@@ -943,9 +951,9 @@
    {
     "title": "46 pessoas resgatadas após naufrágio de navio vietnamita no Mar do Sul da China",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VdmJtdjBab0RxMnJSeVFFWGZsSWh4RDRHN2hEWU03bVkyTEMxTnA1VF9fakM3VVV4dUY2V2VuZHFMM0lmN2dzbGdOSlVCM1RvVV9Qb01xcTFRVDRVbzJZRHpTWVl3MV9IcUsyV0k2QXRvbVhYSHc?oc=5",
-    "source": "Diário do Povo Online",
+    "source": "portuguese.people.com.cn",
     "date": "2026-07-27T07:00:00+00:00",
-    "summary": "46 pessoas resgatadas após naufrágio de navio vietnamita no Mar do Sul da China Diário do Povo Online",
+    "summary": "46 pessoas resgatadas após naufrágio de navio vietnamita no Mar do Sul da China portuguese.people.com.cn",
     "image": null
    },
    {
@@ -957,27 +965,19 @@
     "image": null
    },
    {
-    "title": "Marinha coordena operação de salvamento após naufrágio no litoral do Rio Grande do Norte",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNWRDcjA0VmdDeHp3RTZtZ2tuV3VndmVDUGlETWtHOGV1MnVnREl3NmNDSk9aR0VWa1dsTjBxeENuS1M1eU9hWnRNSUhnZ2ZRd29iaGlUVzFJTlhLSTdDV040NmZremJiVEx4b2lDSXZCVU9fQUxIZHhOQUFpRS1nRUJER0RMemhuUzJDUzZqR0Q2NUhTUHJPenlzSW42VUJWRWlTWjBGTlhoVkdPd3Q5eDZjOHlQUmVuZFJQUFNR?oc=5",
-    "source": "Defesa em Foco",
-    "date": "2026-06-14T07:00:00+00:00",
-    "summary": "Marinha coordena operação de salvamento após naufrágio no litoral do Rio Grande do Norte Defesa em Foco",
+    "title": "Embarcação que saiu de Cabedelo naufraga no RN; seis tripulantes são resgatados",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbE8ycDhIWVZUU0lEamlEdXpSYS1OSTRyR2VLVlQ3U1pKSmtaS09EQlptbll3S09hNnpPZV9aZWN1YkVsWG1ZUWtrMlVRTEpJbERVbHhQWWVrLU9ZeFVGZWxrZTJiSWJMRnRPUm13NVVXYTBoT1JUSjB0bmFXQng1eUxYSWd5NGpWQm9BOEVyUVBPd25OckptM3BFTDlFMGVCYnpXVEpySXpSWndO?oc=5",
+    "source": "Portal Correio",
+    "date": "2026-06-15T07:00:00+00:00",
+    "summary": "Embarcação que saiu de Cabedelo naufraga no RN; seis tripulantes são resgatados Portal Correio",
     "image": null
    },
    {
-    "title": "Seis tripulantes são resgatados após naufrágio de embarcação no litoral do RN",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQelFtZDItS0F3eDROVE1hbThXWjFfM1kzUVFra05iYlUxa21hY0M5U1hObTBzSXBMWUszT2RGNks3UF8wUFlNbExlRVJkNVBPdDlxQkJ6MWdXSjFwY1puOVMyTnRFTE8ta2xPV0VmbDlvNERQOGJuV0dBQ3NYVFpHR0UzX0l2SU5jN1EtLWJDYlZNV3ZLVHp2NTYzWW5nUmx5QkRsUmZkaWNpaDNXbWhJcjNzM0JxYmZTZlYxcmo5aE4zZFl4ZVdHWjc5ZHRrUWI4R1FMTUZ2V3c3TDd3aVY00gHuAUFVX3lxTE9ycVJQNHRPVEV3WHVadWFITlF2SmxLX20wNmE5ZVNFMmpIMEY1WlRDazNTOTBiSlB0Q3VTYjctVF9PRHZzNHgzZENOVU5QTGVCNlg0d3FncU11Y00talB0ZUUtQVZ4WVpkdi13SENYcExUei03UkJiVU5fTV9DeEJneGtvN1BFZktsQUVzWG5NeGdMQVYySWJOOVptSFh3dGdkMXgzTmJlaUthcEhKbmR1Z2hJS0Jqem1CbWdwX0Jzc2FiR21NTHlvTTJxT0Zici1xTllTN1NJOG5zblZPRlJVa3Fvd0FJT2pGMGVXNnc?oc=5",
-    "source": "G1",
-    "date": "2026-06-14T07:00:00+00:00",
-    "summary": "Seis tripulantes são resgatados após naufrágio de embarcação no litoral do RN G1",
-    "image": null
-   },
-   {
-    "title": "Noruega recupera objetos de navio que afundou no século XVIII",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbDN4TUJDQzl1dnE1TDdjMlllMHNEQzEydUFHbk9kMVZ2MFBTLS1hWnV3OGZzYW0yR0tMbTZFSlJHOTZZT1RzUTMwRnJuLXY1Tm45bkRDampxbUp0RHhsNWN1WmZ2cGpsdWlMZzdyY1JncnR2cHd5eG16UDVWdkdwc2pfYmQ2TldhYW5fcUF1MUk2Q0FZUHlZV3pGX09nSE9Y?oc=5",
-    "source": "CNN Brasil",
-    "date": "2026-06-03T07:00:00+00:00",
-    "summary": "Noruega recupera objetos de navio que afundou no século XVIII CNN Brasil",
+    "title": "Tripulação é resgatada após embarcação que saiu de Cabedelo naufragar no litoral do RN",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44dWpSa1Rjb0xxOWxkYWo3YkNSN1FVY24tdXc0Yk54OXRJXzJWZ08zVTJFZmRrVTR6dWRjbmE1SVN0S2ZRMmFneFdUdW9VN0h2OU8xa1VxaWtJZTNiQk54c2NoNm9sc0M0Wl9mOVBkNDMwNmNOYzJKemJR?oc=5",
+    "source": "ClickPB",
+    "date": "2026-06-15T07:00:00+00:00",
+    "summary": "Tripulação é resgatada após embarcação que saiu de Cabedelo naufragar no litoral do RN ClickPB",
     "image": null
    }
   ]
